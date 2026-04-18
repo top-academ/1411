@@ -1,0 +1,2514 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "type=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B0&clozetext=%D0%9C%D1%8B%20%D1%83%D0%B6%D0%B5%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%B5%20%D0%B7%D0%BD%D0%B0%D0%B5%D0%BC%20%D0%BF%D1%80%D0%BE%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%B3%D1%80%2C%20%D0%BD%D0%B0%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%20%D0%BC%D1%8B%20%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%BB%D0%B8%2C%20%D0%BA%D0%B0%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82%20-1-%21%20%D0%A1%20%D0%B8%D1%85%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%8C%20-2-%20%D0%B8%D0%B3%D1%80%D1%8B%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%20%D0%BB%D1%83%D1%87%D1%88%D0%B5%20%D0%BF%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BB%D1%81%D1%8F%20%D0%B2%20%D0%BD%D0%B0%D1%88%20-3-.%20%D0%9F%D0%BE%D0%BC%D0%B8%D0%BC%D0%BE%20%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D0%B5%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D1%80%D0%B0%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8C%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20-4-%20%D0%B8%20-5-%2C%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%2C%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D1%81%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B9%21%20%D0%A2%D0%B0%D0%BA%20%D1%87%D1%82%D0%BE%20%D1%82%D0%B5%D0%BF%D0%B5%D1%80%D1%8C%20%D0%BC%D1%8B%20%D0%B7%D0%BD%D0%B0%D0%B5%D0%BC%20%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B9%20%D0%B8%D0%B3%D1%80%D1%8B%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D0%B7%D0%B0%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82%D1%81%D1%8F%21&cloze1=%D0%B7%D0%B2%D1%83%D0%BA%D0%B8%3B%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8%3B%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%3B%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B&cloze2=%D0%B0%D1%82%D0%BC%D0%BE%D1%81%D1%84%D0%B5%D1%80%D1%83%3B%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E%3B%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%3B%20%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D1%8B&cloze3=%D1%81%D1%8E%D0%B6%D0%B5%D1%82%3B%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%3B%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%3B%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82&cloze4=%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%3B%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%3B%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F%3B%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D1%8B&cloze5=%D0%BC%D0%B5%D0%BD%D1%8E%3B%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8%3B%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8%3B%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%8B&useHelp=true&feedback=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%2C%20%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%21",
+	"title": "Урок. 9 Игровая атмосфера",
+	"tool": "140",
+	"helptext": "",
+	"tasktext": "Подберите верные слова, чтобы открыть интересный факт!",
+	"formlanguage": "RU",
+	"language": "RU",
+	"parameters": [
+		{
+			"t": "group",
+			"label": "%Typ%",
+			"description": "%TypBeschreibung% %CaseBeschreibung%",
+			"name": "",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "%Auswahl%|%Einschreiben%",
+					"width": "",
+					"height": "",
+					"name": "type",
+					"label": "%Typ%",
+					"type": "select",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "casesense",
+					"label": "%Case%",
+					"type": "check",
+					"description": ""
+				}
+			]
+		},
+		{
+			"t": "group",
+			"label": "%Title%",
+			"description": "%TitleBeschreibung%",
+			"name": "",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "titel",
+					"label": "%Title% 1",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech",
+					"usehint": "true"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "untertitel",
+					"label": "%Title% 2",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech",
+					"usehint": "true"
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "clozetext",
+			"label": "%Lückentext%",
+			"type": "textarea",
+			"description": "%LückentextBeschreibung%"
+		},
+		{
+			"t": "list",
+			"label": "%Lücken%",
+			"description": "%LückenBeschreibung%",
+			"name": "list1",
+			"min": "1",
+			"max": 50,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "cloze#",
+					"label": "%Lücke% -#-",
+					"type": "text",
+					"description": ""
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "true",
+			"width": "",
+			"height": "",
+			"name": "useHelp",
+			"label": "%Hilfe%",
+			"type": "check",
+			"description": "%HilfeBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "backgroundImage",
+			"label": "%Hintergrundbild%",
+			"type": "media",
+			"description": "%HintergrundbildBeschreibung%",
+			"media": "image"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Lückentext"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Cloze text"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Klassische Lückentexte wahlweise mit Auswahl oder mit Eingabe."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "Classic cloze text with a selection or written input."
+		},
+		{
+			"id": "Typ",
+			"language": "DE",
+			"value": "Aufgabenart"
+		},
+		{
+			"id": "Typ",
+			"language": "EN",
+			"value": "Task type"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie die Art der Aufgabe. Sollen die Lücken durch eine Auswahl vorgegebener Wörter gefüllt werden oder durch Einschreiben."
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "EN",
+			"value": "Select the type of task. You can choose between selecting given words for each cloze or writing words into fields."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "DE",
+			"value": "Einschreiben"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "EN",
+			"value": "Write in"
+		},
+		{
+			"id": "Auswahl",
+			"language": "DE",
+			"value": "Auswahl aus Liste"
+		},
+		{
+			"id": "Auswahl",
+			"language": "EN",
+			"value": "Select word from list"
+		},
+		{
+			"id": "Typ",
+			"language": "DE",
+			"value": "Aufgabenart"
+		},
+		{
+			"id": "Typ",
+			"language": "EN",
+			"value": "Task type"
+		},
+		{
+			"id": "Case",
+			"language": "DE",
+			"value": "Groß- und Kleinschreibung beachten"
+		},
+		{
+			"id": "Case",
+			"language": "EN",
+			"value": "Input is case sensitiv "
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "DE",
+			"value": "Haben Sie bei Aufgabenart Einschreiben gewählt, können Sie entscheiden, ob die Groß- und Kleinschreibung beachtet werden muss."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "EN",
+			"value": "If you have choosen Write in for task type you can select whether inputs are case sensetiv or not."
+		},
+		{
+			"id": "Title",
+			"language": "DE",
+			"value": "Überschrift"
+		},
+		{
+			"id": "Title",
+			"language": "EN",
+			"value": "Headline"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie optional einen Titel und Untertitel als Bild, Audio oder Video vor dem eigentlichen Lückentext an."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "EN",
+			"value": "Provide an optional introductional text, image, audio or video before the cloze text."
+		},
+		{
+			"id": "Lückentext",
+			"language": "DE",
+			"value": "Lückentext"
+		},
+		{
+			"id": "Lückentext",
+			"language": "EN",
+			"value": "Cloze text"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie hier den Lückentext ein. Verwenden Sie -1-, -2- usw. als Platzhalter für die Lücken im Text. Sie können die gleiche Lücke (Platzhalter) auch mehrmals verwenden."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "EN",
+			"value": "Provide the cloze text here. Use -1-, -2- etc. as placeholders for the clozes within the text. You can use the same placeholder multiple times."
+		},
+		{
+			"id": "Lücken",
+			"language": "DE",
+			"value": "Lücken"
+		},
+		{
+			"id": "Lücken",
+			"language": "EN",
+			"value": "Clozes"
+		},
+		{
+			"id": "Lücke",
+			"language": "DE",
+			"value": "Lücke"
+		},
+		{
+			"id": "Lücke",
+			"language": "EN",
+			"value": "Cloze"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "DE",
+			"value": "Je nach gewählter Aufgabenart (Auswahl, Einschreiben) geben Sie hier die einzelnen Lücken an. Auswahl: Geben Sie entweder das richtige Lösungswort oder jeweils die zur Auswahl stehenden Wörter für eine Lücke getrennt durch ; an. Das erste angegebene Element entspricht dann immer der richtigen Lösung, die folgenden Elemente sind falsch. Einschreiben: Geben Sie alle als richtig gewerteten Wörter getrennt durch ; für jede Lücke an."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "EN",
+			"value": "Depending on task type (select or write) provide the content for each cloze here. Select: Provide the right solution or a list of all selectable words separeted by ; for each cloze. First word will be the right solution, all others will be wrong. Write: Provide all accepted words separeted by ; for each cloze."
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "Prüfen",
+			"language": "DE",
+			"value": "Lösung überprüfen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "EN",
+			"value": "Check solution"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn alle Fragen richtige beantwortet wurden."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which is displayed when all questions were answered correctly."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, alles richtig gelöst."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Well done! Everything is correct."
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Rédigez le texte qui apparaîtra à la fin du questionnaire si toutes les réponses sont correctes."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Inserisci un testo che apparirà dopo aver risposto correttamente a tutte le domande."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Если на все вопросы были  даны правильные ответы, то напишите здесь текст, который появится потом как вставка."
+		},
+		{
+			"id": "Prüfen",
+			"language": "FR",
+			"value": "Vérifier la réponse !"
+		},
+		{
+			"id": "Prüfen",
+			"language": "IT",
+			"value": "Verifica la soluzione"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RU",
+			"value": "Проверить решение"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Bravo, tout est correct."
+		},
+		{
+			"id": "Title",
+			"language": "FR",
+			"value": "En-tête"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Texte à trous"
+		},
+		{
+			"id": "Lückentext",
+			"language": "FR",
+			"value": "Texte à trous"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Test à trou avec sélection ou écriture de la réponse."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Texts da largias cun la pusseivladad d'eleger plaids d'ina gliesta ni dad endatar els."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Text da largias"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "RM",
+			"value": "Endatar"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "RM",
+			"value": "Decida denter differents tips da pensums. Duein las largias vegnir emplenidas cun plaids indicai ni duein ils plaids vegnir endatai."
+		},
+		{
+			"id": "Typ",
+			"language": "RM",
+			"value": "Tip da pensum"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "RM",
+			"value": "Endatescha opziunalmein in tetel ed in suttetel sco maletg, audio ni video avon il text da largias sco tal."
+		},
+		{
+			"id": "Title",
+			"language": "RM",
+			"value": "Tetel"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "RM",
+			"value": "Sche ti has elegiu sut endatar ils plaids sas ti decider  sche la scripziun grond ni pign duei vegnir risguardada."
+		},
+		{
+			"id": "Case",
+			"language": "RM",
+			"value": "Far attenziun alla scripziun grond e pign"
+		},
+		{
+			"id": "Auswahl",
+			"language": "RM",
+			"value": "Eleger ord ina gliesta"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "RM",
+			"value": "Tut tenor il tip da pensum (elecziun, endataziun) indichescha cheu las singulas largias. Elecziun: Endatescha la  sligiaziun correcta ni mintgamai individualmein ils plaids d'elecziun,sparti cun in semicolon (;). Igl emprem element indicau corrispunda lu adina alla dretga sligiaziun, ils suandonts elements ein falli. Endatar: Endatescha tut ils plaids che vegnan valetai correctamein cun sparter els cun in semicolon (;) per mintga largia."
+		},
+		{
+			"id": "Lücke",
+			"language": "RM",
+			"value": "Largias"
+		},
+		{
+			"id": "Lücken",
+			"language": "RM",
+			"value": "Largia"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "RM",
+			"value": "Endatescha cheu il text da largias. Per las largias drova mintgamai cefras: -1-, -2-.... el text.\nTi sas duvrar pliras gadas la medema largia."
+		},
+		{
+			"id": "Lückentext",
+			"language": "RM",
+			"value": "Text da largias"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has anflau la dretga sigliaziun."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "Prüfen",
+			"language": "RM",
+			"value": "Controllar la sligiaziun"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Text spații goale"
+		},
+		{
+			"id": "Typ",
+			"language": "RO",
+			"value": "Tipul temei"
+		},
+		{
+			"id": "Auswahl",
+			"language": "RO",
+			"value": "Alegere din listă"
+		},
+		{
+			"id": "Lücken",
+			"language": "RO",
+			"value": "Spații goale"
+		},
+		{
+			"id": "Lücke",
+			"language": "RO",
+			"value": "Spațiu gol"
+		},
+		{
+			"id": "Lückentext",
+			"language": "RO",
+			"value": "Text cu spații goale"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RO",
+			"value": "Verifică soluția"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, totul e rezolvat corect"
+		},
+		{
+			"id": "Title",
+			"language": "RO",
+			"value": "Titlu"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "RO",
+			"value": "Introduceți aici textul cu spațiile goale. Utilizați -1-, -2- samd ca locuri pentru stațiile goale în text. Puteți utiliza aceleasi spații goale de mai multe ori."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Texte cu spații goale clasice opțional cu introducere sau cu alegere"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "RO",
+			"value": "Alegeți tipul sarcinii de lucru. Prin completarea spațiilor goale ale cuvintelor date sau prin înscriere"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "RO",
+			"value": "Înscriere"
+		},
+		{
+			"id": "Case",
+			"language": "RO",
+			"value": "Atenți la ortografie majuscula sau litera mica"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Indicați un text care este inserat când la toate întrebările s-a răsăuns corect."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "RO",
+			"value": "Dacă ați ales modalitate Înscriere, puteți decide dacă trebuie respectată scrierea cu majusculă sau cu literă mică."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "RO",
+			"value": "Indicți opțional un titlu sau subtitlu ca imagine, audio sau video inainte de textul cu spații goale propriu-zis."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "RO",
+			"value": "După tipul temei alese(alegere, introducere) indicați aici spațiile goale separate: Indicați fie cuvântul soluție corect sau cuvintele individual pentru alegere pentru un spațiu gol separat prin ; . Primul element indicat corespunde apoi mereu soluției corecte, următoarele elemente sunt greșite. Introducere: Indicați toate cuvintele considerate corecte separat prin ;  pentru fiecare spațiu gol."
+		},
+		{
+			"id": "Prüfen",
+			"language": "GL",
+			"value": "Comprobar"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, todo correcto."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Цель этой игры в том, чтобы заполнить все пропуски любыми или данными в выпадающем меню фразами."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Заполнить пропуски"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Testo a buchi"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Zadanie z lukami"
+		},
+		{
+			"id": "Typ",
+			"language": "PL",
+			"value": "Typ zadania"
+		},
+		{
+			"id": "Auswahl",
+			"language": "PL",
+			"value": "Wybierz słowo z listy."
+		},
+		{
+			"id": "Title",
+			"language": "PL",
+			"value": "Nagłówek"
+		},
+		{
+			"id": "Lücken",
+			"language": "PL",
+			"value": "Luki"
+		},
+		{
+			"id": "Lücke",
+			"language": "PL",
+			"value": "Luka"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "Prüfen",
+			"language": "PL",
+			"value": "Sprawdź rozwiązanie."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, wszystko jest poprawnie."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "PL",
+			"value": "Wpisz"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "PL",
+			"value": "Wybierz typ zadania. Możesz zastosować wybieranie z podanych w każdej luce słów  lub wpisywanie słów w luki. "
+		},
+		{
+			"id": "Prüfen",
+			"language": "ES",
+			"value": "Controlar solución"
+		},
+		{
+			"id": "Lückentext",
+			"language": "IT",
+			"value": "Testo a buchi"
+		},
+		{
+			"id": "Lückentext",
+			"language": "RU",
+			"value": "Заполнить пропуски"
+		},
+		{
+			"id": "Lückentext",
+			"language": "PL",
+			"value": "Zadanie z lukami"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Wstawianie/wpisywanie brakujących części zdania"
+		},
+		{
+			"id": "Case",
+			"language": "PL",
+			"value": "Rozróżniana wielkość liter "
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "PL",
+			"value": "Jeśli wybrano Wpisz, jako typ zadania, można zdecydować, czy musi być uwzględniona wielkość liter ."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "PL",
+			"value": "Opcjonalnie, wprowadź wstępny tekst, obraz, audio lub wideo przed właściwym tekstem z lukami do uzupełnienia."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "PL",
+			"value": "Wpisz tutaj tekst z lukami. Użyj -1 -, -2 - itp. jako symbol zastępczy dla luk w tekście. Możesz użyć tego samego symbolu zastępczego kilka razy."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "PL",
+			"value": "Tutaj zamieszczamy treść dla każdej brakującej części zdania, zależnie od wybranego typu zadania (Wybierz, Wpisz). Wybierz: Podaj właściwe rozwiązanie lub listę możliwych do wyboru słów oddzielonych ; dla każdej Luki. Pierwsze słowo będzie właściwym rozwiązaniem, wszystkie inne będą błędne. Wpisz: Podaj wszystkie akceptowane słowa oddzielone ; dla każdej Luki."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy wszystkie odpowiedzi są poprawne."
+		},
+		{
+			"id": "Typ",
+			"language": "RU",
+			"value": "Установите тип задания"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "RU",
+			"value": "Установите тип задания. Или пользователь будет выбирать из заданных вами слов или будет вводить слова в поля сам."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "RU",
+			"value": "Впишите"
+		},
+		{
+			"id": "Case",
+			"language": "RU",
+			"value": "Ввод учитывает регистр букв (заглавные или нет)"
+		},
+		{
+			"id": "Auswahl",
+			"language": "RU",
+			"value": "Выберите слово из списка"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "RU",
+			"value": "Если вы выбрали тип задания &quot;Вписывание слов&quot;, то можете установить, учитывается ли регистр букв."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "RU",
+			"value": "Добавьте (опционально) вводные слова, аудио или видео перед пропущенным текстом."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "RU",
+			"value": "Впишите текст, который должен быть вставлен. Используйте символы -1-, -2- и т.д. для обозначения места вставки текста. Вы можете использовать одни и те же номера для полей вставки одинаковых слов в данном тексте."
+		},
+		{
+			"id": "Lücke",
+			"language": "RU",
+			"value": "Вместо пропусков"
+		},
+		{
+			"id": "Lücken",
+			"language": "RU",
+			"value": "Вставляемый вместо пропусков текст"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "RU",
+			"value": "В зависимости от типа задания (выбор слов или вставка) заполните каждый пропуск. ВЫБОР СЛОВ ИЗ СПИСКА: впишите верный вариант или список слов для выбора через ; для каждого пропуска. Первым словом в списке должен быть верный вариант, остальные - неверные. ВСТАВКА СЛОВ: впишите для каждого пропуска все возможные варианты вставки через знак ; (точка с запятой). "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Lünktekst"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Lünktekst kas lünka valimise või lünga täitmisega"
+		},
+		{
+			"id": "Typ",
+			"language": "ET",
+			"value": "Ülesande tüüp"
+		},
+		{
+			"id": "Auswahl",
+			"language": "ET",
+			"value": "Vali nimekirjast sõna"
+		},
+		{
+			"id": "Case",
+			"language": "ET",
+			"value": "Erista suur- ja väiketähti "
+		},
+		{
+			"id": "Lückentext",
+			"language": "ET",
+			"value": "Lünktekst"
+		},
+		{
+			"id": "Lücken",
+			"language": "ET",
+			"value": "Lüngad"
+		},
+		{
+			"id": "Lücke",
+			"language": "ET",
+			"value": "Lünk"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "Tagasiside"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli! Kõik on õige."
+		},
+		{
+			"id": "Prüfen",
+			"language": "ET",
+			"value": "Kontrolli lahendust"
+		},
+		{
+			"id": "Title",
+			"language": "RU",
+			"value": "Заголовок"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Kirjelda tagasiside tekst, mis kuvatakse, kui kõik küsimused õigesti vastatud."
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна ръзка"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BG",
+			"value": "Провери решението"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато на всички въпроси е отговорено правилно."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Браво! Всичко е  правилно!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Текст с пропуски"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Класически вариант с избор на думи от падащ списък или с въвеждането им. "
+		},
+		{
+			"id": "Typ",
+			"language": "BG",
+			"value": "Тип задача"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "BG",
+			"value": "Изберете типа на задачата. Може да избирате между посочване на дадени думи от списък или въвеждане на думи в полетата."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "BG",
+			"value": "Напиши в"
+		},
+		{
+			"id": "Auswahl",
+			"language": "BG",
+			"value": "Изберете думи от списък."
+		},
+		{
+			"id": "Case",
+			"language": "BG",
+			"value": "Въвеждането на буквите има значение."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "BG",
+			"value": "Ако сте избрали тип задача с въвеждане на букви, може да определите дали главните и малките букви имат значение."
+		},
+		{
+			"id": "Title",
+			"language": "BG",
+			"value": "Заглавие"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "BG",
+			"value": "Осигуряване на допълнителни ресурси: текст, изображения, аудио или видео, преди текста.."
+		},
+		{
+			"id": "Lückentext",
+			"language": "BG",
+			"value": "Текст с пропуски"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "BG",
+			"value": "Въведете текста с пропуски тук. Използвайте тирета преди и след думите, например: -1-, -2- и т.н., като контейнери за пропуските в текста. Може да използвате един и същи контейнер по няколко пъти."
+		},
+		{
+			"id": "Lücken",
+			"language": "BG",
+			"value": "Пропуски"
+		},
+		{
+			"id": "Lücke",
+			"language": "BG",
+			"value": "Пропуск"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "BG",
+			"value": "В зависимост от типа задача (с избор или въвеждане) въведете съдържанието на всеки пропуск тук. Изберете варианта: Въвеждане на правилната дума от клавиатурата или избиране на правилната дума от списък с думи. Разделете пропуските със знака точка и запетая (;). Първо въведете правилната дума. Всички останали думи ще бъдат погрешни. "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Boşluk doldurmalı metin"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Klasik boşluk doldurma metinlerini, ister çoktan seçmeli olarak, isterse boşluğa yazmalı olarak düzenleyebilirsiniz."
+		},
+		{
+			"id": "Typ",
+			"language": "TR",
+			"value": "Görevlendirme çeşidi"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "TR",
+			"value": "Görevlendirmenin çeşidini seçin. Boşluklar önerilen bir kelime listesinden seçilerek mi doldurulsun veya boşluklara doğrudan yazılarak mı doldurulsun?"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "TR",
+			"value": "Doğrudan yazılsın"
+		},
+		{
+			"id": "Auswahl",
+			"language": "TR",
+			"value": "Önerilen bir kelime listesinden seçilsin"
+		},
+		{
+			"id": "Case",
+			"language": "TR",
+			"value": "Yazım kurallarına dikkat edilsin"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "TR",
+			"value": "Görevlendirme çeşidinde boşluğa doğrudan yazılmayı seçti iseniz, yazım kurallarına dikkat edilip edilmeyeceğine karar vermelisiniz."
+		},
+		{
+			"id": "Title",
+			"language": "TR",
+			"value": "Başlık"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "TR",
+			"value": "Opsiyonlu olarak asıl boşluk doldurmalı metinden önce alt başlık olarak bir resim, ses veya film dosyası belirleyebilirsiniz"
+		},
+		{
+			"id": "Lückentext",
+			"language": "TR",
+			"value": "Boşluk doldurmalı metin"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "TR",
+			"value": "Buraya boşluk doldurmalı metni girin. Boşlukların yerini belirlemek ve tutmak için metin içinde tire içindeki rakamları kullanın. Örnek: -1-, -2-, -3- vs. \nBenzer boşluğu aynı rakamla tekrardan kullanmanız mümkün."
+		},
+		{
+			"id": "Lücken",
+			"language": "TR",
+			"value": "Boşluklar"
+		},
+		{
+			"id": "Lücke",
+			"language": "TR",
+			"value": "Boşluk"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "Prüfen",
+			"language": "TR",
+			"value": "Çözümü kontrol et"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "TR",
+			"value": "Belirlediğiniz görevlendirme çeşidine göre (A. kelime listesinden seçme veya B. doğrudan yazma) buraya boşlukları tek tek giriniz. \nA. Kelime listesinden seçme: Ya boşluğa ait doğru kelimeyi girin, ya da boşluğa ait bir çok kelimeyi seçenek olarak vermek istiyorsanız, bu kelimeleri noktalı virgül ile (;) ayırarak yazınız. Bu durumda ilk girilen kelime daima doğru olan ve diğerleri yanlış olanlardır. \nB. Doğrudan yazma: Doğru olarak kabul ettiğiniz tüm kelimeleri noktalı virgül (;) ile ayırarak giriniz."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Buraya tüm işaretlemeler doğru yapıldığında gösterilecek metni girin"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maaşallah, tamamını doğru çözdün!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Заповнити пропуски"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "Вправа заповнення пропусків у тексті варіантами з випадного меню."
+		},
+		{
+			"id": "Case",
+			"language": "UK",
+			"value": "Враховувати регістр"
+		},
+		{
+			"id": "Auswahl",
+			"language": "UK",
+			"value": "вибрати зі списку"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "UK",
+			"value": "вписати"
+		},
+		{
+			"id": "Typ",
+			"language": "UK",
+			"value": "Виберіть тип завдання"
+		},
+		{
+			"id": "Title",
+			"language": "UK",
+			"value": "Заголовок"
+		},
+		{
+			"id": "Lücke",
+			"language": "UK",
+			"value": "Заповнити пропуски"
+		},
+		{
+			"id": "Lückentext",
+			"language": "UK",
+			"value": "Заповнити пропуски"
+		},
+		{
+			"id": "Lücken",
+			"language": "UK",
+			"value": "Заповнити пропуски"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "Prüfen",
+			"language": "UK",
+			"value": "Перевірити відповідь"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "UK",
+			"value": "Виберіть тип завдання. Можна обирати слова зі списку або вписувати їх."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "UK",
+			"value": "Якщо ви вибрали тип завдання &quot;вписати&quot;, ви можете вказати, чи потрібно враховувати регістр букв."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "UK",
+			"value": "При необхідності, введіть додатковий текст, зображення, аудіо або відео перед текстом питання."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "UK",
+			"value": "Введіть тут пропуски. Використовуйте -1 -, -2 - і т.д. як заповнювач для пропусків у тексті. Ви можете використовувати той же пропуск (шаблон) кілька разів."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "UK",
+			"value": "Залежно від типу завдання (вибір зі списку, введення тексту), вкажіть відповідні підказки. Для вибору: введіть або правильне рішення або перелічіть можливі варіанти, відділені ; Перший зазначений елемент відповідає правильному рішенню, всі решта - помилкові. Для введення тексту: Введіть всі прийнятні відповіді, розділені ;"
+		},
+		{
+			"id": "Typ",
+			"language": "FR",
+			"value": "Type de tâche"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "FR",
+			"value": "Choisissez le type de tâche. Vous pouvez choisir soit de sélectionner les mots dans une liste déroulante, soit de les écrire dans les cases."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "FR",
+			"value": "Compléter"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "FR",
+			"value": "Si vous le souhaitez, vous pouvez ajouter du texte, une image, une piste audio ou une vidéo avant le texte à trous."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "FR",
+			"value": "Si vous avez choisi &quot;Compléter&quot; pour cette tâche, vous pouvez choisir si vous souhaitez que les réponses données soient sensibles à la casse."
+		},
+		{
+			"id": "Case",
+			"language": "FR",
+			"value": "Prendre en compte la casse (majuscules ou minuscules)."
+		},
+		{
+			"id": "Auswahl",
+			"language": "FR",
+			"value": "Choisir le mot dans une liste."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "FR",
+			"value": "Ecrivez votre texte à trous ici.\nUtilisez -1-, -2- etc. pour indiquer les blancs dans votre texte. Vous pouvez utiliser le même chiffre plusieurs fois (par exemple, si vous avez plusieurs fois la même réponse dans votre texte)."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "DE",
+			"value": "Hintergrundbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "EN",
+			"value": "Background image"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie optional ein Hintergrundbild für den Lückentext aus."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "EN",
+			"value": "Optionally you can select a background image for the quiz."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "სიტყვის ჩასმა"
+		},
+		{
+			"id": "Typ",
+			"language": "GE",
+			"value": "ამოცანა"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "GE",
+			"value": "ამოცანის ტიპი ამოირჩიეთ აქ. აირჩიეთ: სიტყვების ჩასმა სიიდან  ან სიტყვების შეყვანა კლავიატურიდან."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "GE",
+			"value": "კლავიატურიდან შეყვანა"
+		},
+		{
+			"id": "Auswahl",
+			"language": "GE",
+			"value": "აირჩიეთ სიიდან"
+		},
+		{
+			"id": "Case",
+			"language": "GE",
+			"value": "რეგისტრის გათვალისწინებით"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "GE",
+			"value": "თუ თქვენ აირჩიეთ შეყვანის ტიპი უნდა მიუთითოდ გათვალისწინებული იყოს თუ არა რეგისტრი."
+		},
+		{
+			"id": "Title",
+			"language": "GE",
+			"value": "სათაური"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "GE",
+			"value": "აუცილებლობის შემთხვევაში შეიყვანეთ სათაური და ქვესათაური, აუდიო ან ვიდეო სამუშაო ტექსტის წინ."
+		},
+		{
+			"id": "Lückentext",
+			"language": "GE",
+			"value": "გამოტოვებული ტექსტი"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ აქ შემავსებელი სიტყვები. გამოიყენეთ -1-, -2-, ტექსტის ცარიელი ადგილების შესავსებად. შეგიძლიათ ერთი და იგივე შემავსებლების რამდენჯერმე გამოყენება."
+		},
+		{
+			"id": "Lücken",
+			"language": "GE",
+			"value": "შესავსები ტექსტი"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "GE",
+			"value": "ამოცანის ტიპის მიხედვით (სიიდან არჩევა, კლავიატურიდან შეყვანა) შეიყვანეთ შემავსებლები: აირჩიეთ სიიდან ან ჩაწერეთ კლავიატურიდან; პირველი შემავსებელი ელემენტი შეესაბამება შესავსები ტექსტის პირველ შესავსებელ ელემენტს ანუ სწორია, ყველა შემდეგი ელემენტი ტექსტის ამ ნაწილისათვის მცდარია. მითითება: შემავსებელი ელემენტები გამოყავით ერთმანეთისაგან  ; სიმბოლოთი."
+		},
+		{
+			"id": "Prüfen",
+			"language": "GE",
+			"value": "პასუხის შემოწმება"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც ეკრანზე აისახება სწორი პასუხის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ ყველაფერი სწორად გააკეთეთ!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GE",
+			"value": "თუ გსურთ, აირჩიეთ ფონი კროსვორდისათვის"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "კლასიკური თამაში გამოტოვებული სიტყვების მიგნებაზე. "
+		},
+		{
+			"id": "Lücke",
+			"language": "GE",
+			"value": "შემავსებელი ელემენტი"
+		},
+		{
+			"id": "Title",
+			"language": "ET",
+			"value": "Pealkiri"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "FR",
+			"value": "Image d'arrière-plan"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "IT",
+			"value": "Immagine di sfondo"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RU",
+			"value": "Фоновая картинка"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RM",
+			"value": "Maletg da funs"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RO",
+			"value": "Imagine fundal"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PL",
+			"value": "Tapeta "
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BG",
+			"value": "Фоново изображение"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ET",
+			"value": "Taustapilt"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "TR",
+			"value": "Arkaplan resmi"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "UK",
+			"value": "Фонове зображення"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "FR",
+			"value": "Choisissez une image d'arrière-plan"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RU",
+			"value": "Выберите фоновую картинку для упражнения, если желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RM",
+			"value": "Elegia opziunalmein in maletg da funs dil legn."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RO",
+			"value": "Alegeți opțional o imagine de fundal pentru acest rebus"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PL",
+			"value": "Opcjonalnie, można wybrać obraz tła."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BG",
+			"value": "Изберете фоново изображение за кръстословицата, ако желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "TR",
+			"value": "İsterseniz arkaplan resmi belirleyebilirsiniz"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "UK",
+			"value": "Можете обрати фонове зображення для кросворду"
+		},
+		{
+			"id": "Lücken",
+			"language": "FR",
+			"value": "Trous"
+		},
+		{
+			"id": "Lücke",
+			"language": "FR",
+			"value": "Trou"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "FR",
+			"value": "En fonction de la tâche que vous avez choisie (sélectionner / écrire), écrivez le contenu pour chaque blanc.\n- Sélectionner : indiquer le mot correct pour chaque blanc. Si vous voulez proposer un choix de plusieurs mots, écrivez-les à la suite en les séparant par un &quot;;&quot; (point-virgule).\n- Ecrire : Vous pouvez indiquer plusieurs bonnes réponses en les séparant par un &quot;;&quot; (point-virgule)."
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "BS",
+			"value": "Odaberi vrstu zadatka. Možete odabrati jednu od ponuđenih riječi ili je dopisati."
+		},
+		{
+			"id": "Typ",
+			"language": "BS",
+			"value": "Vrsta zadatka"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Klasični zadatak gdje se bira ponuđena ili upisuje odgovarajuća riječ."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "BS",
+			"value": "Upišite"
+		},
+		{
+			"id": "Title",
+			"language": "BS",
+			"value": "Naslov"
+		},
+		{
+			"id": "Auswahl",
+			"language": "BS",
+			"value": "Odabir sa spiska"
+		},
+		{
+			"id": "Lückentext",
+			"language": "BS",
+			"value": "Tekst sa praznim poljima"
+		},
+		{
+			"id": "Lücke",
+			"language": "BS",
+			"value": "Praznina"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "BS",
+			"value": "Ako ste odabrali vrstu zadatka da se upisuje tražena riječ, onda ovdje možete odlučiti da li će na ispravnost odgovora utjecati veliko i malo slovo."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "BS",
+			"value": "Ovdje unesite tekst. Riječ koja će faliti označite sa minusima ispred i iza (npr. -riječ-, -Tekst-,...). Za jednu prazninu u tekstu možete predvijeti više mogućih odgovora."
+		},
+		{
+			"id": "Lücken",
+			"language": "BS",
+			"value": "Praznine"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "BS",
+			"value": "Ovdje unesite uvodni tekst, audio ili video fajl prije glavnog teksta u kojem će se birati ili dopisivati odgovarajuća riječ."
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BS",
+			"value": "Provjeri ispravnost rješenja"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, sve je pravilno riješeno."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BS",
+			"value": "Pozadinska slika"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BS",
+			"value": "Odaberite pozadinsku sliku za ovu vježbu po želji."
+		},
+		{
+			"id": "Case",
+			"language": "BS",
+			"value": "Pazite na veliko i malo slovo"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Dopunite prazninu"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "BS",
+			"value": "Ovisno o vrsti zadatka, ovdje unesite rješenje za svaku prazninu. Opcija odaberite: Unesi tačno rješenje ili listu riječi za odabir jednu od druge rastavljenu znakom tačka-zarez &quot;;&quot;. Za svako polje posebno.\nOpcija upišite: Unesite sve moguće tačne riječi odvojenu jednu od druge znakom tačka-zarez &quot;;&quot;. Za svako polje posebno."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će se pojaviti nakon što sva na sva pitanja budu pravilno odgovoreno."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ET",
+			"value": "Võite valida selle mõistatuse jaoks taustapildi."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "SV",
+			"value": "Fylla i"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "SV",
+			"value": "Om du valt Fylla i kan du välja om det ska göras skillnad på gemena och versaler när svaren fylls i. "
+		},
+		{
+			"id": "Case",
+			"language": "SV",
+			"value": "Gör skillnad på gemen/VERSAL"
+		},
+		{
+			"id": "Auswahl",
+			"language": "SV",
+			"value": "Val från lista"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "SV",
+			"value": "Klassiskt lucktext där du kan välja mellan tom lucka och lucka med alternativ"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "SV",
+			"value": "Lucktext"
+		},
+		{
+			"id": "Title",
+			"language": "SV",
+			"value": "Rubrik"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "SV",
+			"value": "Här fyller du i luckorna. Använd -1-, -2- osv. för att markera de olika luckorna. Luckans innehåll skrivs sedan in här nedanför vid respektive val. "
+		},
+		{
+			"id": "Lückentext",
+			"language": "SV",
+			"value": "Lucktext"
+		},
+		{
+			"id": "Lücken",
+			"language": "SV",
+			"value": "Luckor"
+		},
+		{
+			"id": "Lücke",
+			"language": "SV",
+			"value": "Lucka"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "SV",
+			"value": "Text som visas när alla frågor blivit korrekt besvarade."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Snyggt! Helt korrekt lösning!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "SV",
+			"value": "Bakgrundsbild"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Invuloefening"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Klassieke invuloefening door aan te klikken of in te vullen."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "NL",
+			"value": "Invullen"
+		},
+		{
+			"id": "Typ",
+			"language": "NL",
+			"value": "Type opgave"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "NL",
+			"value": "Selecteer het type oefening. Bepaal of de opgegeven woorden aangeklikt moeten worden of deze ingevuld moeten worden. U kunt tevens bepalen of de in te vullen tekst hoofdlettergevoelig is."
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "NL",
+			"value": "Als u gekozen heeft voor invullen dan kunt u tevens bepalen of de in te vullen tekst hoofdlettergevoelig is."
+		},
+		{
+			"id": "Title",
+			"language": "NL",
+			"value": "Titel"
+		},
+		{
+			"id": "Case",
+			"language": "NL",
+			"value": "Het antwoord is hoofdlettergevoelig"
+		},
+		{
+			"id": "Auswahl",
+			"language": "NL",
+			"value": "Aanklikken uit lijst"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "NL",
+			"value": "Als u dit wilt kunt u vooraf een introductietekst, geluid of video aanbieden."
+		},
+		{
+			"id": "Lückentext",
+			"language": "NL",
+			"value": "Invuloefening"
+		},
+		{
+			"id": "Prüfen",
+			"language": "NL",
+			"value": "Oplossing controleren"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, alles correct opgelost."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "NL",
+			"value": "Achtergrondafbeelding"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "NL",
+			"value": "geef hier de invultekst op. Gebruik -1-, -2- enz. als invulruimtes voor de invulwoorden. U kunt dezelfde invulruimtes meerdere keren gebruiken."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voorzie een feedbacktekst die getoond zal worden als alle vragen juist beantwoord zijn."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "NL",
+			"value": "Voorzie een achtergrondafbeelding bij deze oefening indien u wenst."
+		},
+		{
+			"id": "Lücken",
+			"language": "NL",
+			"value": "Invulruimtes"
+		},
+		{
+			"id": "Lücke",
+			"language": "NL",
+			"value": "Invulruimte"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "NL",
+			"value": "Afhankelijk van het gekozen type oefening (klikken of invullen) voorziet u hier de in te vullen antwoorden voor elke invulruimte. Klikken: voorzie een lijst van mogelijke oplossingen voor de invulruimtes gescheiden door een ;  Het eerste woord is het juiste alle andere zijn de foute oplossingen. Invullen: geef alle aanvaardbare oplossingen op voor elke invulruimte gescheiden door een ;"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Crea un testo con delle lacune da completare liberamente o selezionando una risposta tra diverse opzioni disponibili."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Συμπληρώσε το κενό"
+		},
+		{
+			"id": "Title",
+			"language": "IT",
+			"value": "Titolo"
+		},
+		{
+			"id": "Lückentext",
+			"language": "GR",
+			"value": "Συμπληρώστε το κενό"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Μήνυμα επιβράβευσης"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GR",
+			"value": "Έλεγξε τη λύση"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GR",
+			"value": "Εικόνα φόντου"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "IT",
+			"value": "Scegli un'immagine come fondo di questo quiz."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Hiányos szöveg"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Teste com espaços para preencher"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Teste com espaços para preencher, com opção para seleccionar ou esccrever"
+		},
+		{
+			"id": "Typ",
+			"language": "PT",
+			"value": "tipo de tarefa"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "PT",
+			"value": "Seleccionar tipo de tarefa. Pode optar entre a escolha de palavras dadas para cada segmento ou escrever palavras em campos."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "PT",
+			"value": "Escrever"
+		},
+		{
+			"id": "Auswahl",
+			"language": "PT",
+			"value": "Seleccionar palavra da lista"
+		},
+		{
+			"id": "Case",
+			"language": "PT",
+			"value": "Entrada  sensível a maiúsculas"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "PT",
+			"value": "Se escolheu Write por tipo de tarefa  pode selecionar se as entradas são maiúsculas, ou minúsculas."
+		},
+		{
+			"id": "Title",
+			"language": "PT",
+			"value": "Título"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de introdução opcional , imagem, áudio ou vídeo antes do texto com  espaços para preencher"
+		},
+		{
+			"id": "Lückentext",
+			"language": "PT",
+			"value": "espaços para preencher"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "PT",
+			"value": "Forneça o texto com os espaços para preencher aqui. Use -1-, -2- etc. como espaços reservados para o texto fechado dentro do texto. Pode usar o mesmo espaço reservado várias vezes."
+		},
+		{
+			"id": "Lücke",
+			"language": "PT",
+			"value": "Espaço para preencher"
+		},
+		{
+			"id": "Lücken",
+			"language": "PT",
+			"value": "Espaços para preencher"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "PT",
+			"value": "Dependendo do tipo de tarefa (selecione ou escrever) fornecer o conteúdo para cada espaço por preencher aqui. Selecione: fornecer a solução certa ou uma lista de todas as palavras selecionáveis separados por; para cada fim. Primeira palavra vai ser a solução certa, todos as outras vão estar incorrectas. Escrever: Fornecer todas as palavras aceites separar por; para cada espaço por preencher."
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PT",
+			"value": "Verificar solução"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando todas as perguntas foram respondidas correctamente."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, está tudo correcto"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PT",
+			"value": "Imagem de fundo"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PT",
+			"value": "Seleccione uma imagem de fundo para as palavras cruzadas, se quiser."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "A szokásos hiányos szöveg feladat kiválasztási vagy szövegbeviteli lehetőséggel."
+		},
+		{
+			"id": "Typ",
+			"language": "HU",
+			"value": "A feladat jellegének kiválasztása"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "HU",
+			"value": "Válassza ki a feladat jellegét! Azaz a szövegbeli hiányokat előre adott kifejezésekből kell kiválasztani, vagy be kell írni."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "HU",
+			"value": "Beírás"
+		},
+		{
+			"id": "Case",
+			"language": "HU",
+			"value": "Kis- és nagybetűk megkülönböztetése"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "HU",
+			"value": "Ha a válasz beírását választotta, akkor lehetőség van a kis- és nagybetűk megkülönböztetésére is figyelni."
+		},
+		{
+			"id": "Title",
+			"language": "HU",
+			"value": "Felirat"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "HU",
+			"value": "Lehetőség van a hiányos szöveghez címet, képet, hang- vagy videóanyagot adni. "
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "HU",
+			"value": "Adja meg a hiányos szöveget! A szövegbe a hiányzó szavak, kifejezések helyére írjon  a gondolatjelek közé írt számokat: -1-, -2-. A számok értelemszerűen többször is felhasználhatóak. "
+		},
+		{
+			"id": "Lückentext",
+			"language": "HU",
+			"value": "Hiányos szöveg."
+		},
+		{
+			"id": "Auswahl",
+			"language": "HU",
+			"value": "Kiválasztás listából"
+		},
+		{
+			"id": "Lücken",
+			"language": "HU",
+			"value": "Megoldások"
+		},
+		{
+			"id": "Lücke",
+			"language": "HU",
+			"value": "Megoldás"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "HU",
+			"value": "Itt adhatja meg a feladat jellegének ( kiválasztás vagy beírás) megfelelő egyes helyes megoldásokat. Kiválasztás: az egyes hiányokhoz adja meg azon elemek ;-vel elválasztott listáját, melyből a helyes megoldást ki kell választani. Az elsőnek megadott elem lesz a helyes megoldás, a többi a hibás. Beírás: minden hiányhoz adja meg az összes helyesnek elfogadható megoldást ;-vel elválasztva."
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "Prüfen",
+			"language": "HU",
+			"value": "Megoldás ellenőrzése"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, mely az összes kérdés helyes megválaszolása után megjelenik!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű! Minden megoldás helyes."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "HU",
+			"value": "Háttérkép"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "HU",
+			"value": "A feladványhoz háttérkép kiválasztására van lehetőség."
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BY",
+			"value": "Праверыць рашэнне"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Отлично, верное решение!"
+		},
+		{
+			"id": "Title",
+			"language": "BY",
+			"value": "Загаловак"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BY",
+			"value": "Фонавая выява."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Цудоўна! Ты правільна выканаў практыкаванне!"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BY",
+			"value": "Абярыце фонавую выяву для гэтага практыкавання."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Падставіць словы ў тэкст"
+		},
+		{
+			"id": "Case",
+			"language": "BY",
+			"value": "Уводзіць словы з улікам рэгістру (вялікія і малыя літары)."
+		},
+		{
+			"id": "Lückentext",
+			"language": "BY",
+			"value": "Падставіць словы ў тэкст"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Дадайце тэкст, які будзе паказаны, калі на ўсе пытанні будуць даны правільныя адказы."
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "IT",
+			"value": "Selezionare il tipo di compito. Le lacune devono essere riempite con parole scelte da una lista oppure con il semplice inserimento."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "IT",
+			"value": "Scrivi la risposta"
+		},
+		{
+			"id": "Typ",
+			"language": "IT",
+			"value": "Tipo di compito"
+		},
+		{
+			"id": "Auswahl",
+			"language": "IT",
+			"value": "Scegli dalla lista"
+		},
+		{
+			"id": "Case",
+			"language": "IT",
+			"value": "Rispettare maiuscole e minuscole"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "IT",
+			"value": "Facoltativo: inserire un titolo e un sottotitolo come immagine, audio o video prima del testo bucato vero e proprio."
+		},
+		{
+			"id": "Lücke",
+			"language": "IT",
+			"value": "Lacuna"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "IT",
+			"value": "Se si è scelto di scrivere la risposta, è possibile scegliere se le maiuscole e le minuscole sbagliate devono essere considerate come errore."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "IT",
+			"value": "A seconda del tipo di attività (scelta da una lista o scrittura della risposta): indicate di seguito le risposte mancanti. Risposta a scelta da una lista: immettere soluzione corretta o immettere separatamente le opzioni disponibili per uno spazio vuoto. Il primo elemento specificato corrisponde sempre alla soluzione, gli elementi seguenti non sono corretti. Scrittura della risposta: inserire tutte le parole considerate corrette separatamente per ciascuna lacuna."
+		},
+		{
+			"id": "Lücken",
+			"language": "IT",
+			"value": "Parole mancanti"
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "IT",
+			"value": "Inserisci qui il testo a buchi. Utilizza -1-, -2-, ecc. al posto delle lacune presenti nel testo. È possibile utilizzare la stessa lacuna diverse volte."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Tutte le risposte sono corrette."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Doplňovačka"
+		},
+		{
+			"id": "Typ",
+			"language": "CZ",
+			"value": "Typ úlohy"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "CZ",
+			"value": "Pokud jste zvolili typ úlohy dopsání, rozhodněte zda má být zohledněn pravopis velkých a malých písmen"
+		},
+		{
+			"id": "Case",
+			"language": "CZ",
+			"value": "Zohledňovat velká a malá písmena"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "CZ",
+			"value": "Vyberte typ úlohy. Zadejte vynechaná slova k doplnění ze seznamu nebo k dopsání."
+		},
+		{
+			"id": "Auswahl",
+			"language": "CZ",
+			"value": "Výběr ze seznamu"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "CZ",
+			"value": "Dopsání"
+		},
+		{
+			"id": "Title",
+			"language": "CZ",
+			"value": "Přepis"
+		},
+		{
+			"id": "Lücken",
+			"language": "CZ",
+			"value": "Mezery"
+		},
+		{
+			"id": "Lücke",
+			"language": "CZ",
+			"value": "Mezera"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "CZ",
+			"value": "Obrázek na pozadí"
+		},
+		{
+			"id": "Prüfen",
+			"language": "CZ",
+			"value": "Zkontrolovat řešení"
+		},
+		{
+			"id": "Lückentext",
+			"language": "CZ",
+			"value": "Doplňovačka"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "CZ",
+			"value": "Volitelně můžete vybrat obrázek na pozadí šablony."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, vše správně vyřešeno!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte text, který se zobrazí při správné vyřešení."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "CZ",
+			"value": "Volitelně zadejte název a podnázev k obrázku, zvukovému souboru nebo videu pod doplňovačkou."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "CZ",
+			"value": "Zde vložte text doplňovačky. Použijte -1-, -2-, atd. jako zástupné symboly pro vynechanou mezeru v textu. Stejný zástupný symbol můžete použít vícekrát."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "CZ",
+			"value": "V závislosti na typu vybraného úkolu (Výběr ze seznamu, dopsání) zde zadejte jednotlivé mezery. Výběr: Zadejte buď slovo správného řešení, nebo jednotlivě dostupná slova pro mezery zvlášť. První zadaná položka vždy odpovídá správnému řešení, následující položky jsou nesprávné. Dopsání: Zadejte všechna správně hodnocená slova odděleně ; pro každou mezeru zvlášť."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "Klasická doplňovačka s volitelným způsobem doplňování."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Completa los huecos"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "ES",
+			"value": "Escoja el  tipo de ejercicio. Se debe completar los huecos escogiendo una palabra de una lista o  se debe escribir la respuesta.."
+		},
+		{
+			"id": "Typ",
+			"language": "ES",
+			"value": "Tipo de ejercicio"
+		},
+		{
+			"id": "Einschreiben",
+			"language": "ES",
+			"value": "Escribir la respuesta"
+		},
+		{
+			"id": "Auswahl",
+			"language": "ES",
+			"value": "Escoger de una lista "
+		},
+		{
+			"id": "Case",
+			"language": "ES",
+			"value": "Tener en cuenta la ortografía (mayúsculas / minúsculas)"
+		},
+		{
+			"id": "Title",
+			"language": "ES",
+			"value": "Título"
+		},
+		{
+			"id": "Lücken",
+			"language": "ES",
+			"value": "Huecos"
+		},
+		{
+			"id": "Lücke",
+			"language": "ES",
+			"value": "Hueco"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "Bien hecho, todas las respuestas son correctas."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ES",
+			"value": "Imagen de fondo"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ES",
+			"value": "Escoja una imagen de fondo para este ejercicio (opcional)"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "Ejercicio de completar huechos bien con opciones bien escribiendo la respuesta"
+		},
+		{
+			"id": "Lückentext",
+			"language": "ES",
+			"value": "Texto con huecos"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "ES",
+			"value": "Si desea que el alumno escriba las respuestas en los huecos, decida si se tendrá en cuenta el uso de mayúsculas y minúsculas."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "ES",
+			"value": "Escriba aquí el texto para el ejercicio. Utilice -1-, -2-, etc. para sustituir las palabras o letras que tiene que completar el alumno y crear los huecos. Es posible utilzar el mismo hueco (por ejemplo: -3-) para varias preguntas."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Este texto se mostrará cuando hayan sido contestadas todas la preguntas correctamente."
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "ES",
+			"value": "Añada textos, archivos de audio o vídeos que aparecerán como título o subtítulo encima del texto con huecos."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "ES",
+			"value": "Añada aquí los huecos para el ejercicio en función del tipo de ejercicio que haya elegido (elegir una respuesta de una lista o escribir la respuesta). Elegir una palabra de una lista: escriba la respuesta correcta y las demás opciones para cada hueco separadas por ;. La primera opción es la correcta, el resto son falsas. Escribir la respuesta: escriba la(s) respuesta(s) correcta(s) para cada hueco  separadas por ;."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GL",
+			"value": "Imaxe de fondo"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Įrašyti praleistus žodžius"
+		},
+		{
+			"id": "Auswahl",
+			"language": "LT",
+			"value": "Pasirinkti žodį iš sąrašo"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "LT",
+			"value": "Pasirinkite užduoties tipą. Galite rinktis, ar mokiniai turės pasirinkti praleistus žodžius iš sąrašo, ar juos patys įrašyti."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "LT",
+			"value": "Įrašyti praleistą žodį"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Klasikinis testas įrašant arba pasirenkant iš sąrašo praleistus žodžius"
+		},
+		{
+			"id": "Title",
+			"language": "LT",
+			"value": "Antraštė"
+		},
+		{
+			"id": "Typ",
+			"language": "LT",
+			"value": "Užduoties tipas"
+		},
+		{
+			"id": "Case",
+			"language": "LT",
+			"value": "Vertinant įvestus atsakymus, didžiosios ir mažosios raidės turi reikšmės"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "LT",
+			"value": "Jei užduoties tipą pasirinkote &quot;Įrašyti praleistą žodį&quot;, galite pasirinkti, ar atsakymo teisingumui turės reikšmės didžiosios ir mažosios raidės."
+		},
+		{
+			"id": "Lückentext",
+			"language": "LT",
+			"value": "Tekstas su praleistais žodžiais (ar skiemenimis)"
+		},
+		{
+			"id": "Lücken",
+			"language": "LT",
+			"value": "Praleisti žodžiai"
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "LT",
+			"value": "Priklausomai nuo užduoties tipo (įrašyti ar pasirinkti žodį), čia įrašykite kiekvieno praleisto žodžio turinį.\n\nJei užduoties tipas - pasirinkti žodį: \nkiekvienam praleistam žodžiui pateikite teisingą atsakymą ir sąrašą kitų galimų pasirinkti žodžių, atskirtų kabliataškiais (;). Pirmasis žodis bus teisingas atsakymas, o kiti - klaidingi.\n\nJei užduoties tipas - įrašyti žodį: \nkiekvienam praleistam žodžiui pateikite tinkamus teisingo atsakymo variantus, atskirtus kabliataškiais (arba vienintelį variantą)."
+		},
+		{
+			"id": "Lücke",
+			"language": "LT",
+			"value": "Praleistas žodis"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "LT",
+			"value": "Prieš tekstą su praleistais žodžiais galite pateikti įvadinį tekstą, vaizdą garso ar vaizdo įrašą."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "LT",
+			"value": "Čia įrašykite tekstą su praleistais žodžiais, vietoj kurių naudokite -1-, -2- ir t. t., kaip vietos rezervavimo ženklus (pvz.: Lietuva, -1- mūsų, Tu didvyrių -2-, ...) . Galite naudoti tą patį ženklą kelis kartus, jei žodis kartojasi."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puikiai padirbėta! Viskas teisinga."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Įrašykite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai įrašius / pasirinkus visus žodžius."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "LT",
+			"value": "Fono vaizdas"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "LT",
+			"value": "Jei norite, galite pasirinkti fono vaizdą šiam testui."
+		},
+		{
+			"id": "Prüfen",
+			"language": "LT",
+			"value": "Patikrinti sprendimą"
+		},
+		{
+			"id": "Lücken",
+			"language": "GR",
+			"value": "Κενά"
+		},
+		{
+			"id": "Lücke",
+			"language": "GR",
+			"value": "Κενό"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Καταπληκτικά, τα έχεις συμπληρώσει όλα σωστά"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GR",
+			"value": "Προαιρετικά, επιλέξτε μια εικόνα φόντου."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Εισαγάγετε ένα κείμενο που θα εμφανίζεται όταν όλες οι ερωτήσεις έχουν απαντηθεί σωστά."
+		},
+		{
+			"id": "LückenBeschreibung",
+			"language": "GR",
+			"value": "Ανάλογα με τον τύπο της εργασίας που έχετε επιλέξει (επιλογή, συστημένη αλληλογραφία), αναφέρετε εδώ τα επιμέρους κενά. Επιλογή: Εισαγάγετε είτε τη σωστή λέξη απάντησης είτε τις μεμονωμένες λέξεις που είναι διαθέσιμες για επιλογή για ένα κενό διαχωρισμένο με: στο. Το πρώτο καθορισμένο στοιχείο αντιστοιχεί πάντα στη σωστή λύση, τα ακόλουθα στοιχεία είναι λανθασμένα. Συστημένη αλληλογραφία: Εισαγάγετε όλες τις σωστές λέξεις ξεχωριστά. για κάθε κενό."
+		},
+		{
+			"id": "LückentextBeschreibung",
+			"language": "GR",
+			"value": "Συμπληρώστε το κενό εδώ. Χρησιμοποιήστε -1-, -2- κ.λπ. ως σύμβολα θέσης για τα κενά στο κείμενο. Μπορείτε επίσης να χρησιμοποιήσετε το ίδιο κενό (placeholder) αρκετές φορές."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GR",
+			"value": "Κλασική συμπλήρωση του κενού είτε με επιλογή είτε με εισαγωγή."
+		},
+		{
+			"id": "Auswahl",
+			"language": "GR",
+			"value": "Επιλογή από λίστα"
+		},
+		{
+			"id": "Case",
+			"language": "GR",
+			"value": "Τήρηση διαχωρισμού πεζών - κεφαλαίων"
+		},
+		{
+			"id": "Typ",
+			"language": "GR",
+			"value": "Τύπος άσκησης"
+		},
+		{
+			"id": "TypBeschreibung",
+			"language": "GR",
+			"value": "Επιλέξτε τον τύπο της άσκησης. Εάν τα κενά καλυφθούν με μια επιλογή προκαθορισμένων λέξεων ή με καταχώρηση κειμένου."
+		},
+		{
+			"id": "Einschreiben",
+			"language": "GR",
+			"value": "Καταχώρηση κειμένου"
+		},
+		{
+			"id": "TitleBeschreibung",
+			"language": "GR",
+			"value": "Προαιρετικά, εισάγετε έναν τίτλο και έναν υπότιτλο ως εικόνα, ήχο ή βίντεο μπροστά από το πραγματικό συμπλήρωμα του κενού."
+		},
+		{
+			"id": "Title",
+			"language": "GR",
+			"value": "Επικεφαλίδα"
+		},
+		{
+			"id": "CaseBeschreibung",
+			"language": "GR",
+			"value": "Εάν έχετε επιλέξει συμπλήρωση κειμένου, μπορείτε να αποφασίσετε εάν θα γίνεται διάκριση πεζών-κεφαλαίων."
+		},
+		{
+			"id": "Hilfe",
+			"language": "DE",
+			"value": "Hilfe einblenden (bei Einschreiben)"
+		},
+		{
+			"id": "Hilfe",
+			"language": "EN",
+			"value": "Display help (when Write in)"
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "DE",
+			"value": "Wenn drei Mal eine falsche Eingabe erfolgt, wird eine Lösungshilfe eingeblendet."
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "EN",
+			"value": "If an incorrect entry is made three times, a solution guide will be displayed."
+		},
+		{
+			"id": "Hilfe",
+			"language": "TR",
+			"value": "Boşluğu doldururken yardım / ip ucu göster"
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "TR",
+			"value": "Üç kez yanlış çözüm yazılırsa, çözüm için yardım görüntülenir."
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "HU",
+			"value": "Ha háromszor hibás választ adnak meg, megjelenik egy megoldási útmutató."
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "FR",
+			"value": "Un guide de solution s'affiche après trois saisies incorrectes."
+		},
+		{
+			"id": "Hilfe",
+			"language": "FR",
+			"value": "Afficher l'aide"
+		},
+		{
+			"id": "Hilfe",
+			"language": "RU",
+			"value": "Показать справку (для заказных писем)"
+		},
+		{
+			"id": "HilfeBeschreibung",
+			"language": "RU",
+			"value": "Если вводится неправильный ввод три раза, появляется справка о решении."
+		}
+	],
+	"path": "https://learningapps.org/tools/140/49/",
+	"fromCache": 1,
+	"version": "49"
+};

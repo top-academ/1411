@@ -1,0 +1,13 @@
+/* global */
+html{height: 100%; width:100%; }
+body
+{ 
+  background:white; 
+  padding: 0px;
+  margin: 0px;
+  overflow:hidden;
+  height:100%;
+}
+
+
+

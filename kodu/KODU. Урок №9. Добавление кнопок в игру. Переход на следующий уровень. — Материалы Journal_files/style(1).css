@@ -1,0 +1,330 @@
+html,body { 
+ margin: 0px; 
+ padding:0px; 
+ height:100%;
+ min-height:100%; 
+ overflow:hidden;
+ background-image:url(back.jpg);
+ -webkit-text-size-adjust: 100%;
+} 
+#fadeblack {
+ position:absolute;
+ width:100%;
+ height:100%;  
+ left:0%;
+ top:0%;
+ background:rgba(255,255,255,0.4);   
+}
+#cardsOverlay{
+ pointer-events:none; 
+}
+.cluster {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ position:absolute;
+ width:100%;
+ height:100%;  
+ left:0%;
+ top:0%;
+ 
+}
+.cluster .clusterHint {
+ position:absolute;
+ top:3%;
+ left:3%;
+ right:3%;
+ z-index:10;
+ background:rgba(255,255,255,0.8);
+ padding:3%;
+}
+.cluster .colorOverlay {
+ position:absolute;
+ width:100%;
+ height:100%;  
+ left:0%;
+ top:0%;
+ opacity:0.2;
+}
+.cluster.noColor .colorOverlay {
+ opacity:0;
+}
+
+.card {
+-ms-touch-action: none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+ user-select: none;
+ text-align:center;
+ width:20%;
+ min-width:100px;
+ max-height:50%;
+ padding:1%; /* script sets this in pixels */
+ background:#fff;
+ position:absolute;
+ border:0.45em solid white;
+   
+ box-sizing:border-box;  
+ cursor:default !important;
+ line-height:0.5em;
+ z-index : 0;
+
+-webkit-transition : border-color 200ms linear; 
+-moz-transition : border-color 200ms linear;
+-o-transition : border-color 200ms linear;    
+ transition : border-color 200ms linear; 
+  
+-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+-moz-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+-ms-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+-o-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+ box-shadow: 0 3px 6px rgba(0,0,0,.35);
+ border-radius:1em;
+ pointer-events:auto; 
+}
+
+.card.newcard {  
+  
+}
+
+.card.correct{
+ border-color:rgb(144, 238, 144);
+}
+.card.wrong{
+ border-color:red;
+ background-image: linear-gradient(135deg, #fff2f2 25%, #ffffff 25%, #ffffff 50%, #fff2f2 50%, #fff2f2 75%, #ffffff 75%, #ffffff 100%);
+ background-size: 24px 24px; 
+}
+
+.card .cardInner {
+ padding:5px;
+}
+
+.card.dragging {
+ opacity:0.8;
+-webkit-box-shadow: 0 5px 8px rgba(0,0,0,.35);
+-moz-box-shadow: 0 5px 8px rgba(0,0,0,.35);
+-ms-box-shadow: 0 5px 8px rgba(0,0,0,.35);
+-o-box-shadow: 0 5px 8px rgba(0,0,0,.35);
+ box-shadow: 0 5px 8px rgba(0,0,0,.35);
+ margin-top:-2px;
+}
+.card.transparent {
+ opacity:0.2;
+}
+
+.card .pin {
+ cursor:move;
+ position: absolute;
+ background:white;
+ border-radius:20px;
+ z-Index: 10;
+ width: 20px;
+ height: 20px;
+ top: -12px;
+ left: 50%;
+ font-size: 0.75em;
+ font-weight: bold;
+ line-height: 1.5em;
+ margin-left:-10px;
+	-webkit-box-shadow: inset 2px 8px 6px -6px rgba(255,255,255,0.5),0 3px 6px rgba(0,0,0,.35);
+	   -moz-box-shadow: inset 2px 8px 6px -6px rgba(255,255,255,0.5),0 3px 6px rgba(0,0,0,.35);
+	        box-shadow: inset 2px 8px 6px -6px rgba(255,255,255,0.5),0 3px 6px rgba(0,0,0,.35);
+  
+}
+.card.newcard .pin {
+	-webkit-box-shadow: initial;
+	   -moz-box-shadow: initial;
+	        box-shadow: initial;
+}
+.card.newcard .pin:after {
+ content:"?";
+}
+.noColor {
+ background:#FFFFFF !important;
+}
+.noColorPin {
+ background:#3c3a3a !important;
+}
+.pinColor1 {
+ background:#009933 !important;
+}
+.pinColor2 {
+ background:#FF3300 !important;
+}
+.pinColor3 {
+ background:#3197d2 !important; 
+}
+.pinColor4 {
+ background:#FFCC66 !important;
+}
+/* special case with 3 clusters, do traffic light colors */
+.totalClusters3 .pinColor2 {
+ background:#FFCC66 !important;
+}
+.totalClusters3 .pinColor3 {
+ background:#FF3300 !important;
+}
+
+.pinColor5 {
+ background:#40ffd4 !important;
+}
+.pinColor6 {
+ background:#d440ff !important;
+}
+.pinColor7 {
+ background:#40fff4 !important;
+}
+.pinColor8 {
+ background:#c2ff40 !important;
+}
+
+.card .infoicon {
+ background: white;
+ border-radius: 20px;
+}
+
+.card img {
+ max-width:100%;
+ max-height:100%;
+}
+
+.card.drophighlight{
+ border-color:#666; /*#5cb85c;*/
+}
+
+.card .hintbtn {
+ float:right; 
+ margin-left:3px;
+ padding:0px;
+ color:#666; 
+ cursor:pointer;
+ text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+.card .hintbtn_audio,.card .hintbtn_video,.card .hintbtn_speech   {
+ margin-top:0.2em;
+}
+
+.card .hintbtn_image {
+ /* place i icon on top of image */
+ position:absolute;
+ top:0.2em;
+ right:0.2em;
+}
+
+.card .playVideoBtn {
+ position:absolute;
+ left:50%;
+ margin-left:-0.5em;
+ margin-top:0.1em;
+ font-size:5em;
+ color:#f3f3f3;
+}
+
+.card .playVideoBtn:hover {
+ color:white;
+ cursor:pointer;
+}
+
+.card .playMediaBtn {
+ position:relative;
+ text-align:center;
+ color:#333;
+
+ display:inline-block;
+ padding:0.5em;
+ padding-top:0.2em;
+ padding-bottom:0.2em;
+ background:#f3f3f3;
+ border-radius:10px;
+}
+
+.card .playMediaBtn:hover {
+ color:#1177b2;
+ cursor:pointer;
+}
+
+.card .videoThumb {
+ cursor:pointer;
+ margin-top:3px;
+}
+.modal-dialog .videoThumb {
+ display:none;
+}
+
+/* Play Speech Button in Dialog */
+#modalContentInner > a {
+ display:inline-block;
+ padding:1em;
+ padding-top:0.5em;
+ padding-bottom:0.5em;
+ background:#3197d2;
+ cursor:pointer;
+ color:white;
+ border-radius:10px;
+ margin-top:1em;
+}
+#modalContentInner > a:hover {
+ background:#51B7F2;
+}
+
+#modalContentInner {
+ margin-top:5px;
+}
+
+#feedback {
+  display: block; 
+  position: absolute; 
+  left: 50%; 
+  margin-left: -180px; 
+  top: 20%; 
+  max-height: 60%; 
+  width: 360px; 
+  padding: 2%; 
+  overflow: auto;
+  
+  webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -ms-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -o-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  border: 10px solid #ddd;
+  background: white;
+  z-index: 100000;
+  pointer-events:all;
+}
+
+.popover-title  {
+  display:none;
+}
+
+.popover-content {
+  font-size:1em !important;
+  padding:0.5em;
+}
+
+#usabilityHint {
+ position:absolute;
+ top:30%;
+ margin-left:-150px;
+ left:50%;
+ display:none;
+ z-index:10000;
+ pointer-events:none;
+ overflow:hidden;
+ max-height:50%;
+}

@@ -1,0 +1,2555 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "cluster1=text%7C%D0%9F%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%7C%7C0&v1_1=text%7C%D0%9F%D1%83%D0%BB%D1%8F%7C%7C0&v1_2=text%7C%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%7C%7C0&v1_3=text%7C%D0%AF%D0%BA%D0%BE%D1%80%D1%8C%7C%7C0&v1_4=text%7C%D0%A1%D0%BB%D0%B5%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%7C%7C0&v1_5=text%7C%D0%A1%D0%B8%D0%BD%D1%83%D1%81%D0%BE%D0%B8%D0%B4%D0%B0%7C%7C0&cluster2=text%7C%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B%7C%7C0&v2_1=text%7C%D0%A1%D0%BF%D1%80%D0%B0%D0%B9%D1%82%7C%7C0&v2_2=text%7C%D0%A2%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%84%D0%BE%D0%BD%7C%7C0&v2_3=text%7C%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B%7C%7C0&v2_4=text%7C%D0%A2%D0%B5%D0%BA%D1%81%D1%82%7C%7C0&v2_5=text%7C%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0%7C%7C0&cardtype=%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8%20%D0%BE%D0%B4%D0%BD%D1%83%20%D0%B7%D0%B0%20%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9.&ordertype=%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B0&backgroundColors=true&feedback=%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%2C%20%D1%82%D1%8B%20%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D0%BB%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.",
+	"title": "Урок 4. Поведения и объекты в Construct 3",
+	"tool": "86",
+	"helptext": "",
+	"tasktext": "Распределите где поведение, а где объект?",
+	"formlanguage": "RU",
+	"language": "RU",
+	"parameters": [
+		{
+			"t": "list",
+			"label": "%Beschreibung%",
+			"description": "%BeschreibungText%",
+			"name": "clusters",
+			"min": "2",
+			"max": 8,
+			"addtext": "%weitereGruppe%",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "cluster#",
+					"label": "%Gruppe% # %Hintergrund%",
+					"type": "media",
+					"description": "",
+					"media": "image|text",
+					"usehint": "true",
+					"usehintTTS": "true"
+				},
+				{
+					"t": "list",
+					"label": "",
+					"description": "",
+					"name": "clusteritems#",
+					"min": "1",
+					"max": 10,
+					"addtext": "Добавить следующий элемент",
+					"children": [
+						{
+							"t": "parameter",
+							"value": "",
+							"width": "",
+							"height": "",
+							"name": "v#_#",
+							"label": "%Gruppe% # %Element% #",
+							"type": "media",
+							"description": "",
+							"media": "image|video|audio|text|speech",
+							"usehint": "true",
+							"usehintTTS": "true"
+						}
+					]
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%cardbycard%|%allcards%",
+			"width": "",
+			"height": "",
+			"name": "cardtype",
+			"label": "%SingleCard%",
+			"type": "select",
+			"description": "%SingleCardBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%randomorder%|%elementorder%",
+			"width": "",
+			"height": "",
+			"name": "ordertype",
+			"label": "%OrderCards%",
+			"type": "select",
+			"description": "%OrderCardsBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "true",
+			"width": "",
+			"height": "",
+			"name": "backgroundColors",
+			"label": "%UseBackgroundColors%",
+			"type": "check",
+			"description": "%UseBackgroundColorsBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Gruppenzuordnung"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Group assignment"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Mit dieser Vorlage können 2–4 Gruppen erstellt werden, zu denen dann Elemente zugeordnet werden müssen."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "With this template you can define 2-4 groups, to which elements must be assigned."
+		},
+		{
+			"id": "UseBackgroundColors",
+			"language": "DE",
+			"value": "Gruppenfarben verwenden"
+		},
+		{
+			"id": "UseBackgroundColors",
+			"language": "EN",
+			"value": "Use group colors"
+		},
+		{
+			"id": "UseBackgroundColorsBeschreibung",
+			"language": "DE",
+			"value": "Die Gruppen verwenden eine farbliche Überlagerung, um sie schneller voneinander zu unterscheiden bei der Zuordnung. Wenn du keine Farben verwenden möchtest und zum Beispiel nur mit Hintergrundbildern arbeiten möchtest, deaktiviere diese Option."
+		},
+		{
+			"id": "UseBackgroundColorsBeschreibung",
+			"language": "EN",
+			"value": "The groups use a color overlay to distinguish them more quickly when assigning cards to them. If you don't want to use colors deactivate this option."
+		},
+		{
+			"id": "Gruppe",
+			"language": "DE",
+			"value": "Gruppe"
+		},
+		{
+			"id": "Gruppe",
+			"language": "EN",
+			"value": "Group"
+		},
+		{
+			"id": "Element",
+			"language": "DE",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "EN",
+			"value": "Element"
+		},
+		{
+			"id": "Elemente",
+			"language": "DE",
+			"value": "Elemente"
+		},
+		{
+			"id": "Elemente",
+			"language": "EN",
+			"value": "Elements"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "DE",
+			"value": "Hintergrund"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "EN",
+			"value": "Background"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text ein, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which is displayed when the solution is found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast die richtige Lösung gefunden."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you found the right solution."
+		},
+		{
+			"id": "Fenster",
+			"language": "DE",
+			"value": "Fenster"
+		},
+		{
+			"id": "Fenster",
+			"language": "EN",
+			"value": "Window"
+		},
+		{
+			"id": "Vollbild",
+			"language": "DE",
+			"value": "Vollbild"
+		},
+		{
+			"id": "Vollbild",
+			"language": "EN",
+			"value": "Fullscreen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "DE",
+			"value": "Lösung überprüfen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "EN",
+			"value": "Check solution"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "DE",
+			"value": "Beschreibung"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "EN",
+			"value": "Description"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "DE",
+			"value": "Im Hintergrund der App werden 2–4 Gruppen wahlweise als Bild oder Text angezeigt. Zu jeder Gruppe lassen sich mehrere Elemente zuordnen."
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "EN",
+			"value": "The background of the App is filled with 2-4 groups either displayed as text or image. You can add items for each group."
+		},
+		{
+			"id": "SingleCard",
+			"language": "DE",
+			"value": "Karten anzeigen"
+		},
+		{
+			"id": "SingleCard",
+			"language": "EN",
+			"value": "Display cards"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie, wie die Karten in den Aufgaben angezeigt werden sollen."
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "EN",
+			"value": "Select how cards are displayed."
+		},
+		{
+			"id": "cardbycard",
+			"language": "DE",
+			"value": "Karte für Karte anzeigen und einordnen"
+		},
+		{
+			"id": "cardbycard",
+			"language": "EN",
+			"value": "display card for card after each other"
+		},
+		{
+			"id": "allcards",
+			"language": "DE",
+			"value": "alle Karten bereits zum Start anzeigen"
+		},
+		{
+			"id": "allcards",
+			"language": "EN",
+			"value": "display all cards on start"
+		},
+		{
+			"id": "OrderCards",
+			"language": "DE",
+			"value": "Kartenreihenfolge"
+		},
+		{
+			"id": "OrderCards",
+			"language": "EN",
+			"value": "Display card order"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie, in welcher Reihenfolge die Karten angezeigt werden sollen. Die Einstellung wird nur angewendet, wenn Karten nacheinander angezeigt werden."
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "EN",
+			"value": "Select in which order cards are displayed. Only works when cards are displayed card by card."
+		},
+		{
+			"id": "randomorder",
+			"language": "DE",
+			"value": "zufällige Reihenfolge verwenden"
+		},
+		{
+			"id": "randomorder",
+			"language": "EN",
+			"value": "use random order"
+		},
+		{
+			"id": "elementorder",
+			"language": "DE",
+			"value": "alle 1. Elemente, dann alle 2. Elemente und so weiter"
+		},
+		{
+			"id": "elementorder",
+			"language": "EN",
+			"value": "all first elements, then all second elements and so on"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Dans ce modèle, il est possible de créer de 2 à 4 groupes, auxquels des éléments doivent ensuite être associés."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Regroupement"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "FR",
+			"value": "Description"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "FR",
+			"value": "A l'arrière-plan, de 2 à 4 éléments (image ou texte) sont affichés. Vous pouvez ajouter jusqu'à 5 éléments à placer dans un groupe. N'inscrivez rien dans les champs non nécessaires."
+		},
+		{
+			"id": "Element",
+			"language": "FR",
+			"value": "Elément"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affichera lorsque la bonne solution aura été trouvée."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as trouvé la bonne solution!"
+		},
+		{
+			"id": "Fenster",
+			"language": "FR",
+			"value": "Fenêtre"
+		},
+		{
+			"id": "Gruppe",
+			"language": "FR",
+			"value": "Groupe"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "FR",
+			"value": "Arrière-plan"
+		},
+		{
+			"id": "Prüfen",
+			"language": "FR",
+			"value": "Vérifier la solution"
+		},
+		{
+			"id": "Vollbild",
+			"language": "FR",
+			"value": "Plein écran"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Con questo modello possono essere creati 2-4 gruppi ai quali vanno attribuiti degli elementi."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Attribuzione elementi"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "IT",
+			"value": "Descrizione"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "IT",
+			"value": "Nello sfondo dell'App verranno visualizzati 2-4 gruppi a scelta come immagine o testo. È possibile indicare fino a 5 elementi da attribuire ad un gruppo. Lasciare vuoti i campi non necessari."
+		},
+		{
+			"id": "Element",
+			"language": "IT",
+			"value": "Elemento"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Inserisci un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico, hai trovato la risposta giusta."
+		},
+		{
+			"id": "Fenster",
+			"language": "IT",
+			"value": "Finestra"
+		},
+		{
+			"id": "Gruppe",
+			"language": "IT",
+			"value": "Gruppo"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "IT",
+			"value": "Sfondo"
+		},
+		{
+			"id": "Prüfen",
+			"language": "IT",
+			"value": "Verifica la soluzione"
+		},
+		{
+			"id": "Vollbild",
+			"language": "IT",
+			"value": "Ingrandisci immagine"
+		},
+		{
+			"id": "Elemente",
+			"language": "FR",
+			"value": "Eléments"
+		},
+		{
+			"id": "Elemente",
+			"language": "IT",
+			"value": "Elementi"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Классификация"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "RU",
+			"value": "Описание"
+		},
+		{
+			"id": "Element",
+			"language": "RU",
+			"value": "Элемент "
+		},
+		{
+			"id": "Elemente",
+			"language": "RU",
+			"value": "Элементы "
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты верно выполнил задание."
+		},
+		{
+			"id": "Fenster",
+			"language": "RU",
+			"value": "Окно "
+		},
+		{
+			"id": "Gruppe",
+			"language": "RU",
+			"value": "Группа "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Введите здесь текст, который будет появляться, если найдено верное решение!"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RU",
+			"value": "Задний фон "
+		},
+		{
+			"id": "Prüfen",
+			"language": "RU",
+			"value": "Перепроверить решение"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RU",
+			"value": "Полная картинка "
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "RU",
+			"value": "Поле приложения (от 2 до 4 групп) разделяется на зоны, фоном могут  служить изображения или текст. Каждый элемент нужно  отправить в соответствующее поле ."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Этот шаблон поможет создать от 2 до 4 групп,  которые затем должны быть соотнесены к элементам."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "FR",
+			"value": "Masquer"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "IT",
+			"value": "Nascondere"
+		},
+		{
+			"id": "Gruppe",
+			"language": "RM",
+			"value": "Gruppa"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Cun quei model sas ti crear 2 - 4 gruppas allas qualas ti sas ordinar elements."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Ordinaziun tenor gruppa"
+		},
+		{
+			"id": "Fenster",
+			"language": "RM",
+			"value": "Fanestra"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut correctamein!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RM",
+			"value": "Funs"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "RM",
+			"value": "Sil funs dalla app vegn mussau denter 2 - 4 gruppas sco maletg ni sco text. A mintga gruppa selain attribuir plirs elements."
+		},
+		{
+			"id": "Beschreibung",
+			"language": "RM",
+			"value": "Descripziuns"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RM",
+			"value": "Controllar sligiaziun"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RM",
+			"value": "Entir maletg"
+		},
+		{
+			"id": "Fenster",
+			"language": "RO",
+			"value": "Fereastră"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RO",
+			"value": "Verifică soluție"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "RO",
+			"value": "Descriere"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RO",
+			"value": "Ecran lat"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Ordonare pe grupe"
+		},
+		{
+			"id": "Gruppe",
+			"language": "RO",
+			"value": "Grupă"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RO",
+			"value": "Fundal"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Cu acest model pot fi alcătuite 2-4 grupe la care trebuie să fie ordonate apoi elementele."
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "RO",
+			"value": "În fundalul exercițiului sunt prezentate 2-4 grupe la alegere ca imagine sau text. La fiecare grupă se ordonează mai multe elemente."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când este găsită soluția corectă."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai găsit soluția corectă!"
+		},
+		{
+			"id": "Element",
+			"language": "RO",
+			"value": "Element"
+		},
+		{
+			"id": "Elemente",
+			"language": "RO",
+			"value": "Elemente"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "EN",
+			"value": "Here you receive some hints!"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "RM",
+			"value": "Ti has retschiert entgins indezis!"
+		},
+		{
+			"id": "Gruppe",
+			"language": "GL",
+			"value": "Grupo"
+		},
+		{
+			"id": "Element",
+			"language": "GL",
+			"value": "Elemento"
+		},
+		{
+			"id": "Elemente",
+			"language": "GL",
+			"value": "Elementos"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, atopáchelas todas!"
+		},
+		{
+			"id": "Fenster",
+			"language": "GL",
+			"value": "Ventá"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GL",
+			"value": "Pantalla completa"
+		},
+		{
+			"id": "Prüfen",
+			"language": "ES",
+			"value": "Ver solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GL",
+			"value": "Comprobar a solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PL",
+			"value": "Sprawdź rozwiązanie."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "RO",
+			"value": "Aici poți găsi câteva indicații!!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Grupowanie"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "W tym szablonie można zdefiniować 2-4 grupy, do których poszczególne elementy muszą być przypisane."
+		},
+		{
+			"id": "Gruppe",
+			"language": "PL",
+			"value": "Grupa"
+		},
+		{
+			"id": "Elemente",
+			"language": "PL",
+			"value": "Elementy"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "PL",
+			"value": "Tło"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, znalazłeś odpowiednie rozwiązanie."
+		},
+		{
+			"id": "Fenster",
+			"language": "PL",
+			"value": "Okno"
+		},
+		{
+			"id": "Vollbild",
+			"language": "PL",
+			"value": "Pełny ekran"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "PL",
+			"value": "Opis"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "PL",
+			"value": "Tutaj otrzymasz kilka wskazówek! "
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "PL",
+			"value": "W tle aplikacji są 2-4 grupy, wyświetlane jako obraz lub tekst. Do każdej grupy może być przypisanych kilka elementów."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Sorteerimine"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "ET",
+			"value": "päritolu"
+		},
+		{
+			"id": "Elemente",
+			"language": "ET",
+			"value": "elementi"
+		},
+		{
+			"id": "Element",
+			"language": "ET",
+			"value": "element"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Selle malliga saab luua 2-4-liikmelised rühmad, elemendid peavad olema eelnevalt määratud."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisesta tagasiside tekst, mis kuvatakse, kui leitud on õige lahendus."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli! Oled leidnud õige lahenduse."
+		},
+		{
+			"id": "Gruppe",
+			"language": "ET",
+			"value": "rühm"
+		},
+		{
+			"id": "Fenster",
+			"language": "ET",
+			"value": "Aken"
+		},
+		{
+			"id": "Vollbild",
+			"language": "ET",
+			"value": "Täisekraan"
+		},
+		{
+			"id": "Prüfen",
+			"language": "ET",
+			"value": "Lahenduse kontrollimine"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "ET",
+			"value": "Äpi taustal kuvatakse kas pildi või tekstina 2-4 gruppi. Igasse gruppi saab elemente lisada."
+		},
+		{
+			"id": "Beschreibung",
+			"language": "ET",
+			"value": "Kirjeldus"
+		},
+		{
+			"id": "Element",
+			"language": "RM",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "PL",
+			"value": "Element"
+		},
+		{
+			"id": "Elemente",
+			"language": "RM",
+			"value": "Elements"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Задача за групиране"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "С този шаблон може да дефинирате от 2 до 4 групи думи. "
+		},
+		{
+			"id": "Gruppe",
+			"language": "BG",
+			"value": "Група"
+		},
+		{
+			"id": "Element",
+			"language": "BG",
+			"value": "Елемент"
+		},
+		{
+			"id": "Elemente",
+			"language": "BG",
+			"value": "Елементи"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BG",
+			"value": "Фон"
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която да се показва, когато се намери решение."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Браво! Това е правилното решение. "
+		},
+		{
+			"id": "Fenster",
+			"language": "BG",
+			"value": "Прозорец"
+		},
+		{
+			"id": "Vollbild",
+			"language": "BG",
+			"value": "Цял екран"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BG",
+			"value": "Провери решението"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "BG",
+			"value": "Описание"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "BG",
+			"value": "Фонът на приложението е изпълнен с 2 до 4 групи елементи Те се показват като текст или изображение. Може да добавяте елементи към всяка група."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "BG",
+			"value": "Тук ще получите няколко съвета!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Класифікація"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "UK",
+			"value": "Тло"
+		},
+		{
+			"id": "Elemente",
+			"language": "UK",
+			"value": "Елементи"
+		},
+		{
+			"id": "Element",
+			"language": "UK",
+			"value": "Елемент"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "У шаблоні можна задати 2-4 групи, до яких потрібно віднести перелічені елементи."
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "Gruppe",
+			"language": "UK",
+			"value": "Група"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "Beschreibung",
+			"language": "UK",
+			"value": "Опис"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "UK",
+			"value": "Тло вправи поділене на 2-4 групи, у яких потрібно розмістити тексти або зображення"
+		},
+		{
+			"id": "Fenster",
+			"language": "UK",
+			"value": "Вікно"
+		},
+		{
+			"id": "Prüfen",
+			"language": "UK",
+			"value": "Перевірити рішення"
+		},
+		{
+			"id": "Vollbild",
+			"language": "UK",
+			"value": "Повний екран"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Bu uygulamada 2 ila 4 gurup oluşturlmaktadır. Bu guruplara ögeler doğru bir şekilde eşleştirilmelidir."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Guruplara doğru eşleştirme!"
+		},
+		{
+			"id": "Element",
+			"language": "TR",
+			"value": "Öge"
+		},
+		{
+			"id": "Elemente",
+			"language": "TR",
+			"value": "Ögeler"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "TR",
+			"value": "Arkaplan"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah, doğru çözümü buldun."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüldüğünde gösterilmesini istediğin  bir metni gir"
+		},
+		{
+			"id": "Vollbild",
+			"language": "TR",
+			"value": "Tam ekran"
+		},
+		{
+			"id": "Gruppe",
+			"language": "TR",
+			"value": "Guruplar"
+		},
+		{
+			"id": "Prüfen",
+			"language": "TR",
+			"value": "Çözümü kontrol et!"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "TR",
+			"value": "Uygulamanın arkaplanında söz konusu 2 ila 4 gurup ya bir metin ya da bir resim olarak gösterilmektedir. Her bir guruba birden çok öge eşleştirilebilmektedir."
+		},
+		{
+			"id": "Beschreibung",
+			"language": "TR",
+			"value": "Tanıtım"
+		},
+		{
+			"id": "Fenster",
+			"language": "TR",
+			"value": "Pence"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "ET",
+			"value": "Siit leiad vihjeid!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "ამ შაბლონით შეიძლება 2-4 ჯგუფის შექმნა, რომლებსაც შემდეგ უნდა დაუკავშირდეს შესაბამისი ელემენტები."
+		},
+		{
+			"id": "Gruppe",
+			"language": "GE",
+			"value": "ჯგუფი"
+		},
+		{
+			"id": "Element",
+			"language": "GE",
+			"value": "ელემენტი"
+		},
+		{
+			"id": "Elemente",
+			"language": "GE",
+			"value": "ელემენტები"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც ეკრანზე აისახება სწორი პასუხის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ სწორად გააკეთეთ ყველაფერი."
+		},
+		{
+			"id": "Fenster",
+			"language": "GE",
+			"value": "მცირე ეკრანი"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GE",
+			"value": "დიდი ეკრანი"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GE",
+			"value": "პასუხის შემოწმება"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "GE",
+			"value": "აღწერა"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "ჯგუფის არჩევა"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "GE",
+			"value": "დანართის უკანა ფონზე განალაგეთ 2-4 ჯგუფი. აუცილებელი  არ არის ეს მხოლოდ ტექსტი და სურათები იყოს. ყოველ ჯგუფში რამდენიმე ელემენტი შეიძლება გაერთიანდეს."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "DE",
+			"value": "Gruppe hinzufügen"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "EN",
+			"value": "add another group"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "FR",
+			"value": "Ajouter un autre groupe."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Sa ovim predloškom možete raspoređivati elemente u 2, 3 ili 4 grupe."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Raspored po grupama"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite povratni tekst koji će biti prikazan kada bude pronađeno konačno rješenje."
+		},
+		{
+			"id": "Gruppe",
+			"language": "BS",
+			"value": "Grupa"
+		},
+		{
+			"id": "Elemente",
+			"language": "BS",
+			"value": "Elementi"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BS",
+			"value": "Pozadina"
+		},
+		{
+			"id": "Element",
+			"language": "BS",
+			"value": "Element"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, rješenje je tačno."
+		},
+		{
+			"id": "Fenster",
+			"language": "BS",
+			"value": "Prozor"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BS",
+			"value": "Provjera rješenja"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BS",
+			"value": "Dodati novu grupu"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "BS",
+			"value": "Opis"
+		},
+		{
+			"id": "Vollbild",
+			"language": "BS",
+			"value": "Cijeli ekran"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "BS",
+			"value": "Pozadinu vježbe čini slika ili tekst podijeljen na 2, 3 ili 4 grupe. Za svaku grupu se mogu odrediti određeni elementi."
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "ET",
+			"value": "Valige, kuidas ülesannetes kaarte näidatakse."
+		},
+		{
+			"id": "SingleCard",
+			"language": "ET",
+			"value": "Näita kaarte"
+		},
+		{
+			"id": "SingleCard",
+			"language": "BG",
+			"value": "Покажете картите"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BG",
+			"value": "добавете група "
+		},
+		{
+			"id": "allcards",
+			"language": "BG",
+			"value": "покажете всички карти при стартиране"
+		},
+		{
+			"id": "cardbycard",
+			"language": "BG",
+			"value": "покажете картите една след друга"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "BG",
+			"value": "Изберете начина на показване на картите"
+		},
+		{
+			"id": "cardbycard",
+			"language": "TR",
+			"value": "Kartları tek tek göster ve düzenle"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "TR",
+			"value": "Kartların görevlenderimede nasıl gösterileceğine karar verin"
+		},
+		{
+			"id": "SingleCard",
+			"language": "TR",
+			"value": "Kartları göster"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "TR",
+			"value": "Gurup ekle"
+		},
+		{
+			"id": "allcards",
+			"language": "TR",
+			"value": "Tüm kartları başlangıçta göster"
+		},
+		{
+			"id": "Element",
+			"language": "PT",
+			"value": "Elemento"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Trabalho de grupo"
+		},
+		{
+			"id": "Gruppe",
+			"language": "PT",
+			"value": "Grupo"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Com este modelo pode definir 2-4 grupos, nos quais os elementos devem ser atribuídos."
+		},
+		{
+			"id": "Elemente",
+			"language": "PT",
+			"value": "Elementos"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "PT",
+			"value": "Fundo"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "&quot;Fornecer  texto de feedback que é exibido quando a solução for encontrada.&quot;"
+		},
+		{
+			"id": "Fenster",
+			"language": "PT",
+			"value": "Janela"
+		},
+		{
+			"id": "Vollbild",
+			"language": "PT",
+			"value": "Fullscreen"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encontrou a solução correcta.\r\nJanela\r\n"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PT",
+			"value": "Verificar solução"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "PT",
+			"value": "Descrição"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "PT",
+			"value": "&quot;O fundo da App é preenchido com 2-4 grupos, exibido quer como como texto ou como imagem. Pode adicionar itens para cada grupo.&quot;\r\n"
+		},
+		{
+			"id": "SingleCard",
+			"language": "PT",
+			"value": "Exibir cartões"
+		},
+		{
+			"id": "cardbycard",
+			"language": "PT",
+			"value": "Exibir cartões em sequência"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "PT",
+			"value": "Seleccionar exibição de cartões"
+		},
+		{
+			"id": "allcards",
+			"language": "PT",
+			"value": "Exibir todos os cartões no início"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "PT",
+			"value": "adicionar grupo"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven wanneer de juiste oplossing is gevonden."
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "NL",
+			"value": "The background of the App is filled with 2-4 groups either displayed as text or image. You can add items for each group.\nOp de achtergond van deze oefening kunnen de 2-4 groepen getoond worden als afbeelding of tekst. Bij elke groep kun je meerdere onderdelen sorteren."
+		},
+		{
+			"id": "Beschreibung",
+			"language": "NL",
+			"value": "Beschrijving"
+		},
+		{
+			"id": "Prüfen",
+			"language": "NL",
+			"value": "Antwoorden controleren"
+		},
+		{
+			"id": "Vollbild",
+			"language": "NL",
+			"value": "Volledig scherm"
+		},
+		{
+			"id": "Fenster",
+			"language": "NL",
+			"value": "Venster"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u heeft de juiste oplossing(en) gevonden."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "NL",
+			"value": "Achtergrond"
+		},
+		{
+			"id": "Elemente",
+			"language": "NL",
+			"value": "Onderdelen"
+		},
+		{
+			"id": "Element",
+			"language": "NL",
+			"value": "Onderdeel"
+		},
+		{
+			"id": "Gruppe",
+			"language": "NL",
+			"value": "Groep"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Met deze oefening kunnen 2 tot 4 groepen aangemaakt worden, waaraan je elementen kan verbinden."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Sorteren per groep"
+		},
+		{
+			"id": "SingleCard",
+			"language": "NL",
+			"value": "Aanbieden van de kaarten"
+		},
+		{
+			"id": "cardbycard",
+			"language": "NL",
+			"value": "Kaart na kaart aanbieden en sorteren"
+		},
+		{
+			"id": "allcards",
+			"language": "NL",
+			"value": "Alle kaarten bij de start aanbieden"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "NL",
+			"value": "Groep toevoegen"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "NL",
+			"value": "Bepaal hoe de kaarten zullen worden aangeboden."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Αντιστοίχιση σε ομάδες"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GR",
+			"value": "Με αυτό το πρότυπο μπορείτε να ορίσετε 2-4 ομάδες, στις οποίες πρέπει να αντιστοιχισθούν τα στοιχεία."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "GR",
+			"value": "Φόντο"
+		},
+		{
+			"id": "Elemente",
+			"language": "GR",
+			"value": "Στοιχεία"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Μήνυμα προς τον παίκτη"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Δώστε ένα μήνυμα που εμφανίζεται όταν βρεθεί η λύση."
+		},
+		{
+			"id": "Element",
+			"language": "GR",
+			"value": "Στοιχείο"
+		},
+		{
+			"id": "Gruppe",
+			"language": "GR",
+			"value": "Ομάδα"
+		},
+		{
+			"id": "Fenster",
+			"language": "GR",
+			"value": "Παράθυρο"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GR",
+			"value": "Πλήρης οθόνη"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GR",
+			"value": "Έλεγξε τη λύση"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Ωραία, βρήκες τη σωστή λύση."
+		},
+		{
+			"id": "SingleCard",
+			"language": "GR",
+			"value": "Εμφάνιση καρτών"
+		},
+		{
+			"id": "cardbycard",
+			"language": "GR",
+			"value": "Εμφάνιση τη μια κάρτα μετά την άλλη"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "GR",
+			"value": "Περιγραφή"
+		},
+		{
+			"id": "allcards",
+			"language": "GR",
+			"value": "Εμφάνιση όλων των καρτών στην αρχή"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "GR",
+			"value": "προσθέστε άλλη ομάδα"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "GR",
+			"value": "Στο φόντο της εφαρμογής, εμφανίζονται 2–4 ομάδες είτε ως εικόνες είτε ως κείμενο. Μπορούν να αντιστοιχιστούν διάφορα στοιχεία σε κάθε ομάδα."
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "GR",
+			"value": "Επιλέξτε τον τρόπο που θα εμφανίζονται οι κάρτες."
+		},
+		{
+			"id": "SingleCard",
+			"language": "PL",
+			"value": "Wyświetlanie kart"
+		},
+		{
+			"id": "allcards",
+			"language": "PL",
+			"value": "od razu wyświetl wszystkie karty"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "PL",
+			"value": "Dodaj kolejną grupę"
+		},
+		{
+			"id": "cardbycard",
+			"language": "PL",
+			"value": "wyświetl i klasyfikuj karta za kartą"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "PL",
+			"value": "Wybierz sposób w jaki mają być w zadaniach wyświetlane karty. "
+		},
+		{
+			"id": "Gruppe",
+			"language": "SV",
+			"value": "Grupp"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "SV",
+			"value": "Bakgrund"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "SV",
+			"value": "Skriv den text som visas när spelet är slut"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Grattis, du har klarat av spelet!"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "BS",
+			"value": "Ovdje dobijate male savjete"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Csoportba rendezés"
+		},
+		{
+			"id": "Element",
+			"language": "HU",
+			"value": "Elem"
+		},
+		{
+			"id": "Elemente",
+			"language": "HU",
+			"value": "Elemek"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Увядзіце тэкст, які будзе паказвацца пры правільным адказе."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, amely a helyes megoldás után megjelenik!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Малайчына! Практыкаванне выканана"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Remek, megtaláltad a helyes megoldást!"
+		},
+		{
+			"id": "Fenster",
+			"language": "HU",
+			"value": "Ablak"
+		},
+		{
+			"id": "Vollbild",
+			"language": "HU",
+			"value": "Teljes képernyő"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BY",
+			"value": "Праверыць рашэнне"
+		},
+		{
+			"id": "Prüfen",
+			"language": "HU",
+			"value": "Megoldás ellenőrzése "
+		},
+		{
+			"id": "allcards",
+			"language": "FR",
+			"value": "Affichage de toutes les cartes dès le début"
+		},
+		{
+			"id": "cardbycard",
+			"language": "FR",
+			"value": "Affichage des cartes l'une après l'autre"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "FR",
+			"value": "Choisissez comment les cartes doivent être affichées"
+		},
+		{
+			"id": "SingleCard",
+			"language": "FR",
+			"value": "Affichage des cartes"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Ebben az alkalmazásban létrehozhatunk 2-4 csoportot, amelyekhez azután elemeket kell hozzárendelni."
+		},
+		{
+			"id": "Gruppe",
+			"language": "HU",
+			"value": "Csoport"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "HU",
+			"value": "Háttér"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "HU",
+			"value": "Leírás"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "HU",
+			"value": "A tankocka háttereként 2-4 csoport jeleníthető meg, melyek lehetnek képek, vagy szövegek is. Mindegyik csoporthoz több elem is hozzárendelhető."
+		},
+		{
+			"id": "SingleCard",
+			"language": "HU",
+			"value": "Kártyák mutatása"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "HU",
+			"value": "Válassza ki, hogy a feladatban a kártyákat milyen módon mutassuk meg!"
+		},
+		{
+			"id": "cardbycard",
+			"language": "HU",
+			"value": "Kártyák egymásutáni mutatása és rendezése."
+		},
+		{
+			"id": "allcards",
+			"language": "HU",
+			"value": "Kezdéskor az összes kártya mutatása"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "HU",
+			"value": "Csoport hozzáadása"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "RU",
+			"value": "Выберите режим демонстрации карточек."
+		},
+		{
+			"id": "SingleCard",
+			"language": "RU",
+			"value": "Показать карточки."
+		},
+		{
+			"id": "cardbycard",
+			"language": "RU",
+			"value": "Показывать карточки одну за другой."
+		},
+		{
+			"id": "allcards",
+			"language": "RU",
+			"value": "Показать все карточки сразу."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RU",
+			"value": "Добавить группу."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "Элементы гульні трэба падзяліць на групы (ад 2 да 4 груп)."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Класіфікацыя"
+		},
+		{
+			"id": "Element",
+			"language": "BY",
+			"value": "Элемент"
+		},
+		{
+			"id": "Elemente",
+			"language": "BY",
+			"value": "Элементы"
+		},
+		{
+			"id": "Vollbild",
+			"language": "BY",
+			"value": "Поўная выява"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BY",
+			"value": "Фонавая выява"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "BY",
+			"value": "Апісанне"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "BY",
+			"value": "У якасці фонавай выявы для кожнай групы (ад 2 да 4 групп) можна выкарыстаць малюнак ці тэкст. Кожны элемент трэба суаднесці са сваёй групай."
+		},
+		{
+			"id": "Gruppe",
+			"language": "BY",
+			"value": "Група"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "BY",
+			"value": "Абярыце рэжым дэманстрацыі картак"
+		},
+		{
+			"id": "Fenster",
+			"language": "BY",
+			"value": "Акно"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BY",
+			"value": "Дадаць новую групу"
+		},
+		{
+			"id": "SingleCard",
+			"language": "BY",
+			"value": "Паказваць карткі"
+		},
+		{
+			"id": "cardbycard",
+			"language": "BY",
+			"value": "Паказваць карткі адна за адной"
+		},
+		{
+			"id": "allcards",
+			"language": "BY",
+			"value": "Паказаць усе карткі разам"
+		},
+		{
+			"id": "SingleCard",
+			"language": "UK",
+			"value": "Перегляд карти"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "UK",
+			"value": "Виберіть, яку карту показувати у завданні."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "UK",
+			"value": "Додати групу"
+		},
+		{
+			"id": "cardbycard",
+			"language": "UK",
+			"value": "Карта для показу та класифікації"
+		},
+		{
+			"id": "allcards",
+			"language": "UK",
+			"value": "На початку показати усі карти"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "NL",
+			"value": "Gebruik GEEN speciale tekens of cijfers in het trefwoord. Het Duitse umlaut is toegestaan. Het trefwoord wordt anders geweigerd. Voer maximaal 10 tips toe. De tips worden weergegeven wanneer u een verkeerde letter (die geen deel uitmaakt van de trefwoord) opgeeft en zullen de speler ondersteunen bij de zoektocht. Scheid de tips door puntkomma - vb. één; twee; drie; etc."
+		},
+		{
+			"id": "Gruppe",
+			"language": "ES",
+			"value": "Grupos"
+		},
+		{
+			"id": "Elemente",
+			"language": "ES",
+			"value": "Elementos"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Enviar comentario"
+		},
+		{
+			"id": "Element",
+			"language": "ES",
+			"value": "Elemento"
+		},
+		{
+			"id": "allcards",
+			"language": "IT",
+			"value": "Visualizza tutte le carte per iniziare"
+		},
+		{
+			"id": "cardbycard",
+			"language": "IT",
+			"value": "Mostra mappa e classifica"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "IT",
+			"value": "Scegliere come le carte devono essere visualizze nei compiti."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "IT",
+			"value": "Aggiungi gruppo"
+		},
+		{
+			"id": "SingleCard",
+			"language": "IT",
+			"value": "Visualizza mappe"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Enhorabuena! Ha dado con la solución."
+		},
+		{
+			"id": "SingleCard",
+			"language": "GE",
+			"value": "ბარათების ჩვენება"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "GE",
+			"value": "აირჩიეთ ამოცანებში ბარათების ასახვის ხერხი."
+		},
+		{
+			"id": "cardbycard",
+			"language": "GE",
+			"value": "ვუჩვენოთ ბარათი ბარათისა და ბარათებისათვის"
+		},
+		{
+			"id": "allcards",
+			"language": "GE",
+			"value": "ყველა ბარათი დასაწყისშივე"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "GE",
+			"value": "ჯგუფის დამატება"
+		},
+		{
+			"id": "SingleCard",
+			"language": "RM",
+			"value": "Mussar cartas"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "RM",
+			"value": "Decida co las cartas duein vegnir mussai el pensum"
+		},
+		{
+			"id": "cardbycard",
+			"language": "RM",
+			"value": "Mussar ed ordinar carta per carta"
+		},
+		{
+			"id": "allcards",
+			"language": "RM",
+			"value": "Mussar tut las cartas gia all'entschatta"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RM",
+			"value": "Aschuntar gruppa"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Rozřazování do skupin"
+		},
+		{
+			"id": "Gruppe",
+			"language": "CZ",
+			"value": "Skupina"
+		},
+		{
+			"id": "Element",
+			"language": "CZ",
+			"value": "Položka"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "Vollbild",
+			"language": "CZ",
+			"value": "Režim celé obrazovky"
+		},
+		{
+			"id": "Fenster",
+			"language": "CZ",
+			"value": "Okno"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "CZ",
+			"value": "Popis"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "CZ",
+			"value": "Pozadí"
+		},
+		{
+			"id": "Prüfen",
+			"language": "CZ",
+			"value": "Zkontrolovat řešení"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "CZ",
+			"value": "Přidat skupinu"
+		},
+		{
+			"id": "Elemente",
+			"language": "CZ",
+			"value": "Položky"
+		},
+		{
+			"id": "SingleCard",
+			"language": "CZ",
+			"value": "Ukázat karty"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "S touto šablonou můžete vytvořit 2 - 4 skupiny, k nimž musí být postupně rozřazeny ostatní prvky."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, toto je správné řešení!"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "CZ",
+			"value": "Vyberte karty, které budou zobrazeny v úlohách."
+		},
+		{
+			"id": "allcards",
+			"language": "CZ",
+			"value": "Hned na začátku zobrazit všechny karty"
+		},
+		{
+			"id": "cardbycard",
+			"language": "CZ",
+			"value": "Ukázat a zařadit kartu za kartu"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Napište text, který bude zobrazen, pokud bude úloha vyřešena správně."
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "CZ",
+			"value": "V pozadí aplikace se zobrazí 2-4 skupiny jako obrázky nebo text. Ke každé skupině může být přiřazeno více položek."
+		},
+		{
+			"id": "allcards",
+			"language": "BS",
+			"value": "Prikazati sve karte na početku"
+		},
+		{
+			"id": "SingleCard",
+			"language": "BS",
+			"value": "Prikazati karte"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "BS",
+			"value": "Odabrati kako će se karte prikazivati"
+		},
+		{
+			"id": "cardbycard",
+			"language": "BS",
+			"value": "Prikazati kartu po kartu jednu za drugom"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "Con esta plantilla se pueden crear grupos en los que se clasificarán una serie de elementos."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Introduzca el texto que aparecerá cuando se haya dado con la respuesta correcta."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Clasificación en grupos"
+		},
+		{
+			"id": "Fenster",
+			"language": "ES",
+			"value": "Ventana"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "ES",
+			"value": "Descripción"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "ES",
+			"value": "Como fondo de la aplicación aparecen de 2 a 4 grupos, bien como imagen o como texto. Los diferentes elementos se podrán entonces asignar al grupo correspondiente."
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "ES",
+			"value": "Elija cómo deben aparecer las tarjetas en las tareas."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "ES",
+			"value": "Fondo"
+		},
+		{
+			"id": "cardbycard",
+			"language": "ES",
+			"value": "Mostrar tarjeta por tarjeta y ordenar"
+		},
+		{
+			"id": "allcards",
+			"language": "ES",
+			"value": "Mostrar todas las tarjetas al principio"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "ES",
+			"value": "Añadir grupo"
+		},
+		{
+			"id": "Vollbild",
+			"language": "ES",
+			"value": "Pantalla completa"
+		},
+		{
+			"id": "SingleCard",
+			"language": "ES",
+			"value": "Mostrar tarjetas"
+		},
+		{
+			"id": "SingleCard",
+			"language": "RO",
+			"value": "Arată cartonașe"
+		},
+		{
+			"id": "cardbycard",
+			"language": "RO",
+			"value": "Arată cartonaș cu cartonaș și aranjează"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RO",
+			"value": "Adaugă grup"
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "RO",
+			"value": "Alegeți cum sa fie indicate cartonașele la teme"
+		},
+		{
+			"id": "allcards",
+			"language": "RO",
+			"value": "Arată toate cartonașele deja la start"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Priskyrimas grupėms"
+		},
+		{
+			"id": "Element",
+			"language": "LT",
+			"value": "Elementas"
+		},
+		{
+			"id": "Elemente",
+			"language": "LT",
+			"value": "Elementai"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "LT",
+			"value": "Fonas"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, išsprendei teisingai!"
+		},
+		{
+			"id": "Gruppe",
+			"language": "LT",
+			"value": "Grupė"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "Fenster",
+			"language": "LT",
+			"value": "Langas"
+		},
+		{
+			"id": "Vollbild",
+			"language": "LT",
+			"value": "Visame ekrane"
+		},
+		{
+			"id": "Beschreibung",
+			"language": "LT",
+			"value": "Aprašymas"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Pagal šį šabloną, galite nustatyti 2-4 grupes, į kurias elementai turės būti suskirstyti."
+		},
+		{
+			"id": "Prüfen",
+			"language": "LT",
+			"value": "Patikrinti"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Įveskite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai išsprendus užduotį."
+		},
+		{
+			"id": "cardbycard",
+			"language": "LT",
+			"value": "rodyti korteles vieną po kitos"
+		},
+		{
+			"id": "BeschreibungText",
+			"language": "LT",
+			"value": "Programėlės lange rodomos 2-4 grupės, kurių fone gali būti tekstai arba vaizdai. Galite juos pridėti kiekvienai grupei. "
+		},
+		{
+			"id": "SingleCardBeschreibung",
+			"language": "LT",
+			"value": "Pasirinkti, kaip parodomos kortelės."
+		},
+		{
+			"id": "randomorder",
+			"language": "LT",
+			"value": "atsitiktine tvarka"
+		},
+		{
+			"id": "allcards",
+			"language": "LT",
+			"value": "iškart rodyti visas korteles"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "LT",
+			"value": "Pasirinkti, kokia eilės tvarka kortelės yra rodomos. Ši funkcija veikia tik tuomet, kai kortelės rodomos viena po kitos."
+		},
+		{
+			"id": "SingleCard",
+			"language": "LT",
+			"value": "Rodyti korteles"
+		},
+		{
+			"id": "OrderCards",
+			"language": "LT",
+			"value": "Rodyti kortelių eiliškumą"
+		},
+		{
+			"id": "elementorder",
+			"language": "LT",
+			"value": "visi pirmieji elementai, tuomet visi antrieji, ir taip toliau"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "LT",
+			"value": "pridėti dar vieną grupę"
+		},
+		{
+			"id": "OrderCards",
+			"language": "PL",
+			"value": "Kolejność kart"
+		},
+		{
+			"id": "randomorder",
+			"language": "PL",
+			"value": "użyj kolejności losowej"
+		},
+		{
+			"id": "elementorder",
+			"language": "PL",
+			"value": "wszystkie 1-sze elementy, następnie wszystkie 2-gie elementy i tak dalej"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "PL",
+			"value": "Wybierz kolejność, w jakiej karty mają być wyświetlane. Ustawienie jest stosowane tylko wtedy, gdy karty są wyświetlane jedna po drugiej."
+		},
+		{
+			"id": "OrderCards",
+			"language": "TR",
+			"value": "Kartların sıralaması"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "TR",
+			"value": "Kartların hangi sıralamaya göre görüntüleneceklerini belirleyin. Bu ayar ancak kartlar arka arkaya görüntülenecekse kullanılmaktadır."
+		},
+		{
+			"id": "randomorder",
+			"language": "TR",
+			"value": "Rastgele sıralama kullan"
+		},
+		{
+			"id": "elementorder",
+			"language": "TR",
+			"value": "tümünde önce 1. öge, snora 2. öge vs. vs."
+		},
+		{
+			"id": "OrderCards",
+			"language": "HU",
+			"value": "Kártya megrendelés"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "HU",
+			"value": "Válassza ki a sorrendet, amelyben a kártyákat meg kell jeleníteni. A beállítás csak akkor alkalmazható, ha a térképeket egyenként jelenítik meg."
+		},
+		{
+			"id": "randomorder",
+			"language": "HU",
+			"value": "használjon véletlenszerű sorrendet"
+		},
+		{
+			"id": "elementorder",
+			"language": "HU",
+			"value": "mind az 1. elem, majd az összes 2. elem és így tovább"
+		},
+		{
+			"id": "OrderCards",
+			"language": "ES",
+			"value": "Orden de las tarjetas"
+		},
+		{
+			"id": "randomorder",
+			"language": "ES",
+			"value": "Ordenar las tarjetas aleatoriamente"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "ES",
+			"value": "Decida en qué orden se mostrarán las tarjetas. Esta función no se puede utilizar cuando se muestran todas las tarjetas a la vez al principio de la actividad."
+		},
+		{
+			"id": "elementorder",
+			"language": "ES",
+			"value": "Mostrar primero el primer elemento de cada grupo, después el segundo de cada grupo, etc.\n"
+		},
+		{
+			"id": "OrderCards",
+			"language": "GR",
+			"value": "Σειρά εμφάνισης καρτών"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "GR",
+			"value": "Επιλέξτε τη σειρά με την οποία θα εμφανίζονται οι κάρτες. Η ρύθμιση εφαρμόζεται μόνο όταν οι κάρτες εμφανίζονται η μία μετά την άλλη."
+		},
+		{
+			"id": "randomorder",
+			"language": "GR",
+			"value": "χρήση τυχαίας σειράς"
+		},
+		{
+			"id": "elementorder",
+			"language": "GR",
+			"value": "όλα τα 1α στοιχεία, μετά όλα τα 2α στοιχεία και ούτω καθεξής"
+		},
+		{
+			"id": "OrderCards",
+			"language": "NL",
+			"value": "Volgorde van de kaarten"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "NL",
+			"value": "Selecteer de volgorde waarin de kaarten moeten worden weergegeven. De instelling wordt alleen toegepast wanneer kaarten na elkaar worden weergegeven."
+		},
+		{
+			"id": "randomorder",
+			"language": "NL",
+			"value": "Willekeurige volgorde gebruiken"
+		},
+		{
+			"id": "elementorder",
+			"language": "NL",
+			"value": "Alle 1ste elementen, dan alle 2de elementen, enz."
+		},
+		{
+			"id": "OrderCards",
+			"language": "FR",
+			"value": "Ordre de distribution "
+		},
+		{
+			"id": "elementorder",
+			"language": "FR",
+			"value": "chaque 1er élément, puis chaque 2e élément et ainsi de suite"
+		},
+		{
+			"id": "randomorder",
+			"language": "FR",
+			"value": "utiliser un ordre aléatoire"
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "FR",
+			"value": "Choisissez l'ordre dans lequel vous souhaitez que les cartes soient affichées. Le paramètre est appliqué uniquement lorsque les cartes sont affichées de manière séquentielle."
+		},
+		{
+			"id": "UseBackgroundColors",
+			"language": "TR",
+			"value": "Grup renklerini kullan."
+		},
+		{
+			"id": "UseBackgroundColorsBeschreibung",
+			"language": "TR",
+			"value": "Gruplar, eşleştirme yaparken birbirlerinden daha hızlı ayırt etmek için bir renk kaplaması kullanır. Renkleri kullanmak istemiyorsanız ve örneğin yalnızca arka plan resimleriyle çalışmak istiyorsanız, bu seçeneği devre dışı bırakın."
+		},
+		{
+			"id": "UseBackgroundColorsBeschreibung",
+			"language": "FR",
+			"value": "Les groupes utilisent une superposition de couleurs pour les distinguer plus rapidement lors de leur attribution. Si vous ne souhaitez pas utiliser de couleurs et souhaitez par exemple travailler uniquement avec des images de fond, désactivez cette option."
+		},
+		{
+			"id": "UseBackgroundColors",
+			"language": "FR",
+			"value": "Utiliser les couleurs de groupe"
+		},
+		{
+			"id": "UseBackgroundColors",
+			"language": "RU",
+			"value": "Использование групповых цветов"
+		},
+		{
+			"id": "OrderCards",
+			"language": "RU",
+			"value": "Порядок карточек"
+		},
+		{
+			"id": "UseBackgroundColorsBeschreibung",
+			"language": "RU",
+			"value": "Группы используют цветовое наложение, чтобы быстрее отличать их друг от друга. в сопоставлении. Если вы не хотите использовать цвета и, например, хотите работать только с обоями, отключите эту опцию."
+		},
+		{
+			"id": "OrderCardsBeschreibung",
+			"language": "RU",
+			"value": "Выберите, в каком порядке вы хотите, чтобы карточки отображались. Настройка применяется только в том случае, если карты отображаются последовательно."
+		},
+		{
+			"id": "randomorder",
+			"language": "RU",
+			"value": "использование случайного порядка"
+		},
+		{
+			"id": "elementorder",
+			"language": "RU",
+			"value": "все 1-е элементы, затем все 2-е элементы и так далее"
+		}
+	],
+	"path": "https://learningapps.org/tools/86/29/",
+	"fromCache": 1,
+	"version": "29"
+};

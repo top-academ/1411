@@ -1,0 +1,2576 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "question1=text%7C%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%2C%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%B5%D0%BD%20Auto%20Layout%3F%7C&answer1_1=text%7C%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%7C%7C0&right1_1=true&answer1_2=text%7C%D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%7C%7C0&answer1_3=text%7C%D0%A6%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%7C%7C0&question2=text%7C%D0%9D%D0%B0%20%D1%87%D1%82%D0%BE%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5%20%D0%B2%D1%81%D0%B5%D0%B3%D0%BE%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%20Auto%20Layout%7C&answer2_1=text%7C%D0%9D%D0%B0%20%D0%BA%D0%BB%D0%B5%D0%B9%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D1%81%D0%BA%D0%BB%D0%B5%D0%B8%D0%B2%D0%B0%D0%B5%D1%82%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20%D0%BD%D0%B0%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%BE%7C%7C0&answer2_2=text%7C%D0%9D%D0%B0%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D0%B0%2C%20%D0%BA%D1%83%D0%B4%D0%B0%20%D0%B2%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8.%20%D0%95%D1%81%D0%BB%D0%B8%20%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D1%8C%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%8E%D1%82%D1%81%D1%8F%20%D0%B2%D1%81%D0%B5%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%7C%7C0&right2_2=true&answer2_3=text%7C%D0%9D%D0%B0%20%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D1%81%D1%82%D0%B8%D1%80%D0%B0%D0%B5%D1%82%20%D0%BB%D0%B8%D1%88%D0%BD%D0%B5%D0%B5%7C%7C0&question3=text%7C%D0%A7%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%BE%D0%B9%D0%B4%D1%91%D1%82%2C%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%B2%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%2C%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B2%20Auto%20Layout%7C&answer3_1=text%7C%D0%9F%D1%80%D0%B8%D0%B4%D1%91%D1%82%D1%81%D1%8F%20%D0%B2%D1%80%D1%83%D1%87%D0%BD%D1%83%D1%8E%20%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D1%8C%20%D0%B2%D1%81%D0%B5%20%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%D1%8B%7C%7C0&answer3_2=text%7C%D0%92%D1%81%D0%B5%20%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%D1%8B%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D1%81%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%81%D1%8F%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%BE%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%7C%7C0&right3_2=true&answer3_3=text%7C%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%20%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85%7C%7C0&order=%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BE%20%D0%BA%D0%B0%D0%BA%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%BE%20&feedback=%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D1%86%2C%20%D1%82%D1%8B%20%D1%80%D0%B5%D1%88%D0%B8%D0%BB%20%D0%B2%D1%81%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%21%20",
+	"title": "Секрет Figma: Auto Layout",
+	"tool": "77",
+	"helptext": "",
+	"tasktext": "Выбери правильный ответ на каждый вопрос.",
+	"formlanguage": "RU",
+	"language": "RU",
+	"parameters": [
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "globalelement",
+			"label": "%Einleitung% (%optional%)",
+			"type": "media",
+			"description": "",
+			"media": "image|video|audio|text|speech"
+		},
+		{
+			"t": "list",
+			"label": "%Fragen%",
+			"description": "",
+			"name": "questions",
+			"min": "1",
+			"max": 20,
+			"addtext": "%addQuestion%",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "question#",
+					"label": "%Frage%",
+					"type": "media",
+					"description": "",
+					"media": "image|video|audio|text|speech",
+					"usehint": "true"
+				},
+				{
+					"t": "space",
+					"value": "10"
+				},
+				{
+					"t": "list",
+					"label": "",
+					"description": "",
+					"name": "answers#",
+					"min": "2",
+					"max": 8,
+					"addtext": "%addAnswer%",
+					"indent": "true",
+					"children": [
+						{
+							"t": "parameter",
+							"value": "",
+							"width": "",
+							"height": "",
+							"name": "answer#_#",
+							"label": "%Antwort%",
+							"type": "media",
+							"description": "",
+							"media": "image|video|audio|text|speech",
+							"usehint": "true",
+							"usehintTTS": "true"
+						},
+						{
+							"t": "parameter",
+							"value": "false",
+							"width": "",
+							"height": "",
+							"name": "right#_#",
+							"label": "%RichtigeAntwort%",
+							"type": "check",
+							"description": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%geordnet%|%zufällige%",
+			"width": "",
+			"height": "",
+			"name": "order",
+			"label": "%Sortieren%",
+			"type": "select",
+			"description": "%SortierenBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "false",
+			"width": "",
+			"height": "",
+			"name": "eval",
+			"label": "%Auswertung%",
+			"type": "check",
+			"description": "%AuswertungBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "baseimage",
+			"label": "%Hintergrundbild%",
+			"type": "media",
+			"description": "%HintergrundbildBeschreibung%",
+			"media": "image"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Multiple-Choice-Quiz"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Multiple-Choice Quiz"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "QCM "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": " Quiz a scelta multipla"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Викторина с выбором правильного ответа "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Quiz da multiple-choice"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Quiz cu alegere multiplă"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Test jednokrotnego wyboru"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Valikvastus"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Тест с избираем отговор. "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Вікторина (1 відповідь)"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Test (Klasik tek doğrulu şıklarla)"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "ვიქტორინა"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Kviz sa višestrukim izborom"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Pergunta de Escolha Múltipla"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Meerkeuze Quiz (één antwoord)"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": " Κουίζ πολλαπλής επιλογής"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Többválasztásos kvíz"
+		},
+		{
+			"id": "Einleitung",
+			"language": "DE",
+			"value": "Einleitung"
+		},
+		{
+			"id": "Einleitung",
+			"language": "EN",
+			"value": "Introduction"
+		},
+		{
+			"id": "optional",
+			"language": "DE",
+			"value": "optional"
+		},
+		{
+			"id": "optional",
+			"language": "EN",
+			"value": "optional"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "DE",
+			"value": "Hintergrundbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "EN",
+			"value": "Background image"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie optional ein Hintergrundbild für das Multiple-Choice-Quiz aus."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie optional ein Hintergrundbild für das Multiple-Choice-Quiz aus."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "EN",
+			"value": "Optionally you can choose a background image for the multiple-choice quiz."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GE",
+			"value": "აუცილებლობის შემთხვევაში ამ თავსატეხის ფონად აირჩიეთ სურათი."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "FR",
+			"value": "Image d'arrière-plan"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "IT",
+			"value": "Immagine di sfondo"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RU",
+			"value": "Фоновая картинка"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RM",
+			"value": "Maletg da funs"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RO",
+			"value": "Imagine fundal"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PL",
+			"value": "Tapeta "
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BG",
+			"value": "Фоново изображение"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ET",
+			"value": "Taustapilt"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "TR",
+			"value": "Arkaplan resmi"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "UK",
+			"value": "Фонове зображення"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "FR",
+			"value": "Choisissez une image d'arrière-plan"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RU",
+			"value": "Выберите фоновую картинку для кроссворда,если желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RM",
+			"value": "Elegia opziunalmein in maletg davos il legn cruschau."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RO",
+			"value": "Alegeți opțional o imagine de fundal pentru acest rebus"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PL",
+			"value": "Opcjonalnie, można wybrać obraz tła."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BG",
+			"value": "Изберете фоново изображение за кръстословицата, ако желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "TR",
+			"value": "İsterseniz arkaplan resmi belirleyebilirsiniz"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "UK",
+			"value": "Можете обрати фонове зображення для кросворду"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BS",
+			"value": "Pozadinska slika"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BS",
+			"value": "Odaberite pozadinsku sliku za ovu aplikaciju po želji."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ET",
+			"value": "Võite selle mõistatuse jaoks valida taustapildi."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PT",
+			"value": "Imagem de fundo"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PT",
+			"value": "Selecione uma imagem de fundo para as palavras cruzadas, se quiser."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "NL",
+			"value": "Achtergrondafbeelding"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "NL",
+			"value": "Selecteer desgewenst een achtergrondafbeelding voor deze oefening."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "SV",
+			"value": "Bakgrundsbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GR",
+			"value": "Εικόνα φόντου"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "IT",
+			"value": "Scegli un'immagine come sfondo di questo quiz."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "HU",
+			"value": "Háttérkép"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "HU",
+			"value": "A feladványhoz háttérkép kiválasztására van lehetőség."
+		},
+		{
+			"id": "Fragen",
+			"language": "DE",
+			"value": "Fragen"
+		},
+		{
+			"id": "Fragen",
+			"language": "DE",
+			"value": "Fragen"
+		},
+		{
+			"id": "Fragen",
+			"language": "EN",
+			"value": "Questions"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie jeweils eine Frage und bis zu 4 Antwortmöglichkeiten an. Optional kann ein Feedbacktext (Begründung) für jede Antwort angegeben werden."
+		},
+		{
+			"id": "Sortieren",
+			"language": "DE",
+			"value": "Fragen sortieren"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "DE",
+			"value": "Die Fragen können wahlweise zufällig oder geordnet gestellt werden."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast alle Fragen richtig gelöst."
+		},
+		{
+			"id": "Fragen",
+			"language": "FR",
+			"value": "Questions"
+		},
+		{
+			"id": "Fragen",
+			"language": "IT",
+			"value": "Domande"
+		},
+		{
+			"id": "Fragen",
+			"language": "RU",
+			"value": "Вопросы"
+		},
+		{
+			"id": "Fragen",
+			"language": "RM",
+			"value": "Damondas"
+		},
+		{
+			"id": "Fragen",
+			"language": "RO",
+			"value": "Întrebări"
+		},
+		{
+			"id": "Fragen",
+			"language": "PL",
+			"value": "Pytania"
+		},
+		{
+			"id": "Fragen",
+			"language": "ET",
+			"value": "Küsimused"
+		},
+		{
+			"id": "Fragen",
+			"language": "ES",
+			"value": "Preguntas"
+		},
+		{
+			"id": "Fragen",
+			"language": "BG",
+			"value": "Въпроси"
+		},
+		{
+			"id": "Fragen",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "Fragen",
+			"language": "TR",
+			"value": "Sorular"
+		},
+		{
+			"id": "Fragen",
+			"language": "GE",
+			"value": "კითხვები"
+		},
+		{
+			"id": "Fragen",
+			"language": "BS",
+			"value": "Pitanja"
+		},
+		{
+			"id": "Fragen",
+			"language": "PT",
+			"value": "Questões"
+		},
+		{
+			"id": "Fragen",
+			"language": "NL",
+			"value": "Vragen"
+		},
+		{
+			"id": "Fragen",
+			"language": "HU",
+			"value": "Kérdések"
+		},
+		{
+			"id": "Frage",
+			"language": "DE",
+			"value": "Frage"
+		},
+		{
+			"id": "Frage",
+			"language": "DE",
+			"value": "Frage"
+		},
+		{
+			"id": "Frage",
+			"language": "EN",
+			"value": "Question"
+		},
+		{
+			"id": "Weiter",
+			"language": "DE",
+			"value": "nächste Frage"
+		},
+		{
+			"id": "Frage",
+			"language": "FR",
+			"value": "Question"
+		},
+		{
+			"id": "Frage",
+			"language": "IT",
+			"value": "Domanda"
+		},
+		{
+			"id": "Frage",
+			"language": "RU",
+			"value": "Вопрос"
+		},
+		{
+			"id": "Frage",
+			"language": "RM",
+			"value": "Damonda"
+		},
+		{
+			"id": "Frage",
+			"language": "RO",
+			"value": "Întrebare"
+		},
+		{
+			"id": "Frage",
+			"language": "GL",
+			"value": "Cuestión"
+		},
+		{
+			"id": "Frage",
+			"language": "PL",
+			"value": "Pytanie"
+		},
+		{
+			"id": "Frage",
+			"language": "ET",
+			"value": "küsimus"
+		},
+		{
+			"id": "Frage",
+			"language": "ES",
+			"value": "Pregunta"
+		},
+		{
+			"id": "Frage",
+			"language": "BG",
+			"value": "Въпрос"
+		},
+		{
+			"id": "Frage",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "Frage",
+			"language": "TR",
+			"value": "Soru "
+		},
+		{
+			"id": "Frage",
+			"language": "GE",
+			"value": "კითხვა"
+		},
+		{
+			"id": "Frage",
+			"language": "BS",
+			"value": "Pitanje"
+		},
+		{
+			"id": "Frage",
+			"language": "PT",
+			"value": "Questão"
+		},
+		{
+			"id": "Frage",
+			"language": "NL",
+			"value": "Vraag"
+		},
+		{
+			"id": "Frage",
+			"language": "SV",
+			"value": "Fråga"
+		},
+		{
+			"id": "Frage",
+			"language": "BY",
+			"value": "Пытанне"
+		},
+		{
+			"id": "Frage",
+			"language": "HU",
+			"value": "Kérdés"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a text which will be displayed when the solution has been found."
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback - napomena"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback - napomena"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će se pojaviti nakon što sva na sva pitanja budu pravilno odgovoreno."
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "&quot;Fornecer  texto de feedback que é exibido quando todas as perguntas forem respondidas correctamente.&quot;"
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Μήνυμα επιβράβευσης"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a text which will be displayed when the solution has been found."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affiche lorsque la solution correcte est trouvée."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Indica un testo che verrà mostrato quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Задайте текст, который будет высвечиваться, если найдено правильное решение. "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă.  "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisestage tekst mis ilmub, kui õige lahendus leitakse."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüldüğünde gösterilmesini istediğiniz bir metni girin"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც გამოჩნდება სწორი პასუხის შემთხვევაში"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će biti prikazan kada bude pronađeno konačno rješenje."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven wanneer de juiste oplossing is gevonden."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando a solução é encontrada."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Напішыце тэкст, які будзе паказвацца пры правільным выкананні практыкавання."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy szöveget, ami akkor jelenik meg, ha megtalálják a helyes megoldást."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast alle Fragen richtig gelöst."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Well done! You have answered all the questions correctly!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Bravo ! Vous avez répondu correctement à toutes les questions."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Молодец, ты решил все вопросы верно! "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico! Hai risposto correttamente a tutte le domande."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut endretg!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai răspuns corect la toate întrebările!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, contestaches correctamente a todas!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, odpowiedziałeś na wszystkie pytania prawidłowo!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, sa vastasid kõigile küsimustele õigesti!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Muy bien! ¡Perfecto!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Страхотно! Ти отговори вярно на всички въпроси!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah! Tüm soruları doğru cevaplandırdın."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ ყველა კითხვას სწორად უპასუხეთ!."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, sva ste pitanja tačno odgovorili"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "&quot;Óptimo, respondeu a todas as perguntas correctamente!&quot;"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u heeft alle vragen juist opgelost."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű! Minden kérdést jól megválaszoltál."
+		},
+		{
+			"id": "Antwort",
+			"language": "DE",
+			"value": "Antwort"
+		},
+		{
+			"id": "Antwort",
+			"language": "EN",
+			"value": "answer"
+		},
+		{
+			"id": "Antwort",
+			"language": "RU",
+			"value": "Ответ "
+		},
+		{
+			"id": "Antwort",
+			"language": "FR",
+			"value": "Réponse"
+		},
+		{
+			"id": "Antwort",
+			"language": "IT",
+			"value": "Risposta"
+		},
+		{
+			"id": "Antwort",
+			"language": "RM",
+			"value": "Risposta"
+		},
+		{
+			"id": "Antwort",
+			"language": "RO",
+			"value": "Răspuns"
+		},
+		{
+			"id": "Antwort",
+			"language": "PL",
+			"value": "Odpowiedź"
+		},
+		{
+			"id": "Antwort",
+			"language": "ET",
+			"value": "Vastus"
+		},
+		{
+			"id": "Antwort",
+			"language": "ES",
+			"value": "Respuesta"
+		},
+		{
+			"id": "Antwort",
+			"language": "UK",
+			"value": "Відповідь"
+		},
+		{
+			"id": "Antwort",
+			"language": "TR",
+			"value": "Cevap"
+		},
+		{
+			"id": "Antwort",
+			"language": "GE",
+			"value": "პასუხი"
+		},
+		{
+			"id": "Antwort",
+			"language": "BS",
+			"value": "Odgovor"
+		},
+		{
+			"id": "Antwort",
+			"language": "NL",
+			"value": "Antwoord"
+		},
+		{
+			"id": "Antwort",
+			"language": "SV",
+			"value": "Svar"
+		},
+		{
+			"id": "Antwort",
+			"language": "PT",
+			"value": "resposta"
+		},
+		{
+			"id": "Antwort",
+			"language": "BY",
+			"value": "Адказ"
+		},
+		{
+			"id": "Antwort",
+			"language": "HU",
+			"value": "Válasz"
+		},
+		{
+			"id": "Antwort",
+			"language": "BG",
+			"value": "Отговор"
+		},
+		{
+			"id": "addAnswer",
+			"language": "DE",
+			"value": "weitere Antwortoption hinzufügen"
+		},
+		{
+			"id": "addAnswer",
+			"language": "EN",
+			"value": "add another answer option"
+		},
+		{
+			"id": "addAnswer",
+			"language": "BS",
+			"value": "Dodajte novu opciju odgovora"
+		},
+		{
+			"id": "addAnswer",
+			"language": "ET",
+			"value": "Lisa veel üks vastusevariant"
+		},
+		{
+			"id": "addAnswer",
+			"language": "TR",
+			"value": "cevap şıkkı/seçeneği ekle"
+		},
+		{
+			"id": "addAnswer",
+			"language": "NL",
+			"value": "Andere antwoordmogelijkheden toevoegen"
+		},
+		{
+			"id": "addAnswer",
+			"language": "PL",
+			"value": "dodaj kolejną opcję odpowiedzi"
+		},
+		{
+			"id": "addAnswer",
+			"language": "PT",
+			"value": "adicionar outra opção de resposta"
+		},
+		{
+			"id": "addAnswer",
+			"language": "FR",
+			"value": "Ajouter une nouvelle option de réponse"
+		},
+		{
+			"id": "addAnswer",
+			"language": "HU",
+			"value": "További válaszlehetőség hozzáadása"
+		},
+		{
+			"id": "addAnswer",
+			"language": "IT",
+			"value": "Inserire altre opzioni di risposta"
+		},
+		{
+			"id": "addAnswer",
+			"language": "RU",
+			"value": "добавить еще один вариант ответа"
+		},
+		{
+			"id": "addAnswer",
+			"language": "BG",
+			"value": "добавете друг отговор"
+		},
+		{
+			"id": "addAnswer",
+			"language": "UK",
+			"value": "додати варіант відповіді"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "DE",
+			"value": "Richtig?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "EN",
+			"value": "Correct?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RU",
+			"value": "Правильно? "
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "FR",
+			"value": "Correct ?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "IT",
+			"value": "Esatto?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RM",
+			"value": "Correct?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RO",
+			"value": "Corect?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "PL",
+			"value": "Prawda?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "ET",
+			"value": "Õige?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "UK",
+			"value": "Правильно?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "TR",
+			"value": "Doğru olarak mı işaretlensin?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "GE",
+			"value": "ასე არ არის?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "BS",
+			"value": "Da li je tačno?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "NL",
+			"value": "Juist?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "PT",
+			"value": "certo?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "HU",
+			"value": "Helyes?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "BG",
+			"value": "Правилно ли е?"
+		},
+		{
+			"id": "addQuestion",
+			"language": "DE",
+			"value": "weitere Frage hinzufügen"
+		},
+		{
+			"id": "addQuestion",
+			"language": "EN",
+			"value": "add another question"
+		},
+		{
+			"id": "addQuestion",
+			"language": "BS",
+			"value": "Dodajte novo pitanje"
+		},
+		{
+			"id": "addQuestion",
+			"language": "ET",
+			"value": "Lisa veel küsimusi"
+		},
+		{
+			"id": "addQuestion",
+			"language": "TR",
+			"value": "soru ekle"
+		},
+		{
+			"id": "addQuestion",
+			"language": "NL",
+			"value": "Andere vraag toevoegen"
+		},
+		{
+			"id": "addQuestion",
+			"language": "PL",
+			"value": "dodaj jeszcze jedno pytanie "
+		},
+		{
+			"id": "addQuestion",
+			"language": "PT",
+			"value": "adicionar mais uma questão"
+		},
+		{
+			"id": "addQuestion",
+			"language": "FR",
+			"value": "Ajouter une nouvelle question"
+		},
+		{
+			"id": "addQuestion",
+			"language": "HU",
+			"value": "További kérdés hozzáadása"
+		},
+		{
+			"id": "addQuestion",
+			"language": "IT",
+			"value": "Inserire un'altra domanda"
+		},
+		{
+			"id": "addQuestion",
+			"language": "RU",
+			"value": "добавить еще вопрос"
+		},
+		{
+			"id": "addQuestion",
+			"language": "BG",
+			"value": "добавете друг въпрос"
+		},
+		{
+			"id": "addQuestion",
+			"language": "UK",
+			"value": "додати питання"
+		},
+		{
+			"id": "Sortieren",
+			"language": "DE",
+			"value": "Fragen sortieren"
+		},
+		{
+			"id": "Sortieren",
+			"language": "DE",
+			"value": "Fragen sortieren"
+		},
+		{
+			"id": "Sortieren",
+			"language": "EN",
+			"value": "Sort questions"
+		},
+		{
+			"id": "Sortieren",
+			"language": "FR",
+			"value": "Trier les questions"
+		},
+		{
+			"id": "Sortieren",
+			"language": "IT",
+			"value": "Ordinare le domande"
+		},
+		{
+			"id": "Sortieren",
+			"language": "RU",
+			"value": "Сортировать вопросы "
+		},
+		{
+			"id": "Sortieren",
+			"language": "RM",
+			"value": "Zavrar las damondas"
+		},
+		{
+			"id": "Sortieren",
+			"language": "RO",
+			"value": "Sortează intrebări"
+		},
+		{
+			"id": "Sortieren",
+			"language": "PL",
+			"value": "Sortowanie pytań"
+		},
+		{
+			"id": "Sortieren",
+			"language": "ET",
+			"value": "Sorteeri küsimused"
+		},
+		{
+			"id": "Sortieren",
+			"language": "BG",
+			"value": "Подреждане на въпросите"
+		},
+		{
+			"id": "Sortieren",
+			"language": "UK",
+			"value": "Сортувати питання"
+		},
+		{
+			"id": "Sortieren",
+			"language": "TR",
+			"value": "Soruları guruplandır"
+		},
+		{
+			"id": "Sortieren",
+			"language": "GE",
+			"value": "კითხვების დახარისხება"
+		},
+		{
+			"id": "Sortieren",
+			"language": "BS",
+			"value": "Sortirajte pitanja"
+		},
+		{
+			"id": "Sortieren",
+			"language": "NL",
+			"value": "Vragen rangschikken"
+		},
+		{
+			"id": "Sortieren",
+			"language": "SV",
+			"value": "Sortera frågor"
+		},
+		{
+			"id": "Sortieren",
+			"language": "BY",
+			"value": "Сартаваць пытанні"
+		},
+		{
+			"id": "Sortieren",
+			"language": "HU",
+			"value": "Kérdések válogatása"
+		},
+		{
+			"id": "Sortieren",
+			"language": "PT",
+			"value": "Classificar perguntas"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "DE",
+			"value": "Die Fragen können wahlweise zufällig oder geordnet gestellt werden."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "EN",
+			"value": "Questions can either be displayed randomly or in order."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RM",
+			"value": "Las damondas san vegnir postadas a moda ordinada ni casuala."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RO",
+			"value": "Întrebările pot fi puse la alegere aleator sau în ordine."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "PL",
+			"value": "Pytania mogą być wyświetlane losowo lub w kolejności."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "ET",
+			"value": "Küsimusi võib esitada juhuslikus või etteantud järjekoras.\n"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BG",
+			"value": "Въпросите могат да бъдат показани на случаен принцип или в определен ред."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "UK",
+			"value": "Питання можна показувати впорядковано чи випадково"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "TR",
+			"value": "Sorular istersen rastgele, istersen belirlenen sıraya göre gösterilmektedir."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "GE",
+			"value": "შეკითხვები შეიძლება დაისვას ან მოცემული ან შემთხვევითი თანმიმდევრობით."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RU",
+			"value": "Вопросы могут показываться в постоянном или случайном порядке."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BS",
+			"value": "Pitanja mogu biti prikazana po redu ili slučajnim redoslijedom."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "NL",
+			"value": "De vragen kunnen willekeurige of in volgorde gesteld worden."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "FR",
+			"value": "Les questions peuvent être affichées aléatoirement ou dans l'ordre."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "IT",
+			"value": "Le domande possono essere collocate casualmente o in un ordine prestabilito."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BY",
+			"value": "Пытанні можна паказваць у выпадковым ці зададзеным парадку."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "HU",
+			"value": "Lehetőség van a kérdések véletlenszerű, vagy sorrendben történő feltevésére."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "PT",
+			"value": "&amp;quot;As questões podem ser exibidas aleatoriamente ou em ordem.&amp;quot;"
+		},
+		{
+			"id": "geordnet",
+			"language": "DE",
+			"value": "geordnet wie oben angegeben"
+		},
+		{
+			"id": "geordnet",
+			"language": "EN",
+			"value": "ordered as listed above"
+		},
+		{
+			"id": "geordnet",
+			"language": "FR",
+			"value": "Mettre dans le même ordre que ci-dessus"
+		},
+		{
+			"id": "geordnet",
+			"language": "IT",
+			"value": "nell'ordine di cui sopra"
+		},
+		{
+			"id": "geordnet",
+			"language": "RU",
+			"value": "расположено как задано "
+		},
+		{
+			"id": "geordnet",
+			"language": "RM",
+			"value": "ordinau sco indicau sura"
+		},
+		{
+			"id": "geordnet",
+			"language": "RO",
+			"value": "Ordonat cum e afișat mai sus"
+		},
+		{
+			"id": "geordnet",
+			"language": "PL",
+			"value": "uporządkowane jak wyżej "
+		},
+		{
+			"id": "geordnet",
+			"language": "ET",
+			"value": "järjestatakse nagu praegu ülevalpool"
+		},
+		{
+			"id": "geordnet",
+			"language": "BG",
+			"value": "подреждане като изброените по-горе"
+		},
+		{
+			"id": "geordnet",
+			"language": "UK",
+			"value": "порядок, показаний вище"
+		},
+		{
+			"id": "geordnet",
+			"language": "TR",
+			"value": "Yukarıda gösterilene uygun sıralama"
+		},
+		{
+			"id": "geordnet",
+			"language": "GE",
+			"value": "მოცემული თანმიმდევრობა"
+		},
+		{
+			"id": "geordnet",
+			"language": "BS",
+			"value": "Raspored po gornjem redu"
+		},
+		{
+			"id": "geordnet",
+			"language": "NL",
+			"value": "Gerangschikt zoals hierboven"
+		},
+		{
+			"id": "geordnet",
+			"language": "BY",
+			"value": "як зададзена вышэй"
+		},
+		{
+			"id": "geordnet",
+			"language": "HU",
+			"value": "a fent megadott sorrendbe rendezve"
+		},
+		{
+			"id": "geordnet",
+			"language": "PT",
+			"value": "ordenada como assinalado em cima"
+		},
+		{
+			"id": "zufällige",
+			"language": "DE",
+			"value": "zufällige Reihenfolge"
+		},
+		{
+			"id": "zufällige",
+			"language": "EN",
+			"value": "random order"
+		},
+		{
+			"id": "zufällige",
+			"language": "FR",
+			"value": "Ordre aléatoire"
+		},
+		{
+			"id": "zufällige",
+			"language": "IT",
+			"value": "Sequenza casuale"
+		},
+		{
+			"id": "zufällige",
+			"language": "RU",
+			"value": "случайный порядок "
+		},
+		{
+			"id": "zufällige",
+			"language": "RM",
+			"value": "ordinau tenor casualitad"
+		},
+		{
+			"id": "zufällige",
+			"language": "RO",
+			"value": "Ordine aleatoare"
+		},
+		{
+			"id": "zufällige",
+			"language": "PL",
+			"value": "przypadkowa kolejność"
+		},
+		{
+			"id": "zufällige",
+			"language": "ET",
+			"value": "juhuslik järjekord"
+		},
+		{
+			"id": "zufällige",
+			"language": "BG",
+			"value": "произволен ред"
+		},
+		{
+			"id": "zufällige",
+			"language": "UK",
+			"value": "випадковий порядок"
+		},
+		{
+			"id": "zufällige",
+			"language": "TR",
+			"value": "Rastgele sıralama"
+		},
+		{
+			"id": "zufällige",
+			"language": "GE",
+			"value": "შემთხვევითი თანმიმდევრობა"
+		},
+		{
+			"id": "zufällige",
+			"language": "ES",
+			"value": "Mostrar las preguntas en orden aleatorio"
+		},
+		{
+			"id": "zufällige",
+			"language": "BS",
+			"value": "Slučajni redoslijed"
+		},
+		{
+			"id": "zufällige",
+			"language": "NL",
+			"value": "Willekeurige volgorde"
+		},
+		{
+			"id": "zufällige",
+			"language": "BY",
+			"value": "выпадковая паслядоўнасць"
+		},
+		{
+			"id": "zufällige",
+			"language": "HU",
+			"value": "véletlenszerű sorrend"
+		},
+		{
+			"id": "zufällige",
+			"language": "PT",
+			"value": "forma aleatória"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "DE",
+			"value": "Auch bei falscher Antwort geht es zur nächsten Frage. Die richtige(n) Antwort(en) werden dann farblich hervorgehoben. Am Ende gibt es eine Zusammenfassung, wie viele richtige Antworten gegeben wurden. Ohne Auswertung wird bei jeder Frage so lange ausgewählt, bis die richtige Antwort gefunden ist."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "DE",
+			"value": "Auch bei falscher Antwort geht es zur nächsten Frage. Die richtige(n) Antwort(en) werden dann farblich hervorgehoben. Am Ende gibt es eine Zusammenfassung, wie viele richtige Antworten gegeben wurden. Ohne Auswertung wird bei jeder Frage so lange ausgewählt, bis die richtige Antwort gefunden ist."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "EN",
+			"value": "Even if a wrong answer has been given you will procede to the next question. The right answer(s) will be coloured. At the end there will be a summary of how many right answers have been given. Without evaluation you will have to continue chosing an answer untill you have found the right one."
+		},
+		{
+			"id": "Auswertung",
+			"language": "DE",
+			"value": "Auswertung am Ende"
+		},
+		{
+			"id": "Auswertung",
+			"language": "DE",
+			"value": "Auswertung am Ende"
+		},
+		{
+			"id": "Auswertung",
+			"language": "EN",
+			"value": "Evaluation at the end"
+		},
+		{
+			"id": "Auswertung",
+			"language": "FR",
+			"value": "Évaluation à la fin"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "PL",
+			"value": "Nawet w przypadku błędnej odpowiedzi, przechodzimy do następnego pytania. Prawidłowe odpowiedzi są wtedy podświetlane. Na końcu znajduje się podsumowanie ile poprawnych odpowiedzi zostało podanych. Bez oceny, wybierasz tak długo, aż znajdziesz właściwą odpowiedź."
+		},
+		{
+			"id": "Auswertung",
+			"language": "PL",
+			"value": "Ocena po zakończeniu "
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "ET",
+			"value": "Isegi vale vastuse korral on võimalik liikuda edasi järgmise küsimuse juurde. Õiged vastused on rohelisega märgistatud. Lõpus on kokkuvõte, kui palju täielikult õigeid vastuseid anti. Ilma hindamiseta variandi korral pead valima niikaua, kuni oled leidnud õiged vastused."
+		},
+		{
+			"id": "Auswertung",
+			"language": "ET",
+			"value": "Kontrollimine testi lõpus"
+		},
+		{
+			"id": "Auswertung",
+			"language": "RM",
+			"value": "Evaluaziun alla fin"
+		},
+		{
+			"id": "Auswertung",
+			"language": "RU",
+			"value": "Оценка в конце"
+		},
+		{
+			"id": "Auswertung",
+			"language": "UK",
+			"value": "Оцінка в кінці"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "UK",
+			"value": "Навіть при неправильній відповіді відбувається перехід до наступного питання. Правильна відповідь буде виділена кольором. В кінці є підсумок про кількість правильних відповідей. Інакше, потрібно дати правильну відповідь для переходу до наступного запитання."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "TR",
+			"value": "Cevaplar yanlış da olsa, diğer soruya geçilecektir. Bu durumda doğru cevaplar farklı renkle gösterilmektedir. En sonunda kaç sorunun doğru cevaplandırıldığı gösterilmektedir. Değerlendirme olmadan, her soruda doğru cevap bulununcaya kadar şıkları seçmeye devam edilecektir. Doğru cevap bulunmadan diğer soruya geçmek mümkün olmayacaktır."
+		},
+		{
+			"id": "Auswertung",
+			"language": "TR",
+			"value": "Değerlendirme sonunda"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "GE",
+			"value": "არასწორი პასუხის შემთხვევაში ვიქტორინა გადაინაცვლებს მომდევნო კითხვაზე. სწორი პასუხი ნაჩვენები იქნება. სწორი პასუხების რაოდენობაზე რეზიუმე კეთდება ბოლოს. საბოლოო შეფასება არ განხორციელდება ვიდრე თითოეულ კითხვაზე არ იქნება ნაპოვნი სწორი პასუხი."
+		},
+		{
+			"id": "Auswertung",
+			"language": "GE",
+			"value": "რეზიუმე გაკეთდეს ბოლოს"
+		},
+		{
+			"id": "Auswertung",
+			"language": "ES",
+			"value": "Evaluación al final"
+		},
+		{
+			"id": "Auswertung",
+			"language": "BG",
+			"value": "Оценка накрая"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "BS",
+			"value": "Čak i nakon pogrešnog odgovora ide na sljedeće pitanje. Tačan odgovor ili odgovori će biti naglašeni drugom bojom. Na kraju će biti sažetak sa brojem tačnih odgovora. Bez evaluacije morate birati sve dok ne pronađete tačan odgovor."
+		},
+		{
+			"id": "Auswertung",
+			"language": "BS",
+			"value": "Ocjena na kraju"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "NL",
+			"value": "Ook bij een fout antwoord, gaat de oefening naar de volgende vraag. De juiste antwoord(en) worden dan gemarkeerd. Op het einde is er dan een overzicht van het aantal juiste antwoorden. Zonder evaluatie moet je blijven verder kiezen tot je het juiste antwoord hebt gevonden."
+		},
+		{
+			"id": "Auswertung",
+			"language": "NL",
+			"value": "Evaluatie op het einde"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "PT",
+			"value": "Mesmo a partir de uma falsa resposta continua  para a próxima pergunta. A resposta certa (s) ficará com a cor destacada. Há um resumo sobre quantos acertos foram feitos no final. Sem avaliação tem que escolher, desde que você encontre a resposta certa."
+		},
+		{
+			"id": "Auswertung",
+			"language": "PT",
+			"value": "Avaliação no final"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "FR",
+			"value": "Même avec une réponse erronée, on passe à la question suivante. La réponse correcte est surlignée. Un récapitulatif du score apparaît à la fin. Tant que la réponse n'a pas été trouvée, il faut modifier son choix."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "HU",
+			"value": "Hibás válasz esetén is a következő kérdésre tér át. A helyes válasz(ok) színessel lesz kiemelve. A végén megjelenik egy összefoglalás, hogy hány helyes válasz született. Minden egyes kérdés esetén kiértékelés nélkül addig lehet próbálkozni a válaszadással, míg a helyes választ meg nem találja a játékos."
+		},
+		{
+			"id": "Auswertung",
+			"language": "HU",
+			"value": "Kiértékelés a végén"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "BG",
+			"value": "Дори при неправилен отговор се преминава към следващия въпрос. Правилните отговори са подчертани. Накрая се появява резюме с броя на правилните отговори.  "
+		},
+		{
+			"id": "optional",
+			"language": "TR",
+			"value": "isteğe bağlı"
+		},
+		{
+			"id": "Einleitung",
+			"language": "TR",
+			"value": "Giriş"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "TR",
+			"value": "Öncelikle soruyu yazın. Her bir soruya dörde kadar çözüm şıkkı yaza bilirsiniz. İsteğe bağlı olarak, her cevap için bilgilendirme veya açıklama bulunan kısa bir metinle geri dönüşümde buluna bilirsiniz. "
+		},
+		{
+			"id": "Weiter",
+			"language": "TR",
+			"value": "bir sonraki soru"
+		},
+		{
+			"id": "Einleitung",
+			"language": "FR",
+			"value": "Introduction"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "FR",
+			"value": "Spécifiez une question et jusqu'à 4 réponses possibles. En option, un indice pour chaque réponse peut être donnée."
+		},
+		{
+			"id": "Weiter",
+			"language": "FR",
+			"value": "Question suivante"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "ES",
+			"value": "¿Correcto?"
+		},
+		{
+			"id": "optional",
+			"language": "FR",
+			"value": "optionnel"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "IT",
+			"value": "Specificare una domanda e fino a 4 possibili risposte. Opzione: un testo di feedback per ogni risposta"
+		},
+		{
+			"id": "Einleitung",
+			"language": "IT",
+			"value": "impostazioni"
+		},
+		{
+			"id": "Weiter",
+			"language": "IT",
+			"value": "Domanda successiva"
+		},
+		{
+			"id": "optional",
+			"language": "IT",
+			"value": "opzionale"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "IT",
+			"value": "Anche con una risposta sbagliata si va alla domanda successiva. Le risposte giuste vengono evidenziate. Alla fine c'è un riepilogo delle risposte corrette. Senza valutazione."
+		},
+		{
+			"id": "Auswertung",
+			"language": "IT",
+			"value": "Alla fine"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BY",
+			"value": "Фонавая выява"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BY",
+			"value": "Абярыце фонавую выяву для гэтага практыкавання."
+		},
+		{
+			"id": "Fragen",
+			"language": "BY",
+			"value": "Пытанні"
+		},
+		{
+			"id": "Sortieren",
+			"language": "ES",
+			"value": "Ordenar preguntas"
+		},
+		{
+			"id": "Weiter",
+			"language": "EN",
+			"value": "next question"
+		},
+		{
+			"id": "Weiter",
+			"language": "RU",
+			"value": "Следующий вопрос"
+		},
+		{
+			"id": "Weiter",
+			"language": "ES",
+			"value": "Siguiente pregunta"
+		},
+		{
+			"id": "Weiter",
+			"language": "RM",
+			"value": "Proxima damonda"
+		},
+		{
+			"id": "Weiter",
+			"language": "RO",
+			"value": "Următoarea intrebare"
+		},
+		{
+			"id": "Weiter",
+			"language": "GL",
+			"value": "Seguinte pregunta"
+		},
+		{
+			"id": "Weiter",
+			"language": "PL",
+			"value": "następne pytanie "
+		},
+		{
+			"id": "Weiter",
+			"language": "BG",
+			"value": "следващ въпрос"
+		},
+		{
+			"id": "Weiter",
+			"language": "ET",
+			"value": "järgmine küsimus"
+		},
+		{
+			"id": "Weiter",
+			"language": "NL",
+			"value": "Volgende vraag"
+		},
+		{
+			"id": "Weiter",
+			"language": "UK",
+			"value": "Наступне питання"
+		},
+		{
+			"id": "Weiter",
+			"language": "GE",
+			"value": "შემდეგი კითხვა"
+		},
+		{
+			"id": "Weiter",
+			"language": "BS",
+			"value": "Sljedeće pitanje"
+		},
+		{
+			"id": "Weiter",
+			"language": "BY",
+			"value": "Наступнае пытанне"
+		},
+		{
+			"id": "Weiter",
+			"language": "HU",
+			"value": "Következő kérdés"
+		},
+		{
+			"id": "Weiter",
+			"language": "PT",
+			"value": "próxima questão"
+		},
+		{
+			"id": "optional",
+			"language": "RM",
+			"value": "Opziunal"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RM",
+			"value": "Indichescha ina damonda e tochen 4 pusseivladads da risposta. Opziunalmein san ins endatar in text da resun (motivaziun) per mintga risposta."
+		},
+		{
+			"id": "addAnswer",
+			"language": "RM",
+			"value": "Aschuntar ulteriuras opziuns da risposta"
+		},
+		{
+			"id": "Einleitung",
+			"language": "RM",
+			"value": "Introducziun"
+		},
+		{
+			"id": "addQuestion",
+			"language": "RM",
+			"value": "Aschuntar ulteriuras damondas"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "RM",
+			"value": "Era sche la risposta einfallida va ei vinavon alla proxima damonda. La(s) risposta(s) correcta(s) vegnan lu marcadas cun colur. Alla fin suonda ina resumaziun che indichescha il diember dallas rispostas correctas. Senza ina evaluaziun vegn elegiu aschi ditg, entochen che la risposta correcta ei anflada."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy kérdést legfeljebb 4 válaszlehetőséggel. Ha szeretne, minden válaszhoz írhat visszajelzést (indoklást)."
+		},
+		{
+			"id": "optional",
+			"language": "HU",
+			"value": "választható"
+		},
+		{
+			"id": "Einleitung",
+			"language": "HU",
+			"value": "Bevezetés"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Kvíz s více odpověďmi"
+		},
+		{
+			"id": "Einleitung",
+			"language": "CZ",
+			"value": "Úvod"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "CZ",
+			"value": "Obrázek na pozadí"
+		},
+		{
+			"id": "Sortieren",
+			"language": "CZ",
+			"value": "Roztřídit otázky"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, všechny otázky zodpovězeny správně."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte text, který se zobrazí při správném řešení úlohy."
+		},
+		{
+			"id": "Frage",
+			"language": "CZ",
+			"value": "Otázka"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "optional",
+			"language": "CZ",
+			"value": "volitelné"
+		},
+		{
+			"id": "Antwort",
+			"language": "CZ",
+			"value": "Odpověď"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "CZ",
+			"value": "Správně?"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "CZ",
+			"value": "Volitelně můžete vybrat obrázek na pozadí této šablony"
+		},
+		{
+			"id": "zufällige",
+			"language": "CZ",
+			"value": "náhodné pořadí"
+		},
+		{
+			"id": "addAnswer",
+			"language": "CZ",
+			"value": "Přidal další možnost odpovědi"
+		},
+		{
+			"id": "Fragen",
+			"language": "CZ",
+			"value": "Otázky"
+		},
+		{
+			"id": "Weiter",
+			"language": "CZ",
+			"value": "Další otázka"
+		},
+		{
+			"id": "addQuestion",
+			"language": "CZ",
+			"value": "Přidat další otázku"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "CZ",
+			"value": "Otázky mohou mít pevně dané nebo náhodné pořadí."
+		},
+		{
+			"id": "geordnet",
+			"language": "CZ",
+			"value": "Uspořádání podle výše uvedeného pořadí"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte otázku a k ní až 4 možnosti odpovědi. Pro každou odpověď lze případně zadat odůvodnění její správnosti."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "CZ",
+			"value": "I při špatné odpovědi přejde kvíz automaticky na další otázku a zvýrazní se správná odpověď chybně zodpovězené otázky. Nakonec je shrnuto, kolik správných odpovědí bylo vyplněno. Bez položky vyhodnocení je každá otázka tak dlouho zobrazena, dokud nebude nalezena její správná odpověď."
+		},
+		{
+			"id": "Auswertung",
+			"language": "CZ",
+			"value": "Vyhodnocení na konci"
+		},
+		{
+			"id": "Einleitung",
+			"language": "BS",
+			"value": "Uputstvo"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BS",
+			"value": "Za svako pitanje unesite do četiri moguća odgovora. "
+		},
+		{
+			"id": "optional",
+			"language": "BS",
+			"value": "opcionalno"
+		},
+		{
+			"id": "Einleitung",
+			"language": "PL",
+			"value": "Wprowadzenie"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "PL",
+			"value": "Wpisz jedno pytanie i maksymalnie 4 możliwe odpowiedzi. Opcjonalnie do każdej odpowiedzi można podać tekst z wyjaśnieniami (uzasadnienie)."
+		},
+		{
+			"id": "optional",
+			"language": "PL",
+			"value": "opcja"
+		},
+		{
+			"id": "Einleitung",
+			"language": "RO",
+			"value": "Introducere"
+		},
+		{
+			"id": "optional",
+			"language": "RO",
+			"value": "opțional"
+		},
+		{
+			"id": "addAnswer",
+			"language": "RO",
+			"value": "Adaugă altă opțiune de răspuns"
+		},
+		{
+			"id": "addQuestion",
+			"language": "RO",
+			"value": "Adaugă altă întrebare"
+		},
+		{
+			"id": "Auswertung",
+			"language": "RO",
+			"value": "Evaluare finală"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "RO",
+			"value": "Și dacă răspunsul este incorect, se merge la următoarea întrebare. Răspunsul (răspunsurile) corect va (vor)  fi evidențiat(e)în culori. La final există un rezumat cu răspunsuri corecte au fost date. Fără evaluare, fiecare întrebare este selectată până când este găsit răspunsul corect."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RO",
+			"value": "Indicați câte o întrebare și până la 4 opțiuni de răspuns. Opțional se poate indica un text cu feedback (justificare) pentru fiecare răspuns."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Preguntas de opción múltiple"
+		},
+		{
+			"id": "Einleitung",
+			"language": "ES",
+			"value": "Introducción"
+		},
+		{
+			"id": "optional",
+			"language": "ES",
+			"value": "Opcional"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ES",
+			"value": "Imagen de fondo"
+		},
+		{
+			"id": "addQuestion",
+			"language": "ES",
+			"value": "Añadir una pregunta"
+		},
+		{
+			"id": "addAnswer",
+			"language": "ES",
+			"value": "Otras respuestas posibles"
+		},
+		{
+			"id": "geordnet",
+			"language": "ES",
+			"value": "Mostrar las preguntas en el orden de arriba"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ES",
+			"value": "Elija una imagen de fondo (opcional)"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "ES",
+			"value": "El orden de las preguntas puede ser fijo o aleatorio."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "ES",
+			"value": "Para cada pregunta puede dar un máximo de cuatro respuestas posibles. Además se puede añadir feedback para cada respuesta (opcional)."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Añada un texto que se mostrará cuando las preguntas hayan sido contestadas de forma correcta."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "ES",
+			"value": "También se pasa a la siguiente pregunta cuando la respuesta no es correcta. Las respuestas correctas son marcadas con un color distinto. Al final se informa al alumno sobre la cantidad de preguntas que ha contestado correctamente. Sin la opción de valoración se puede seguir contestando a la pregunta hasta encontrar la respuesta correcta."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "EN",
+			"value": "Provide a question and up to 4 possible answers per question. Optionally you can add a feedback-text (explanation) for every answer."
+		},
+		{
+			"id": "Einleitung",
+			"language": "RU",
+			"value": "вступление"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RU",
+			"value": "Введите вопрос и до 4 возможных ответов. По желанию для каждого ответа можно указать текст отзыва (причину)."
+		},
+		{
+			"id": "optional",
+			"language": "RU",
+			"value": "необязательный"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "RU",
+			"value": "Даже если ответ неверен, он переходит к следующему вопросу. Правильный ответ (-и) затем выделяется цветом. В конце указано, сколько правильных ответов было дано. Без оценки каждый вопрос выбирается до тех пор, пока не будет найден правильный ответ."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GL",
+			"value": "Imaxe de fondo"
+		},
+		{
+			"id": "Sortieren",
+			"language": "GL",
+			"value": "Ordenar as preguntas"
+		},
+		{
+			"id": "Antwort",
+			"language": "GL",
+			"value": "Respostas"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Testas su atsakymų variantais"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "LT",
+			"value": "Fono vaizdas"
+		},
+		{
+			"id": "Einleitung",
+			"language": "LT",
+			"value": "Įvadas"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "LT",
+			"value": "Jei norite, galite pasirinkti fono vaizdą"
+		},
+		{
+			"id": "optional",
+			"language": "LT",
+			"value": "pasirinktinai"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "LT",
+			"value": "Klausimai gali būti rodomi atsitiktine arba numatyta tvarka."
+		},
+		{
+			"id": "Sortieren",
+			"language": "LT",
+			"value": "Rūšiuoti klausimus"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puikiai padirbėjai! Į visus klausimus atsakei teisingai!"
+		},
+		{
+			"id": "Fragen",
+			"language": "LT",
+			"value": "Klausimai"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "LT",
+			"value": "Įrašykite klausimą ir iki 4 galimų atsakymų (vienam klausimui). Jei norite, galite parašyti grįžtamojo ryšio tekstą (paaiškinimą) kiekvienam atsakymui."
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "Weiter",
+			"language": "LT",
+			"value": "kitas klausimas"
+		},
+		{
+			"id": "Frage",
+			"language": "LT",
+			"value": "Klausimas"
+		},
+		{
+			"id": "addAnswer",
+			"language": "LT",
+			"value": "pridėti kitą atsakymo variantą"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "LT",
+			"value": "Teisingai?"
+		},
+		{
+			"id": "addQuestion",
+			"language": "LT",
+			"value": "pridėti kitą klausimą"
+		},
+		{
+			"id": "zufällige",
+			"language": "LT",
+			"value": "atsitiktine tvarka"
+		},
+		{
+			"id": "geordnet",
+			"language": "LT",
+			"value": "aukščiau numatyta tvarka"
+		},
+		{
+			"id": "Antwort",
+			"language": "LT",
+			"value": "atsakymas"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "LT",
+			"value": "Net klaidingai atsakius į klausimą, bus pateikiamas sekantis klausimas. Tuomet teisingi atsakymai bus paryškinti. Pabaigoje bus rodoma suvestinė, į kiek klausimų atsakyta teisingai. Be momentinio įvertinimo reikės tol rinktis atsakymus, kol bus rastas teisingas."
+		},
+		{
+			"id": "Auswertung",
+			"language": "LT",
+			"value": "Įvertinimas pačioje pabaigoje"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Įrašykite tekstą, kuris bus rodomas teisingai išsprendus testą."
+		},
+		{
+			"id": "optional",
+			"language": "PT",
+			"value": "opcional"
+		},
+		{
+			"id": "Sortieren",
+			"language": "GR",
+			"value": "Ταξινόμηση ερωτήσεων"
+		},
+		{
+			"id": "Fragen",
+			"language": "GR",
+			"value": "Ερωτήσεις"
+		},
+		{
+			"id": "Frage",
+			"language": "GR",
+			"value": "Ερώτηση"
+		},
+		{
+			"id": "Antwort",
+			"language": "GR",
+			"value": "Απάντηση"
+		},
+		{
+			"id": "Weiter",
+			"language": "GR",
+			"value": "επόμενη ερώτηση"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "GR",
+			"value": "Σωστά;"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Τέλεια, τα έχεις λύσει όλα σωστά."
+		},
+		{
+			"id": "zufällige",
+			"language": "GR",
+			"value": "τυχαία σειρά"
+		},
+		{
+			"id": "Auswertung",
+			"language": "GR",
+			"value": "Αξιολόγηση στο τέλος"
+		},
+		{
+			"id": "geordnet",
+			"language": "GR",
+			"value": "ταξινόμηση σύμφωνα με το παραπάνω"
+		},
+		{
+			"id": "optional",
+			"language": "GR",
+			"value": "προαιρετικό"
+		},
+		{
+			"id": "addQuestion",
+			"language": "GR",
+			"value": "προσθήκη και άλλων ερωτήσεων"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "GR",
+			"value": "Εισαγάγετε μια ερώτηση και έως και 4 πιθανές απαντήσεις. Προαιρετικά, μπορεί να δοθεί ένα κείμενο σχολιασμού (λόγος επιλογής) για κάθε απάντηση."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GR",
+			"value": "Προαιρετικά, επιλέξτε μια εικόνα φόντου για αυτό το κουίζ."
+		},
+		{
+			"id": "Einleitung",
+			"language": "GR",
+			"value": "Εισαγωγή"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "GR",
+			"value": "Οι ερωτήσεις μπορούν να τεθούν τυχαία ή με τη σειρά."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Εισαγάγετε ένα κείμενο που θα εμφανιστεί όταν έχει λυθεί σωστά το κουίζ."
+		},
+		{
+			"id": "addAnswer",
+			"language": "GR",
+			"value": "προσθήκη και άλλης επιλογής απάντησης"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "GR",
+			"value": "Ακόμα κι αν η απάντηση είναι λάθος, πηγαίνει στην επόμενη ερώτηση. Στη συνέχεια, οι σωστές απαντήσεις επισημαίνονται με χρώμα. Στο τέλος υπάρχει μια περίληψη του πόσες σωστές απαντήσεις δόθηκαν. Χωρίς αξιολόγηση, κάθε ερώτηση επιλέγεται μέχρι να βρεθεί η σωστή απάντηση."
+		},
+		{
+			"id": "Einleitung",
+			"language": "NL",
+			"value": "Inleiding"
+		},
+		{
+			"id": "optional",
+			"language": "NL",
+			"value": "Optioneel"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "NL",
+			"value": "Voer een vraag en maximaal 4 mogelijke antwoorden in. Optioneel kan bij elk antwoord een feedbacktekst (reden) worden gegeven."
+		}
+	],
+	"path": "https://learningapps.org/tools/77/33/",
+	"fromCache": 1,
+	"version": "33"
+};

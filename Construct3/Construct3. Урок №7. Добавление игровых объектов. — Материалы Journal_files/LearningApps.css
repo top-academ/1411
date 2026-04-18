@@ -1,0 +1,168 @@
+/* Additional LearningApps.org CSS for all Apps */
+i.popup {
+    background:#F8F8F8;
+    border-radius:1em;
+    color:black;
+    border:0.1em solid black;
+    text-align:center;
+    font-size:80%;
+    line-height:1.1em;
+    font-style:normal;
+    vertical-align:middle;
+    display:inline-block;
+    height:calc(1em + 0.2em + 8px);
+    overflow:hidden;
+    padding:4px;
+    cursor:help;
+    box-sizing: border-box;
+}
+i.popup:empty:before{
+    content:" ? ";
+}
+i.popup:after{
+    font-style:normal;
+    background: #F8F8F8;
+    border: 0.2em solid #666;
+    border-radius:1em;
+    color: #333;
+    font-size: 13px;
+    line-height:1.2em;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    margin-top: 0;
+    padding:0.8em;
+    overflow:auto;
+    content:attr(text);
+    max-width:15em;
+    margin-top:-0.9em;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition   : all 0.4s ease;
+    opacity:0;
+    pointer-events:none;
+}
+i.popup:hover:after{
+    opacity:1;
+}
+/* Bootstrap popover panels */
+.popover {
+    z-index:5500 !important;
+}
+
+#AppClientTaskPanel > div {
+  font-size: 120%;
+}
+#AppClientHelpPanel > div {
+  font-size: 120%;
+}
+#AppClientFeedbackPanel > div {
+  font-size: 120%;
+}
+
+/* Check button in right lower corner */
+
+#checksolutionBtnPanel, .largeBlueButtonPanel {
+  position: absolute;
+  position: fixed;
+  text-align: right;
+  z-index: 5000;
+  pointer-events: none;
+}
+#checksolutionBtnPanel{
+  bottom: 1em;
+  right: 1em;
+}
+#checkSolutionBtn, .largeBlueButton {
+  display: inline-block;
+  outline:none;
+  position: relative;
+  color: white;
+  font-size: 1.4em;  
+  pointer-events: auto;
+  padding: 0.5em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 5em;
+  box-shadow: #333 0px 1px 2px;
+  background-color: #36a5eb;
+  background-image: -moz-linear-gradient(top, #36a5eb, #2e73d3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36a5eb), to(#2e73d3));
+  background-image: -webkit-linear-gradient(top, #36a5eb, #2e73d3);
+  background-image: -o-linear-gradient(top, #36a5eb, #2e73d3);
+  background-image: linear-gradient(to bottom, #36a5eb, #2e73d3);
+  background-repeat: repeat-x;
+  border-color: #2e73d3 #2e73d3 #36a5eb;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -ms-touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#checkSolutionBtn:hover, .largeBlueButton:hover {
+  background-color: #46b5fb;
+  background-image: -moz-linear-gradient(top, #46b5fb, #3e83e3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#46b5fb), to(#3e83e3));
+  background-image: -webkit-linear-gradient(top, #46b5fb, #3e83e3);
+  background-image: -o-linear-gradient(top, #46b5fb, #3e83e3);
+  background-image: linear-gradient(to bottom, #46b5fb, #3e83e3);
+}
+
+body > .modal {
+  z-index:6000;
+}
+
+.MathJax {
+  pointer-events:none;
+}
+.resizeText {
+ -ms-hyphens: auto;
+ -moz-hyphens: auto;
+ -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+audio {
+  display:block;
+  width:100% !important;
+  min-height: 30px;
+  min-width: 30px !important;
+}
+
+@media print {
+    #AppClientLoadingPanel,
+    #AppClientFullscreenButton,
+    #AppClientHelpButton,
+    #AppClientTaskButton {
+        display:none;
+    }
+}
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/LexendDeca-Regular.woff2') format('woff2'),
+       url('/fonts/LexendDeca-Regular.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/LexendDeca-Regular.woff2') format('woff2'),
+       url('/fonts/LexendDeca-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+

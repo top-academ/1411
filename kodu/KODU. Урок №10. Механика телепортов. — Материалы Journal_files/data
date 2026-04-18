@@ -1,0 +1,2061 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "hint1=text%7C%D0%A1%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D1%87%D0%B5%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B0%3F%7C&word1=text%7C%D0%9F%D1%83%D1%82%D1%8C&hint2=text%7C%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%20%D0%B2%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B5%20%D0%BF%D1%83%D1%82%D1%8C%2C%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%B8%D0%B3%D1%80%D1%83%20%D1%86%D0%B2%D0%B5%D1%82%D1%8B%3F%7C&word2=text%7C%D0%A4%D0%BB%D0%BE%D1%80%D0%B0&hint3=text%7C%D0%A1%20%D0%BD%D0%B5%D0%B5%20%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BA%D0%B8%D1%81%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F..%7C&word3=text%7C%D0%97%D0%B5%D0%BC%D0%BB%D0%B8&hint4=text%7C%D0%93%D0%B4%D0%B5%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%B9%20%D1%83%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B0%3F%7C&word4=text%7C%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8&hint5=text%7C%D0%96%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%B8%D0%B3%D1%80%D0%B5%7C&word5=text%7C%D0%92%D0%BE%D0%B4%D0%B0&hint6=text%7C%D0%A7%D1%82%D0%BE%20%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D1%8F%D0%BB%D0%BE%D1%81%D1%8C%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BD%D0%BE%3F%7C&word6=text%7C%D0%92%D1%81%D0%B5%D0%B3%D0%B4%D0%B0&loesungswort=%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0&feedback=%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%2C%20%D1%82%D1%8B%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D0%BB%28%D0%B0%29%20%D0%B2%D1%81%D0%B5%20%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%21",
+	"title": "Урок 10. Финальная игра",
+	"tool": "40",
+	"helptext": "",
+	"tasktext": "Отгадайте слова, чтобы разгадать слово!",
+	"formlanguage": "RU",
+	"language": "RU",
+	"parameters": [
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "backgroundImage",
+			"label": "%Hintergrundbild%",
+			"type": "media",
+			"description": "%HintergrundbildBeschreibung%",
+			"media": "image"
+		},
+		{
+			"t": "list",
+			"label": "%Fragen%",
+			"description": "%FragenBeschreibung%",
+			"name": "words",
+			"min": "1",
+			"max": 20,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "hint#",
+					"label": "%Frage%",
+					"type": "media",
+					"description": "",
+					"media": "text|image|video|audio|speech",
+					"usehint": "true"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "word#",
+					"label": "%Lösung%",
+					"type": "media",
+					"description": "",
+					"media": "text"
+				},
+				{
+					"t": "space",
+					"value": "20"
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "loesungswort",
+			"label": "%Lösungswort%",
+			"type": "text",
+			"description": "%LösungswortBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "false",
+			"width": "",
+			"height": "",
+			"name": "fixiert",
+			"label": "%FixiertesWort%",
+			"type": "check",
+			"description": "%FixiertesWortBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Kreuzworträtsel"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Crossword"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Klassisches Kreuzworträtsel erstellen."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "Create a classical crossword."
+		},
+		{
+			"id": "Prüfen",
+			"language": "DE",
+			"value": "Lösung überprüfen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "EN",
+			"value": "Check solution"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which is displayed when the solution is found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast die richtige Lösung gefunden."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you found the right solution."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "DE",
+			"value": "Hintergrundbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "EN",
+			"value": "Background image"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie optional ein Hintergrundbild für dieses Rätsel aus."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "EN",
+			"value": "Select a background image for the crossword if you like."
+		},
+		{
+			"id": "Fragen",
+			"language": "DE",
+			"value": "Fragen"
+		},
+		{
+			"id": "Fragen",
+			"language": "EN",
+			"value": "Questions"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie hier jeweils eine Frage und das gesuchte Lösungswort an."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "EN",
+			"value": "Provide the questions for the crossword puzzle."
+		},
+		{
+			"id": "waagerecht",
+			"language": "DE",
+			"value": "waagrecht"
+		},
+		{
+			"id": "waagerecht",
+			"language": "EN",
+			"value": "horizontal"
+		},
+		{
+			"id": "senkrecht",
+			"language": "DE",
+			"value": "senkrecht"
+		},
+		{
+			"id": "senkrecht",
+			"language": "EN",
+			"value": "vertical"
+		},
+		{
+			"id": "Frage",
+			"language": "DE",
+			"value": "Frage"
+		},
+		{
+			"id": "Frage",
+			"language": "EN",
+			"value": "Question"
+		},
+		{
+			"id": "Lösung",
+			"language": "DE",
+			"value": "Lösungswort"
+		},
+		{
+			"id": "Lösung",
+			"language": "EN",
+			"value": "Solution"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "DE",
+			"value": "Lösungswort"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "EN",
+			"value": "Solution word"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie optional ein Lösungswort an, welches automatisch aus Buchstaben im Rätsel gebildet wird. Es müssen alle Buchstaben des Lösungswortes im Rätsel enthalten sein!"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "EN",
+			"value": "Provide an optional solution word containing characters from the crossword."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "DE",
+			"value": "Feste Ausrichtung"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "EN",
+			"value": "Fixed alignment"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "DE",
+			"value": "Kreuzworträtsel vertikal am Lösungswort ausrichten. Dazu müssen die Zeichen des Lösungsworts in den Antworten der einzelnen Fragen enthalten sein. Zeichen 1 muss in Antwort 1 enthalten sein, Zeichen 2 in Antwort 2 usw."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "EN",
+			"value": "Align crossword vertically along solution word. In order to align a crossword each character of the solution term must be part of the solution of each question. Character 1 must be part of answer 1, Character 2 must be part of answer 2 and so on."
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affichera lorsque la bonne solution aura été trouvée."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Indica un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as trouvé la bonne solution!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico, hai trovato la risposta giusta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты выполнил(а) все верно!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Напишите здесь текст, который будет высвечиваться, если найдено правильное решение!"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Кроссворд"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Цель этой игры в том, чтобы разгадать кроссворд."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Créer une grille de mots croisés classique."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Mots croisés"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Creare un cruciverba classico."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Cruciverba"
+		},
+		{
+			"id": "Frage",
+			"language": "FR",
+			"value": "Question"
+		},
+		{
+			"id": "Frage",
+			"language": "IT",
+			"value": "Domanda"
+		},
+		{
+			"id": "Frage",
+			"language": "RU",
+			"value": "Вопрос"
+		},
+		{
+			"id": "Fragen",
+			"language": "FR",
+			"value": "Questions"
+		},
+		{
+			"id": "Fragen",
+			"language": "IT",
+			"value": "Domande"
+		},
+		{
+			"id": "Fragen",
+			"language": "RU",
+			"value": "Вопросы"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "FR",
+			"value": "Image d'arrière-plan"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "IT",
+			"value": "Immagine di sfondo"
+		},
+		{
+			"id": "Prüfen",
+			"language": "FR",
+			"value": "Vérifier la réponse !"
+		},
+		{
+			"id": "Prüfen",
+			"language": "IT",
+			"value": "Verifica la soluzione"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RU",
+			"value": "Перепроверить решение"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "FR",
+			"value": "Choisissez une image d'arrière-plan"
+		},
+		{
+			"id": "waagerecht",
+			"language": "RU",
+			"value": "По горизонтали"
+		},
+		{
+			"id": "senkrecht",
+			"language": "RU",
+			"value": "По вертикали"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RU",
+			"value": "Выберите фоновую картинку для кроссворда, если желаете."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RU",
+			"value": "Фоновая картинка"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Legn cruschau"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Crear in legn cruschau."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus, sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "Prüfen",
+			"language": "RM",
+			"value": "Controllar la sligiaziun"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RM",
+			"value": "Indichescha mintgamai ina damonda e la sligiaziun."
+		},
+		{
+			"id": "Fragen",
+			"language": "RM",
+			"value": "Damondas"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RM",
+			"value": "Elegia opziunalmein in maletg davos il legn cruschau."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RM",
+			"value": "Maletg davostier"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, tut ils plaids ein corrects!"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "RM",
+			"value": "Plaid da sligiaziun"
+		},
+		{
+			"id": "Lösung",
+			"language": "RM",
+			"value": "Sligiaziun"
+		},
+		{
+			"id": "Frage",
+			"language": "RM",
+			"value": "Damonda"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "RM",
+			"value": "Alingnament fix"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "RM",
+			"value": "Indichescha opziunalmein in plaid da sligiaziun che vegn formaus automaticamein da bustabs dil legn cruschau. Tut ils bustabs dil plaid da sligiaziun ston esser avonmaun el legn cruschau!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Rebus"
+		},
+		{
+			"id": "Fragen",
+			"language": "RO",
+			"value": "Întrebări"
+		},
+		{
+			"id": "waagerecht",
+			"language": "RO",
+			"value": "orizontal"
+		},
+		{
+			"id": "senkrecht",
+			"language": "RO",
+			"value": "vertical"
+		},
+		{
+			"id": "Frage",
+			"language": "RO",
+			"value": "Întrebare"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RO",
+			"value": "Imagine fundal"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Alcătuiește un rebus clasic"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai găsit soluția corectă! "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă. "
+		},
+		{
+			"id": "Prüfen",
+			"language": "RO",
+			"value": "Verifică soluția "
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RO",
+			"value": "Indicați aici căte o intrebare și soluția căutată."
+		},
+		{
+			"id": "Lösungswort",
+			"language": "RO",
+			"value": "Cuvântul soluție "
+		},
+		{
+			"id": "Lösung",
+			"language": "RO",
+			"value": "Cuvântul soluție"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RO",
+			"value": "Alegeți opțional o imagine de fundal pentru acest rebus"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "RO",
+			"value": "Aliniere fixă"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "RO",
+			"value": "Indicați opțional un cuvânt soluție, care se formează automat din litere în ghicitoare. Toate literele cuvântului soluție trebuie să fie conținute in ghicitoare."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "RO",
+			"value": "Aliniază rebusul vertical la cuvântul soluție. Toate semnele cuvântului soluție trebuie să fie conținute în răspunsurile fiecărora dintre întrebări. Semnul 1 trebuie să fie conținut în răspunsul 1, semnul 2 în răspunsul 2, samd"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GL",
+			"value": "Encrucillado"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GL",
+			"value": "Comprobar a solución"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, acertaches coa solución."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Krzyżówka"
+		},
+		{
+			"id": "Prüfen",
+			"language": "ES",
+			"value": "Ver solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PL",
+			"value": "Sprawdź rozwiązanie."
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "Frage",
+			"language": "GL",
+			"value": "Cuestión"
+		},
+		{
+			"id": "Frage",
+			"language": "PL",
+			"value": "Pytanie"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Super, znalazłeś prawidłowe rozwiązanie"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PL",
+			"value": "Tło "
+		},
+		{
+			"id": "Fragen",
+			"language": "PL",
+			"value": "Pytania"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "PL",
+			"value": "Podaj każdorazowo jedno pytanie oraz  szukane  słowo."
+		},
+		{
+			"id": "Lösung",
+			"language": "PL",
+			"value": "Słowo szukane"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PL",
+			"value": "Wybierz opcje tła dla tej krzyżówki"
+		},
+		{
+			"id": "senkrecht",
+			"language": "PL",
+			"value": "pionowo"
+		},
+		{
+			"id": "waagerecht",
+			"language": "PL",
+			"value": "poziomo"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Tekst informacji zwrotnej wyświetlanej gdy rozwiązanie jest prawidłowe."
+		},
+		{
+			"id": "Lösungswort",
+			"language": "PL",
+			"value": "Hasło - rozwiązanie krzyżówki."
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "PL",
+			"value": "Podaj opcjonalne hasło zawierające litery z poszczególnych odpowiedzi krzyżówki"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RU",
+			"value": "Введите вопросы для кроссворда."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Utwórz klasyczną krzyżówkę."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "PL",
+			"value": "Popraw ustawienie"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "PL",
+			"value": "Wyrównaj krzyżówkę w pionie wzdłuż słowa rozwiązania. W celu dostosowania krzyżówki każda litera słowa rozwiązanie musi być częścią rozwiązania danego pytania. Litera 1 musi występować w odpowiedzi 1, Litera 2 musi występować w odpowiedzi 2 i tak dalej."
+		},
+		{
+			"id": "Lösung",
+			"language": "RU",
+			"value": "Ответ"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Ristsõna"
+		},
+		{
+			"id": "waagerecht",
+			"language": "IT",
+			"value": "orizzontale"
+		},
+		{
+			"id": "senkrecht",
+			"language": "IT",
+			"value": "verticale"
+		},
+		{
+			"id": "Lösung",
+			"language": "IT",
+			"value": "Soluzione"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "IT",
+			"value": "Soluzione"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Loo sõnasegadik"
+		},
+		{
+			"id": "Prüfen",
+			"language": "ET",
+			"value": "Kontrollige lahendust"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, sa oled leidnud õige lahenduse."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ET",
+			"value": "Taustapilt"
+		},
+		{
+			"id": "Fragen",
+			"language": "ET",
+			"value": "Küsimused"
+		},
+		{
+			"id": "Frage",
+			"language": "ET",
+			"value": "küsimus"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "RU",
+			"value": "Ключевое слово"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Crucigrama"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Кръстословица"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Направи класическа кръстословица."
+		},
+		{
+			"id": "Prüfen",
+			"language": "BG",
+			"value": "Провери решението"
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BG",
+			"value": "Създаване на въпроси за кръстословицата."
+		},
+		{
+			"id": "Fragen",
+			"language": "BG",
+			"value": "Въпроси"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BG",
+			"value": "Изберете фоново изображение за кръстословицата, ако желаете."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BG",
+			"value": "Фоново изображение"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Страхотно, ти намери правилното решение."
+		},
+		{
+			"id": "Lösungswort",
+			"language": "BG",
+			"value": "Решена дума"
+		},
+		{
+			"id": "Lösung",
+			"language": "BG",
+			"value": "Решение"
+		},
+		{
+			"id": "Frage",
+			"language": "BG",
+			"value": "Въпрос"
+		},
+		{
+			"id": "senkrecht",
+			"language": "BG",
+			"value": "вертикално"
+		},
+		{
+			"id": "waagerecht",
+			"language": "BG",
+			"value": "хоризонтално"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Çengelli bulmaca"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Klasik çengelli bulmaca oluştur"
+		},
+		{
+			"id": "Prüfen",
+			"language": "TR",
+			"value": "Çözümü kontrol et"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüm bulunduğunda okunmasını istediğiniz bir metin varsa, buraya yazın:"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "TR",
+			"value": "Arkaplan resmi"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "TR",
+			"value": "Opsiyon olarak bu çengelli bulmaca için bir arkaplan resmi seçebilirsiniz:"
+		},
+		{
+			"id": "Fragen",
+			"language": "TR",
+			"value": "Sorular"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "TR",
+			"value": "Buraya sadece bir soru ve cevabını giriniz. \nDikkat! Sorularının cevabını mutlaka küçük harflerle yazınız. Bazı Türkçe harflerinin sistem tarafından doğru algılanması için bu gereklidir."
+		},
+		{
+			"id": "waagerecht",
+			"language": "TR",
+			"value": "yatay"
+		},
+		{
+			"id": "senkrecht",
+			"language": "TR",
+			"value": "dikey"
+		},
+		{
+			"id": "Frage",
+			"language": "TR",
+			"value": "Soru"
+		},
+		{
+			"id": "Lösung",
+			"language": "TR",
+			"value": "Çözüm kelimesi veya cümlesi"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "TR",
+			"value": "Çözüm kelimesi veya cümlesi"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "TR",
+			"value": "Opsiyon olarak bulmacadaki harflerden oluşan bir çözüm kelimesi veya cümlesi girebilirsiniz. Çözüm kelimesindeki veya cümlesindeki harfler bulmacada mevcut olmalı. Çözüm cümlesi kullanacaksanız kelimeler arasındaki boşluk yerine alt tire kullanın.\nDikkat! Çözüm kelimesini mutlaka küçük harflerle yazınız. Bazı Türkçe harflerinin sistem tarafından doğru algılanması için bu gereklidir."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "TR",
+			"value": "Belli bir yön belirlemek"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "TR",
+			"value": "Çözüm kelimesi veya cümlesini dikey olarak bulmacanın içine yerleştir. Bunun için çözüm kelimesi veya cümlesindeki tüm harfler mutlaka bulmacada mevcut olmalıdır. Yani birinci harf,  cevap 1'in içinde, ikinci harf cevap 2'nin içinde ve devamı da aynı şekilde olmalıdır."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maaşallah, doğru çözümü buldunuz."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Кросворд"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "Метою цієї гри є розгадування кросворду"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "Fragen",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "Prüfen",
+			"language": "UK",
+			"value": "Перевірити рішення"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "UK",
+			"value": "Фонове зображення"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "UK",
+			"value": "Оберіть фонове зображення для кросворду, якщо бажаєте"
+		},
+		{
+			"id": "senkrecht",
+			"language": "UK",
+			"value": "вертикально"
+		},
+		{
+			"id": "Frage",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "UK",
+			"value": "Відповідь"
+		},
+		{
+			"id": "waagerecht",
+			"language": "UK",
+			"value": "горизонтально"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "UK",
+			"value": "Введіть питання для кросворду"
+		},
+		{
+			"id": "Lösung",
+			"language": "UK",
+			"value": "Відповідь"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "UK",
+			"value": "Фіксоване розміщення"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "UK",
+			"value": "Можете ввести слово-рішення, яке автоматично сформоване з букв  кросворду. На кожну із літер має бути передбачено одне із слів кросворду!"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "UK",
+			"value": "Вирівняти кросворд вертикально до слова-рішення. Для цього кожна із літер рішення має зустрічатись у слові-відповіді. Тобто, літера 1 має міститись у слові 1, літера 2 - у слові 2 і т.д."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "კროსვორდი"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "კლასიკური კროსვორდის შექმნა."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც ეკრანზე აისახება სწორი პასუხის შემთხვევაში"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GE",
+			"value": "პასუხის შემოწმება"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია! თქვენ ყველაფერი სწორად გააკეთეთ!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GE",
+			"value": "აუცილებლობის შემთხვევაში აირჩიეთ ფონი ამ კროსვორდისათვის."
+		},
+		{
+			"id": "Fragen",
+			"language": "GE",
+			"value": "დასვით კითხვა"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ კითხვა და საჭირო პასუხი."
+		},
+		{
+			"id": "waagerecht",
+			"language": "GE",
+			"value": "ჰორიზონტალურად"
+		},
+		{
+			"id": "senkrecht",
+			"language": "GE",
+			"value": "შევულად"
+		},
+		{
+			"id": "Frage",
+			"language": "GE",
+			"value": "კითხვა"
+		},
+		{
+			"id": "Lösung",
+			"language": "GE",
+			"value": "პასუხი"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "GE",
+			"value": "პასუხი"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "GE",
+			"value": "აუცილებლობის შემთხვევაში მიუთითეთ პაროლი, რომელიც ავტომატურად იქმნება თავსატეხის ასოებისაგან. პაროლის ყველა ასო ჩართული უნდა იყოს თავსატეხის ამოხსნაში."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "GE",
+			"value": "ფიქსირებული გასწორება"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "GE",
+			"value": "შეავსეთ კროსვორდი ვერტიკალურად. ამისათვის ცალკეული პასუხების სიმბოლოები უნდა ემთხვეოდეს ერთმანეთს. სიმბოლო 1 ჩართული უნდა იყოს პასუხ 1-ში, სიმბოლო 2, პასუხ 2-ში და ა.შ."
+		},
+		{
+			"id": "Fragen",
+			"language": "ES",
+			"value": "Preguntas"
+		},
+		{
+			"id": "Frage",
+			"language": "ES",
+			"value": "Pregunta"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Križaljka"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BS",
+			"value": "Provjera rješenja"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će biti prikazan kada bude pronađeno konačno rješenje."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Napravite klasičnu križaljku"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, rješenje je tačno."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BS",
+			"value": "Pozadinska slika"
+		},
+		{
+			"id": "Fragen",
+			"language": "BS",
+			"value": "Pitanja"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BS",
+			"value": "Odaberite pozadinsku sliku za ukrštenicu (opcionalno)"
+		},
+		{
+			"id": "senkrecht",
+			"language": "BS",
+			"value": "Uspravno"
+		},
+		{
+			"id": "Frage",
+			"language": "BS",
+			"value": "Pitanje"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "BS",
+			"value": "Rješenje"
+		},
+		{
+			"id": "Lösung",
+			"language": "BS",
+			"value": "Rješenje"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "BS",
+			"value": "Fiksirani "
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BS",
+			"value": "Unesite pitanja za ukrštenicu"
+		},
+		{
+			"id": "waagerecht",
+			"language": "BS",
+			"value": "Vodoravno"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "BS",
+			"value": "Unesite (opcionalno) riječ kao rješenje, koja će se automatski od raspoloživih slova formirati. U ukrštenici se moraju nalaziti sva slova za tražen riječ."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "BS",
+			"value": "Poravnajte riječi u ukrštenici u odnosu na riječ rješenja. Ovo znači da prvo slovo riječi rješenja mora biti sadržano u prvoj riječi ukrštenice, drugo slovo tražene riječi u drugoj riječi ukrštenice, itd."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisestage tekst, mis kuvatakse õige vastuse korral."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven wanneer de juiste oplossing is gevonden."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Prüfen",
+			"language": "NL",
+			"value": "Oplossing controleren"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Een klassiek kruiswoordraadsel opstellen."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Kruiswoordraadsel"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u heeft de juiste oplossing gevonden."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "NL",
+			"value": "Achtergrondafbeelding"
+		},
+		{
+			"id": "Fragen",
+			"language": "NL",
+			"value": "Vragen"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "NL",
+			"value": "Selecteer desgewenst een achtergrondafbeelding voor deze oefening."
+		},
+		{
+			"id": "senkrecht",
+			"language": "NL",
+			"value": "Vertikaal"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "NL",
+			"value": "Geef bij elke vraag het juiste oplossingswoord op."
+		},
+		{
+			"id": "Frage",
+			"language": "NL",
+			"value": "Vraag"
+		},
+		{
+			"id": "Lösung",
+			"language": "NL",
+			"value": "Oplossingswoord"
+		},
+		{
+			"id": "waagerecht",
+			"language": "NL",
+			"value": "Horizontaal"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "NL",
+			"value": "Oplossingswoord"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "NL",
+			"value": "Voer eventueel een woord in als eindoplossing, dat woord moet worden gevormd met letters uit het kruiswoordraadsel. Alle letters voor dit woord moeten in het kruiswoordraadsel aanwezig zijn."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "NL",
+			"value": "Vaste volgorde"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "NL",
+			"value": "De eindoplossing moet in vaste volgorde uitgewerkt worden. Daarom moeten de letters van het oplossingswoord afzonderlijk in de antwoorden zitten van de vragen. Letter 1 komt uit antwoord 1, letter 2 uit antwoord 2 enz."
+		},
+		{
+			"id": "Prüfen",
+			"language": "GR",
+			"value": "Έλεγξε τη λύση"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Σχόλιο"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Grattis, du har klarat av spelet!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Ωραία, βρήκες τη σωστή λύση."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "SV",
+			"value": "Bakgrundsbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GR",
+			"value": "Εικόνα φόντου"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "IT",
+			"value": "Scegli un'immagine come sfondo di questo quiz."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ET",
+			"value": "Võite selle mõistatuse jaoks valida taustapildi."
+		},
+		{
+			"id": "Frage",
+			"language": "SV",
+			"value": "Fråga"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Keresztrejtvény"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Palavras Cruzadas"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Criar palavras cruzadas"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PT",
+			"value": "verificar solução"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando a solução é encontrada."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encontrou a solução correcta"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PT",
+			"value": "Imagem de fundo"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PT",
+			"value": "Seleccione uma imagem de fundo para as palavras cruzadas, se quiser."
+		},
+		{
+			"id": "Fragen",
+			"language": "PT",
+			"value": "Questões"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "PT",
+			"value": "Fornecer questões para as palavras cruzadas"
+		},
+		{
+			"id": "waagerecht",
+			"language": "PT",
+			"value": "horizontal"
+		},
+		{
+			"id": "senkrecht",
+			"language": "PT",
+			"value": "vertical"
+		},
+		{
+			"id": "Frage",
+			"language": "PT",
+			"value": "questão"
+		},
+		{
+			"id": "Lösung",
+			"language": "PT",
+			"value": "solução"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "PT",
+			"value": "Palavra solução"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "PT",
+			"value": "Fornecer uma palavra solução opcional contendo caracteres de palavras cruzadas"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "PT",
+			"value": "alinhamento fixo"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "PT",
+			"value": "Alinhar a palavra solução verticalmente ao longo das palavras cruzadas . A fim de alinhar palavras cruzadas cada caracter da solução não deve ser parte da solução de cada pergunta. Caracter 1 deve ser parte da resposta 1, caracter 2 deve ser parte da resposta 2 e assim por diante."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "BG",
+			"value": "Фиксирана ориентация"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "BG",
+			"value": "Въвеждане на дума, която съдържа букви от кръстословицата."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "BG",
+			"value": "Вертикално подреждане на кръстословицата според думата, която трябва да се получи. За да се постигне съответствието, всяка дума от кръстословицата трябва да съдържа буква от тази дума. Буква 1 трябва да бъде част от отговор 1, буква 2 - част от отговор 2 и т.н."
+		},
+		{
+			"id": "Prüfen",
+			"language": "BY",
+			"value": "Праверыць рашэнне"
+		},
+		{
+			"id": "Prüfen",
+			"language": "HU",
+			"value": "Megoldás ellenőrzése "
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Малайчына! Практыкаванне выканана"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Remek, megtaláltad a helyes megoldást!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "HU",
+			"value": "Háttérkép"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "HU",
+			"value": "A feladványhoz háttérkép kiválasztására van lehetőség."
+		},
+		{
+			"id": "Fragen",
+			"language": "HU",
+			"value": "Kérdések"
+		},
+		{
+			"id": "Frage",
+			"language": "BY",
+			"value": "Пытанне"
+		},
+		{
+			"id": "Frage",
+			"language": "HU",
+			"value": "Kérdés"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "FR",
+			"value": "Inscrivez ici les mots à rechercher ainsi que leur définition."
+		},
+		{
+			"id": "waagerecht",
+			"language": "FR",
+			"value": "Horizontalement"
+		},
+		{
+			"id": "senkrecht",
+			"language": "FR",
+			"value": "Verticalement"
+		},
+		{
+			"id": "Lösung",
+			"language": "FR",
+			"value": "Solution"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "FR",
+			"value": "Mot à reconstituer"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "FR",
+			"value": "Définissez un mot à reconstituer qui contient des lettres se trouvant dans le jeu (facultatif)"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "FR",
+			"value": "Alignement fixe"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "FR",
+			"value": "Vous pouvez placer le mot à reconstituer à la verticale dans le jeu. A ce moment-là, les mots à trouver seront placés à l'horizontale. Pour ce faire, chaque caractère du mot à reconstituer doit faire partie des réponses. Le premier caractère doit être contenu dans la réponse 1, le deuxième caractère dans la réponse 2, etc.."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Klasszikus keresztrejtvény létrehozása."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, amely a helyes megoldás után megjelenik!"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "HU",
+			"value": "Itt adjon meg egy-egy kérdést és az arra adandó egyszavas választ."
+		},
+		{
+			"id": "waagerecht",
+			"language": "HU",
+			"value": "Vízszintes"
+		},
+		{
+			"id": "Lösung",
+			"language": "HU",
+			"value": "Megfejtés"
+		},
+		{
+			"id": "senkrecht",
+			"language": "HU",
+			"value": "Függőleges"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "HU",
+			"value": "Megfejtés"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "HU",
+			"value": "Lehetőség van egy kulcsszó elrejtésére, amely a keresztrejtvény betűiből automatikusan előáll. A kulcsszó minden betűjének elő kell fordulni a keresztrejtvényben!"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "HU",
+			"value": "Rögzített elrendezés"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "HU",
+			"value": "A keresztrejtvény vízszintes kulcsszó körüli  elrendezése. Ehhez e kulcsszó betűinek a válaszokban a megfelelő sorrendben kell elhelyezkedniük. Az első betűnek az első válaszban kell lenni,a másodiknak a második válaszban stb."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Крыжаванка"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "Стварыць класічную крыжаванку"
+		},
+		{
+			"id": "Fragen",
+			"language": "BY",
+			"value": "Пытанні"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BY",
+			"value": "Фонавая выява"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BY",
+			"value": "Абярыце фонавую выяву для крыжаванкі"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BY",
+			"value": "Укажыце пытанне і правільны адказ."
+		},
+		{
+			"id": "Lösung",
+			"language": "BY",
+			"value": "Адказ"
+		},
+		{
+			"id": "waagerecht",
+			"language": "BY",
+			"value": "гарызантальна"
+		},
+		{
+			"id": "senkrecht",
+			"language": "BY",
+			"value": "вертыкальна"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "BY",
+			"value": "Адказ"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Enhorabuena! Lograste dar con la(s) respuesta(s) correcta(s)."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "IT",
+			"value": "Allineare il cruciverba in verticale sulla soluzione. Dato il carattere della soluzione da includere nelle risposte di ogni domanda."
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "IT",
+			"value": "Opzione. Una parola soluzione, che viene automaticamente formata dalle lettere nel puzzle. Tutte le lettere della risposta devono essere inserite."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "IT",
+			"value": "Inserisci la domanda e la soluzione"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "IT",
+			"value": "Allineamento fisso"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "RM",
+			"value": "Ordinar il legn cruschau a moda verticala. Per far quei ston ils segns per il plaid da sligiaziun esser cunteni en las singulas damondas. Il segn 1 sto esser representaus en la risposta 1, segn 2 en risposta e.a.v."
+		},
+		{
+			"id": "waagerecht",
+			"language": "RM",
+			"value": "Horizontal"
+		},
+		{
+			"id": "senkrecht",
+			"language": "RM",
+			"value": "Vertical"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Tajenka"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "Vytvořte klasickou tajenku."
+		},
+		{
+			"id": "Prüfen",
+			"language": "CZ",
+			"value": "Zkontrolovat řešení"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Vložte text, který se zobrazí při správném vyřešení tajenky."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, toto je správné řešení!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "CZ",
+			"value": "Obrázek na pozadí"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "CZ",
+			"value": "Volitelně můžete vybrat obrázek na pozadí tajenky."
+		},
+		{
+			"id": "Fragen",
+			"language": "CZ",
+			"value": "Karty"
+		},
+		{
+			"id": "Frage",
+			"language": "CZ",
+			"value": "Otázka"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "CZ",
+			"value": "Slovo v tajence (řešení)"
+		},
+		{
+			"id": "Lösung",
+			"language": "CZ",
+			"value": "Slovo v tajence (řešení)"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte zde otázku a řešení tajenky."
+		},
+		{
+			"id": "waagerecht",
+			"language": "CZ",
+			"value": "vodorovně"
+		},
+		{
+			"id": "senkrecht",
+			"language": "CZ",
+			"value": "svisle"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "CZ",
+			"value": "Pevné zarovnání"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "CZ",
+			"value": "Volitelně zadejte slovo v tajence (řešení), které se automaticky vytvoří z písmen v tajence. Veškeré písmena tajenkového slova musí být v tajence obsažena!"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "CZ",
+			"value": "Upravte tajenku s vertikálním tajenkovým slovem (řešení). Za tímto účelem musí být v odpovědích jednotlivých otázek zahrnuty znaky tajenkového slova. Znak 1 musí být zahrnut v odpovědi 1, znak 2 v odpovědi 2 atd."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ES",
+			"value": "Imagen de fondo"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "ES",
+			"value": "Solución"
+		},
+		{
+			"id": "Lösung",
+			"language": "ES",
+			"value": "Solución"
+		},
+		{
+			"id": "senkrecht",
+			"language": "ES",
+			"value": "vertical"
+		},
+		{
+			"id": "waagerecht",
+			"language": "ES",
+			"value": "horizontal"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ES",
+			"value": "Elija una imagen de fondo para este crucigrama (opcional)"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "ES",
+			"value": "Fijar la posición de las palabras"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "ES",
+			"value": "Introduzca aquí una pregunta y la solución correspondiente."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "Crear un crucigrama."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Escriba un mensaje que se mostrará cuando la actividad haya sido resuelta correctamente."
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "ES",
+			"value": "Puede ingresar una palabra solución, que se forma automáticamente a partir de las letras en el rompecabezas. ¡Todas las letras de la palabra solución deben estar contenidas en el rompecabezas!"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "RU",
+			"value": "При необходимости укажите ключевое слово, которое автоматически формируется из букв в головоломке. В головоломке должны быть все буквы ключевого слова!"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "RU",
+			"value": "Фиксированная ориентация"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "ES",
+			"value": "Alinee el crucigrama verticalmente con la palabra solución . Para hacer esto, los signos de la palabra solución deben estar contenidos en las respuestas a las preguntas individuales. El carácter 1 debe incluirse en la respuesta 1, el carácter 2 en la respuesta 2, etc."
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "RU",
+			"value": "Совместите кроссворд вертикально с ответным словом. Для этого символы решающего слова должны быть включены в ответы на отдельные вопросы. Символ 1 должен быть в ответе 1, символ 2 - в ответе 2 и т. Д."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Укажыце тэкст, які з'явіцца пры правільным выкананні гульні."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GL",
+			"value": "Imaxe de fondo"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Kryžiažodis"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Sukurti klasikinį kryžiažodį."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Įrašykite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai išsprendus kryžiažodį."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "LT",
+			"value": "Fono vaizdas"
+		},
+		{
+			"id": "Prüfen",
+			"language": "LT",
+			"value": "Patikrinti sprendimą."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "LT",
+			"value": "Jei norite, pasirinkite fono vaizdą Jūsų kryžiažodžiui"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, išsprendei teisingai!"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "LT",
+			"value": "Parašykite kryžiažodžio klausimus"
+		},
+		{
+			"id": "waagerecht",
+			"language": "LT",
+			"value": "horizontaliai"
+		},
+		{
+			"id": "Frage",
+			"language": "LT",
+			"value": "Klausimas"
+		},
+		{
+			"id": "Lösungswort",
+			"language": "LT",
+			"value": "Ieškomas žodis, rodomas išsprendus visą kryžiažodį"
+		},
+		{
+			"id": "Lösung",
+			"language": "LT",
+			"value": "Atsakymas"
+		},
+		{
+			"id": "Fragen",
+			"language": "LT",
+			"value": "Klausimai"
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "LT",
+			"value": "Fiksuotas išdėstymas"
+		},
+		{
+			"id": "senkrecht",
+			"language": "LT",
+			"value": "vertikaliai"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "LT",
+			"value": "Lygiuoti kryžiažodį vertikaliai pagal ieškomą žodį. Tuomet ieškomo žodžio visos raidės turi būti atsakymų žodžiuose. Pirma raidė turi būti pirmame atsakyme, antra - antrame ir taip toliau."
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "LT",
+			"value": "Jei norite, parašykite žodį, kurį sudaro raidės iš kryžiažodžio. "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Σταυρόλεξο"
+		},
+		{
+			"id": "Frage",
+			"language": "GR",
+			"value": "Ερώτηση"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GR",
+			"value": "Δημιουργία κλασσικού σταυρόλεξου."
+		},
+		{
+			"id": "Fragen",
+			"language": "GR",
+			"value": "Ερωτήσεις"
+		},
+		{
+			"id": "LösungswortBeschreibung",
+			"language": "GR",
+			"value": "Προαιρετικά, εισαγάγετε μια λέξη-λύση, η οποία σχηματίζεται αυτόματα από γράμματα στο σταυρόλεξο. Όλα τα γράμματα της λέξης απάντησης πρέπει να βρίσκονται στο σταυρόλεξο!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Εισαγάγετε ένα κείμενο που θα εμφανιστεί όταν βρεθεί η σωστή λύση."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "GR",
+			"value": "Εισαγάγετε μια ερώτηση και τη αντίστοιχη λέξη που αναζητάτε."
+		},
+		{
+			"id": "waagerecht",
+			"language": "GR",
+			"value": "οριζοντίως"
+		},
+		{
+			"id": "senkrecht",
+			"language": "GR",
+			"value": "καθέτως"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GR",
+			"value": "Προαιρετικά, επιλέξτε μια εικόνα φόντου για το σταυρόλεξο."
+		},
+		{
+			"id": "Lösungswort",
+			"language": "GR",
+			"value": "Λέξη λύσης"
+		},
+		{
+			"id": "Lösung",
+			"language": "GR",
+			"value": "Λέξη λύσης"
+		},
+		{
+			"id": "FixiertesWortBeschreibung",
+			"language": "GR",
+			"value": "Ευθυγραμμίστε το σταυρόλεξο κάθετα με τη λέξη απάντησης. Για να γίνει αυτό, οι χαρακτήρες της λέξης λύσης πρέπει να συμπεριληφθούν στις απαντήσεις στις μεμονωμένες ερωτήσεις. Ο χαρακτήρας 1 πρέπει να είναι στην απάντηση 1, ο χαρακτήρας 2 στην απάντηση 2 και ούτω καθεξής."
+		},
+		{
+			"id": "FixiertesWort",
+			"language": "GR",
+			"value": "Σταθερή διάταξη"
+		}
+	],
+	"path": "https://learningapps.org/tools/40/21/",
+	"fromCache": 1,
+	"version": "21"
+};

@@ -1,0 +1,2196 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "v1_1=text%7C%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%28Primary%20Button%29%7C%7C0&v2_1=text%7C%D0%94%D0%BB%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B5%20%28%D0%BD%D0%B0%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%2C%20%C2%AB%D0%9A%D1%83%D0%BF%D0%B8%D1%82%D1%8C%C2%BB%2C%20%C2%AB%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C%C2%BB%29.%20%D0%9E%D0%BD%D0%B0%20%D1%81%D0%B0%D0%BC%D0%B0%D1%8F%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BD%D0%B0%D1%8F%20%D0%B8%20%D1%8F%D1%80%D0%BA%D0%B0%D1%8F%7C%7C0&v1_2=text%7C%D0%92%D1%82%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%28Secondary%20Button%29%7C%7C0&v2_2=text%7C%20%D0%94%D0%BB%D1%8F%20%D0%BD%D0%B5%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9%20%28%D0%BD%D0%B0%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%2C%20%C2%AB%D0%9E%D1%82%D0%BC%D0%B5%D0%BD%D0%B0%C2%BB%2C%20%C2%AB%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4%C2%BB%29.%20%D0%92%D1%8B%D0%B3%D0%BB%D1%8F%D0%B4%D0%B8%D1%82%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BD%D0%BE%2C%20%D1%87%D0%B0%D1%81%D1%82%D0%BE%20%D0%BA%D0%B0%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D1%83%D1%80.%7C%7C0&v1_3=text%7C%D0%9F%D1%80%D0%B8%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%28Ghost%20Button%29%7C%7C0&v2_3=text%7C%D0%94%D0%BB%D1%8F%20%D0%BC%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%BD%D0%B5%20%D0%B4%D0%BE%D0%BB%D0%B6%D0%BD%D1%8B%20%D0%BE%D1%82%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D1%8C%20%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5%20%28%D0%BD%D0%B0%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%2C%20%C2%AB%D0%9F%D1%80%D0%BE%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C%C2%BB%2C%20%C2%AB%D0%9F%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%C2%BB%29.%20%D0%9F%D0%BE%D1%85%D0%BE%D0%B6%D0%B0%20%D0%BD%D0%B0%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%20%D0%B8%D0%BB%D0%B8%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%2C%20%D0%BF%D0%BE%D1%87%D1%82%D0%B8%20%D0%BD%D0%B5%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D0%B0%D1%8F.%7C%7C0&direction=%D0%9A%D0%B0%D1%80%D1%82%D1%8B%20%D0%B4%D1%80%D1%83%D0%B3%20%D0%BD%D0%B0%20%D0%B4%D1%80%D1%83%D0%B3%D0%B0&feedback=%D0%A2%D0%B0%D0%BA%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C%21",
+	"title": "Умная кнопка и её работа",
+	"tool": "71",
+	"helptext": "",
+	"tasktext": "Соедини вид кнопки с задачей, которую она выполняет!",
+	"formlanguage": "RU",
+	"language": "RU",
+	"parameters": [
+		{
+			"t": "list",
+			"label": "%Paare%",
+			"description": "%PaareBeschreibung%",
+			"name": "pairs",
+			"min": "1",
+			"max": 20,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "v1_#",
+					"label": "%Paar% #",
+					"type": "media",
+					"description": "",
+					"media": "image|video|audio|text|speech",
+					"usehint": "true",
+					"usehintTTS": "true"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "v2_#",
+					"label": "%Paar% #",
+					"type": "media",
+					"description": "",
+					"media": "image|video|audio|text|speech",
+					"usehint": "true",
+					"usehintTTS": "true"
+				},
+				{
+					"t": "space",
+					"value": "30"
+				}
+			]
+		},
+		{
+			"t": "list",
+			"label": "%ZusatzElemente%",
+			"description": "%ZusatzElementeBeschreibung%",
+			"name": "wrong",
+			"min": "1",
+			"max": 3,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "u#",
+					"label": "%Element%",
+					"type": "media",
+					"description": "",
+					"media": "image|video|audio|text|speech",
+					"usehint": "true"
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "false",
+			"width": "",
+			"height": "",
+			"name": "fade",
+			"label": "%fade%",
+			"type": "check",
+			"description": "%fadeBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "false",
+			"width": "",
+			"height": "",
+			"name": "color",
+			"label": "%Color%",
+			"type": "check",
+			"description": "%ColorBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%vertical%|%horizontal%",
+			"width": "",
+			"height": "",
+			"name": "direction",
+			"label": "%Direction%",
+			"type": "select",
+			"description": ""
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Paare zuordnen"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Matching Pairs"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Bei dieser Vorlage müssen Texte, Bilder, Audios oder Videos paarweise zugeordnet werden."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "With this template, texts, images, audio clips and videos must be paired correctly."
+		},
+		{
+			"id": "Paare",
+			"language": "DE",
+			"value": "Paare"
+		},
+		{
+			"id": "Paare",
+			"language": "EN",
+			"value": "Pairs"
+		},
+		{
+			"id": "Direction",
+			"language": "DE",
+			"value": "Ausrichtung"
+		},
+		{
+			"id": "Direction",
+			"language": "EN",
+			"value": "Attach cards"
+		},
+		{
+			"id": "vertical",
+			"language": "DE",
+			"value": "Karten übereinander"
+		},
+		{
+			"id": "vertical",
+			"language": "EN",
+			"value": "Cards one above the other"
+		},
+		{
+			"id": "horizontal",
+			"language": "DE",
+			"value": "Karten nebeneinander"
+		},
+		{
+			"id": "horizontal",
+			"language": "EN",
+			"value": "Cards alongside one another"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie jeweils zwei Medien an, die zusammengehören. Sie können beliebig Texte, Bilder, Audios und Videos mischen."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "EN",
+			"value": "Enter the two media which belong together. They can be a mix of text, images, audio or video."
+		},
+		{
+			"id": "Paar",
+			"language": "DE",
+			"value": "Paar"
+		},
+		{
+			"id": "Paar",
+			"language": "EN",
+			"value": "Pair"
+		},
+		{
+			"id": "ColorBeschreibung",
+			"language": "DE",
+			"value": "Karten einfärben nach Gruppen (blau und orange)."
+		},
+		{
+			"id": "ColorBeschreibung",
+			"language": "EN",
+			"value": "Color cards blue and orange for each group."
+		},
+		{
+			"id": "Color",
+			"language": "DE",
+			"value": "Karten einfärben"
+		},
+		{
+			"id": "Color",
+			"language": "EN",
+			"value": "Color cards"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "DE",
+			"value": "Zusätzliche, aber zur Lösung nicht benötigte Elemente"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "EN",
+			"value": "Additional, but wrong elements"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "DE",
+			"value": "Sie können hier zusätzlich bis zu drei Elemente angeben, die bei der Aufgabe angezeigt werden, jedoch nicht zur Lösung gehören. "
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "EN",
+			"value": "You can add up to 3 additional elements that will be displayed but do not belong to the solution. "
+		},
+		{
+			"id": "Element",
+			"language": "DE",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "EN",
+			"value": "Element"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which will be displayed when the solution is found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast die richtige Lösung gefunden."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you've found the solution!"
+		},
+		{
+			"id": "Fenster",
+			"language": "DE",
+			"value": "Fenster"
+		},
+		{
+			"id": "Fenster",
+			"language": "EN",
+			"value": "Window"
+		},
+		{
+			"id": "Vollbild",
+			"language": "DE",
+			"value": "Vollbild"
+		},
+		{
+			"id": "Vollbild",
+			"language": "EN",
+			"value": "Fullscreen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "DE",
+			"value": "Lösung überprüfen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "EN",
+			"value": "Check solution"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Dans ce modèle, des textes, des images, des sons ou des vidéos doivent être classés par paires."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Classer par paire"
+		},
+		{
+			"id": "Element",
+			"language": "FR",
+			"value": "Elément"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affiche lorsque la solution a été trouvée"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as trouvé la solution!"
+		},
+		{
+			"id": "Fenster",
+			"language": "FR",
+			"value": "Fenêtre"
+		},
+		{
+			"id": "Paar",
+			"language": "FR",
+			"value": "Paire"
+		},
+		{
+			"id": "Paare",
+			"language": "FR",
+			"value": "Paires"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "FR",
+			"value": "Indiquez deux éléments qui vont ensemble. Vous pouvez mélanger des textes, des images, des sons et des vidéos."
+		},
+		{
+			"id": "Prüfen",
+			"language": "FR",
+			"value": "Vérifier la solution"
+		},
+		{
+			"id": "Vollbild",
+			"language": "FR",
+			"value": "Plein écran"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "FR",
+			"value": "Eléments supplémentaires, non nécessaires à la solution"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "FR",
+			"value": "Vous pouvez indiquer un maximum de trois éléments supplémentaires qui seront affichés pendant l'exercice mais ne font pas partie de la solution."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Con questo modello testi, immagini, audio o video devono essere ordinati a coppie."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Ordinare le coppie"
+		},
+		{
+			"id": "Element",
+			"language": "IT",
+			"value": "Elemento"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Indica un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico, hai trovato la risposta giusta."
+		},
+		{
+			"id": "Fenster",
+			"language": "IT",
+			"value": "Finestra"
+		},
+		{
+			"id": "Paar",
+			"language": "IT",
+			"value": "Coppia"
+		},
+		{
+			"id": "Paare",
+			"language": "IT",
+			"value": "Coppie"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "IT",
+			"value": "Indica per ciascuno due media dello stesso tipo. Puoi unire a piacimento testi, immagini, audio e video."
+		},
+		{
+			"id": "Prüfen",
+			"language": "IT",
+			"value": "Verifica la soluzione"
+		},
+		{
+			"id": "Vollbild",
+			"language": "IT",
+			"value": "Ingrandisci immagine"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "IT",
+			"value": "Elementi supplementari ma non necessari per la soluzione"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "IT",
+			"value": "Qui puoi indicare fino a tre elementi supplementari che verranno mostrati nella pubblicazione ma che non rientrano nella soluzione."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "С помощью этого шаблона нужно найти пару, текст или картинка, видео или аудио.   "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Найти пару"
+		},
+		{
+			"id": "Element",
+			"language": "RU",
+			"value": "Элемент "
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Задайте текст, который будет высвечиваться, если найдено правильное решение. "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты нашел правильное решение "
+		},
+		{
+			"id": "Fenster",
+			"language": "RU",
+			"value": "Окно"
+		},
+		{
+			"id": "Paar",
+			"language": "RU",
+			"value": "Пара "
+		},
+		{
+			"id": "Paare",
+			"language": "RU",
+			"value": "Пары "
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RU",
+			"value": "Задайте пары и соответсвия. Это может быть текст и видео или аудио и текст - по вашему желанию. "
+		},
+		{
+			"id": "Prüfen",
+			"language": "RU",
+			"value": "Проверить решение"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RU",
+			"value": "Полная картинка "
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "RU",
+			"value": "Дополнительные, но необязательные элементы, которые не влияют на решение"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "RU",
+			"value": "Вы можете задать до трех дополнительных элементов, которые будут показаны, но они не играют роли при решении задачи или упражнения."
+		},
+		{
+			"id": "Paar",
+			"language": "RM",
+			"value": "Pèr"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RM",
+			"value": "Endatescha mintgamai dus elements da medias che s'audan ensemen. Ti sas mischedar aschi biars texts, maletgs, portatuns ni videos sco Vus vuleis."
+		},
+		{
+			"id": "Paare",
+			"language": "RM",
+			"value": "Pèrs"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Cun quei model ston ins ordinart texts, maletgs, portatuns ni videos tenor pèrs."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Ordinar tenor pèrs"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "RM",
+			"value": "Ti sas indicar cheu entochen treis elements supplementars buca necessaris per la sligiaziun."
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "RM",
+			"value": "Elements supplementars ch'ein buca necessaris per la sligiaziun"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RM",
+			"value": "Controllar sligiaziun"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RM",
+			"value": "Entir maletg"
+		},
+		{
+			"id": "Fenster",
+			"language": "RM",
+			"value": "Fanestra"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut correctamein!"
+		},
+		{
+			"id": "Paar",
+			"language": "RO",
+			"value": "Pereche"
+		},
+		{
+			"id": "Fenster",
+			"language": "RO",
+			"value": "Fereastră"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RO",
+			"value": "Verifică soluția"
+		},
+		{
+			"id": "Vollbild",
+			"language": "RO",
+			"value": "Fullscreen"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Ordonează perechi"
+		},
+		{
+			"id": "Paare",
+			"language": "RO",
+			"value": "Perechi"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Element",
+			"language": "RO",
+			"value": "Element"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă.  "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai găsit soluția corectă!  "
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "RO",
+			"value": "Elemente suplimentare dar nu neaparat necesare pentru soluție"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RO",
+			"value": "Indicați de fiecare dată câte două medii, care țin unul de celălalt. Pot fi amestecate arbitrar texte, imagini, audio, video."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Cu acest model pot fi ordonate pe perechi texte, imagini, audio, video . "
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "RO",
+			"value": "Puteți indica aici suplimentar până la trei elemente, care se afișează la temă și nu aparțin de soluție."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, deches coa solución."
+		},
+		{
+			"id": "Fenster",
+			"language": "GL",
+			"value": "Ventá"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GL",
+			"value": "Pantalla completa"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GL",
+			"value": "Comprobar a solución"
+		},
+		{
+			"id": "fade",
+			"language": "DE",
+			"value": "Richtige Paare ausblenden"
+		},
+		{
+			"id": "fade",
+			"language": "EN",
+			"value": "Make matching pairs disappear"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "DE",
+			"value": "Werden Paare richtig zugeordnet, werden diese automatisch überprüft und ausgeblendet. Ohne diese Option können Paare solange zugeordnet werden, bis manuell entschieden wird, die Zuordnung zu prüfen. Richtige Zuordnungen werden nicht ausgeblendet."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "EN",
+			"value": "Matching pairs will be automatically checked and then disappear. Without this option you can keep pairing until you check the solution manually. Matching pairs will not disappear."
+		},
+		{
+			"id": "Element",
+			"language": "GL",
+			"value": "Elemento"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "Prüfen",
+			"language": "ES",
+			"value": "Ver solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PL",
+			"value": "Sprawdź rozwiązanie"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Pasujące pary"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "W tym szablonie teksty, obrazy, nagrania lub filmy muszą być parami przyporządkowane."
+		},
+		{
+			"id": "Paare",
+			"language": "PL",
+			"value": "Pary"
+		},
+		{
+			"id": "Paar",
+			"language": "PL",
+			"value": "Para"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "PL",
+			"value": "Wprowadź dwa elementy, które odpowiadają sobie. Może to być tekst, obraz, audio lub wideo."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "PL",
+			"value": "Możesz dodać do 3 dodatkowych elementów, które będą wyświetlane, utrudniając wybór, ale nie są częścią rozwiązania. "
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "PL",
+			"value": "Dodatkowe elementy, nie należące do rozwiązania"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, znalazłeś rozwiązanie."
+		},
+		{
+			"id": "Fenster",
+			"language": "PL",
+			"value": "Okno"
+		},
+		{
+			"id": "Vollbild",
+			"language": "PL",
+			"value": "Pełny ekran"
+		},
+		{
+			"id": "fade",
+			"language": "PL",
+			"value": "Właściwe pary znikają"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "PL",
+			"value": "Elementy prawidłowo przypisane w parę automatycznie znikają. Bez tej opcji można dopasowywać pary do momentu sprawdzenia rozwiązania (ręcznie). Właściwie przyporządkowane elementy nie są ukrywane."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Vastavusse seadmine"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "See teksti, pilte, audio või video mall peab olema määratud paarikaupa."
+		},
+		{
+			"id": "Paare",
+			"language": "ET",
+			"value": "paarid"
+		},
+		{
+			"id": "Paar",
+			"language": "ET",
+			"value": "paar"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "ET",
+			"value": "Sisesta kaks meediat, mis kuuluvad kokku. Võite segada omavahel teksti, pilte, audio ja video."
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "ET",
+			"value": "Täiendavad, kuid mitte tingimata nõutavad elemendid"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "ET",
+			"value": "Võite määrata kuni kolm elementi, kuid mitte osa lahendusest siin mis on kuvatud ülesandes, "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisestage tekst mis ilmub, kui õige lahendus leitakse."
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "Element",
+			"language": "ET",
+			"value": "element"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, sa oled leidnud õige lahenduse."
+		},
+		{
+			"id": "Prüfen",
+			"language": "ET",
+			"value": "Kontrollige lahendust"
+		},
+		{
+			"id": "Vollbild",
+			"language": "ET",
+			"value": "Täisekraan"
+		},
+		{
+			"id": "Fenster",
+			"language": "ET",
+			"value": "Aken"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "ET",
+			"value": "Kui paarid on õigesti määratud, siis need automaatselt kontrollitakse ja peidetakse. Ilma selle võimaluseta, kui paarid saab määrata kuni otsus tehakse käsitsi kontrollida. Õige lahendusi ei peideta."
+		},
+		{
+			"id": "fade",
+			"language": "ET",
+			"value": "Peida õige paar"
+		},
+		{
+			"id": "Element",
+			"language": "RM",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "PL",
+			"value": "Element"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Fenster",
+			"language": "BG",
+			"value": "Прозорец"
+		},
+		{
+			"id": "Vollbild",
+			"language": "BG",
+			"value": "Фулскрийн"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BG",
+			"value": "Провери решението"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Съвпадащи двойки"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "С този шаблон, текстове, изображения, аудио файлове и видео клипове, трябва да бъдат съчетани по двойки."
+		},
+		{
+			"id": "Paare",
+			"language": "BG",
+			"value": "Двойки"
+		},
+		{
+			"id": "Paar",
+			"language": "BG",
+			"value": "Двойка"
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "fade",
+			"language": "BG",
+			"value": "Съответстващите двойки изчезват"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "BG",
+			"value": "При съвпадение двойките изчезват, но ако тази опция не е активирана, двойките остават на екрана, докато потребителят не провери решението.  "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Браво! Това е вярното решение!"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "BG",
+			"value": "Допълнителни, но незадължителни елементи."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "BG",
+			"value": "Може да добавите до три допълнителни елемента, които да се показват в задачата, но да не са част от нея."
+		},
+		{
+			"id": "Element",
+			"language": "BG",
+			"value": "Елемент"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Знайти пару"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "У цьому шаблоні потрібно знайти пари для текстів, зображень, аудіо- та відео-роликів."
+		},
+		{
+			"id": "Paare",
+			"language": "UK",
+			"value": "Пари"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "UK",
+			"value": "Зайві елементи"
+		},
+		{
+			"id": "Element",
+			"language": "UK",
+			"value": "Елемент"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "UK",
+			"value": "Можна додати до 3 зайвих елементів, які не належать до рішення"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "UK",
+			"value": "Вкажіть два об'єкти, які відповідають одне одному - це може бути поєднання текстів, зображень, аудіо- та відео-роликів."
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "Fenster",
+			"language": "UK",
+			"value": "Вікно"
+		},
+		{
+			"id": "Vollbild",
+			"language": "UK",
+			"value": "Повний екран"
+		},
+		{
+			"id": "Prüfen",
+			"language": "UK",
+			"value": "Перевірити рішення"
+		},
+		{
+			"id": "Paar",
+			"language": "UK",
+			"value": "Пара"
+		},
+		{
+			"id": "fade",
+			"language": "UK",
+			"value": "Складені пари зникають"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "UK",
+			"value": "Складені пари автоматично зникають. Інакше потрібно складати пари до того моменту, поки не знайдено всі правильні відповіді"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Bu uygulamada ögelerin birbirine uyumlu/ilişkili olan eşleri bulunmalıdır. İçerikler metin, resim, ses veya film dosyası olabilir."
+		},
+		{
+			"id": "Paare",
+			"language": "TR",
+			"value": "Çiftler/eşler"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Eşleştirme oyunu "
+		},
+		{
+			"id": "Paar",
+			"language": "TR",
+			"value": "Çift/eş"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "TR",
+			"value": "Burada birbiri ile çift/eş olan içerikler belirleyin. Bu içeriklerin her biri metin, resim, ses veya film dosyası olabilir. "
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "TR",
+			"value": "Çözüm için gerekli olmayan fazladan ögeler girebilirsiniz"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "TR",
+			"value": "Burada 3'e kadar çözüm için gerekli olmayan ve fakat gösterilen değişik ögeler girebilirsiniz. Böylelikle görev zorlaştırılmış olmaktadır."
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "Element",
+			"language": "TR",
+			"value": "Ögeler"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah, doğru çözümü buldun."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüldüğünde gösterilmesini istediğiniz bir metni girin"
+		},
+		{
+			"id": "Prüfen",
+			"language": "TR",
+			"value": "Çözümü kontrol et!!"
+		},
+		{
+			"id": "fade",
+			"language": "TR",
+			"value": "Doğru bulunan çiftler devamlı gösterilmeyip kaldırılsın"
+		},
+		{
+			"id": "Fenster",
+			"language": "TR",
+			"value": "Pencere"
+		},
+		{
+			"id": "Vollbild",
+			"language": "TR",
+			"value": "Tam ekran"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "TR",
+			"value": "Ögeler doğru bir şekilde eşleştirildiğinde, bunlar otomatik olarak kontrol edilip devamlı gösterilmeyecektir. Yani kaldırılacaktır. Bu opsiyon seçilmediğinde eşleştirilmeler otomatik olarak kontrol edilmemektedir. Sadece &quot;Çözümü kontrol et!&quot; butonuna tıklandığında çözüm görülecektir. Doğru eşleştirilen kartlar kaldırılmayıp gösterilmeye devam edilecektir."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "წყვილები"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "ამ შაბლონის საშუალებით უნდა იპოვოთ წყვილი: ტექსტი და სურათი; ან ტექსტი და აუდიო; ტექსტი და ვიდეო;"
+		},
+		{
+			"id": "Paare",
+			"language": "GE",
+			"value": "წყვილები"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "GE",
+			"value": "მიუთითედ წყვილები და შესაბამისობები. ეს შეიძლება იყოს ტექსტი და ვიდეო ან აუდიო და ტექსტი - თქვენი სურვილის შესაბამისად."
+		},
+		{
+			"id": "Paar",
+			"language": "GE",
+			"value": "წყვილი"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "GE",
+			"value": "დამატებითი, მაგრამ არასავალდებულო ელემენტები, რომლებიც გავლენას არ ახდენენ პასუხზე"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "GE",
+			"value": "თქვენ შეგიძლიათ სამი დამატებითი ელემენტის მითითება, რომლებიც გამოჩნდება, მაგრამ ამოცანის ამოხსნაზე არანაირ გავლენას არ ახდენენ."
+		},
+		{
+			"id": "Element",
+			"language": "GE",
+			"value": "ელემენტი"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც გამოჩნდება სწორი პასუხის შემთხვევაში"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ იპოვეთ სწორი პასუხი."
+		},
+		{
+			"id": "Fenster",
+			"language": "GE",
+			"value": "ფანჯარა"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GE",
+			"value": "სრული ეკრანი"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GE",
+			"value": "პასუხის შემოწმება"
+		},
+		{
+			"id": "fade",
+			"language": "GE",
+			"value": "გაქრეს სწორი პასუხი"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "GE",
+			"value": "სწორი პასუხები გაქრება ეკრანიდან. ამ ოფციის გარეშე სწორი პასუხი არ გაქრება ეკრანიდან. თქვენ ვერ დაადგენთ სწორ წყვილებს პასუხის შემოწმების გარეშე."
+		},
+		{
+			"id": "fade",
+			"language": "FR",
+			"value": "Les paires disparaissent."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "FR",
+			"value": "Les paires disparaissent automatiquement. Sans cette option, il faut associer les paires puis cliquer sur le bouton &quot;Vérifier&quot;. Les paires correctes ne disparaissent pas, mais apparaissent en vert. Les réponses erronées sont en rouge."
+		},
+		{
+			"id": "fade",
+			"language": "RU",
+			"value": "Удалять правильно составленные пары"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "RU",
+			"value": "Если пары составлены правильно, они автоматически проверяются и удаляются. Если эта опция не активирована, то составленные пары останутся на экране до тех пор, пока пользователь не решит проверить решение. Правильно составленные пары не исчезнут."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Povezivanje parova"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Sa ovim templateom se povezuju parovi koji mogu biti u obliku teksta, slika, audio ili video fajlova."
+		},
+		{
+			"id": "Paare",
+			"language": "BS",
+			"value": "Parovi"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BS",
+			"value": "Unesite dva medija koji pripadaju zajedno. Mogu bite jedne vrste ili izmješani."
+		},
+		{
+			"id": "Paar",
+			"language": "BS",
+			"value": "Par"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "BS",
+			"value": "Dodatni, ali pogrešni element"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "BS",
+			"value": "Možete dodati maksimalno tri elementa koji će biti prikazani, ali koji ne pripadaju ni jednoj grupi."
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "Element",
+			"language": "BS",
+			"value": "Element"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, rješenje je tačno."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će biti prikazan kada bude pronađeno konačno rješenje."
+		},
+		{
+			"id": "Fenster",
+			"language": "BS",
+			"value": "Prozor"
+		},
+		{
+			"id": "Vollbild",
+			"language": "BS",
+			"value": "Cijeli ekran"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BS",
+			"value": "Provjera rješenja"
+		},
+		{
+			"id": "fade",
+			"language": "BS",
+			"value": "Tačni povezani parovi će nakon uparivanja nestati"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "BS",
+			"value": "Tačni povezani parovi će automatski nestati. Bez prihvatanja ove opcije, parovi ostaju vidljivi sve dok se ne bude ispravnost rješenja provjeriva manualno."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven wanneer de juiste oplossing is gevonden."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Samenhorende paren"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Bij deze oefening moet je teksten, afbeeldingen, geluiden of video's per twee, paarsgewijs, samenbrengen."
+		},
+		{
+			"id": "Paare",
+			"language": "NL",
+			"value": "Paren"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "NL",
+			"value": "Geef twee onderdelen op die samenhoren. U kunt verschillende soorten (tekst, beeld, geluid, video) door elkaar gebruiken/combineren.  "
+		},
+		{
+			"id": "Paar",
+			"language": "NL",
+			"value": "Paar"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "NL",
+			"value": "Aanvullende, maar niet voor de oplossing vereiste onderdelen."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Element",
+			"language": "NL",
+			"value": "Onderdeel"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "NL",
+			"value": "U kunt hier maximaal drie onderdelen opgeven die bij de opgave getoond worden maar niet bij de oplossing thuishoren."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, je hebt de juiste oplossing gevonden."
+		},
+		{
+			"id": "Fenster",
+			"language": "NL",
+			"value": "Venster"
+		},
+		{
+			"id": "Prüfen",
+			"language": "NL",
+			"value": "oplossing controleren"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "NL",
+			"value": "Wanneer juiste paren zijn aangeduid dan worden deze automatisch gecontroleerd en verborgen. Wanneer u deze optie niet selecteert dan worden deze paren niet verborgen tot u zelf beslist om de oefening te controleren."
+		},
+		{
+			"id": "Vollbild",
+			"language": "NL",
+			"value": "Volledig scherm"
+		},
+		{
+			"id": "fade",
+			"language": "NL",
+			"value": "De juiste paren verbergen"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Αντιστοίχιση ζευγαριών"
+		},
+		{
+			"id": "Paare",
+			"language": "SV",
+			"value": "Par"
+		},
+		{
+			"id": "Paare",
+			"language": "GR",
+			"value": "Ζευγάρια"
+		},
+		{
+			"id": "Paar",
+			"language": "SV",
+			"value": "Par"
+		},
+		{
+			"id": "Paar",
+			"language": "GR",
+			"value": "Ζευγάρι"
+		},
+		{
+			"id": "Element",
+			"language": "GR",
+			"value": "Στοιχείο"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Μήνυμα επιβράβευσης"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Grattis, du har klarat av spelet!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Ωραία, βρήκες τη σωστή λύση"
+		},
+		{
+			"id": "Fenster",
+			"language": "GR",
+			"value": "Παράθυρο"
+		},
+		{
+			"id": "Vollbild",
+			"language": "GR",
+			"value": "Πλήρης οθόνη"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GR",
+			"value": "Έλεγξε τη λύση"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Párkereső"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Emparelhamento"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Com estes textos modelo, as imagens, clipes de áudio e vídeos devem ser atribuídos aos pares."
+		},
+		{
+			"id": "Paare",
+			"language": "PT",
+			"value": "Pares"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "PT",
+			"value": "Insira os dois meios que pertencem juntos. Eles podem ser uma mistura de texto, imagens, áudio ou vídeo."
+		},
+		{
+			"id": "Paar",
+			"language": "PT",
+			"value": "Par"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "PT",
+			"value": "Elementos adicionais, mas errados"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "PT",
+			"value": "Pode adicionar até 3 elementos adicionais que serão exibidos, mas não pertencem à solução."
+		},
+		{
+			"id": "Element",
+			"language": "PT",
+			"value": "elementos"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando a solução é encontrada."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encotrou a solução correcta"
+		},
+		{
+			"id": "Fenster",
+			"language": "PT",
+			"value": "Janela"
+		},
+		{
+			"id": "Vollbild",
+			"language": "PT",
+			"value": "Fullscreen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PT",
+			"value": "verificar solução"
+		},
+		{
+			"id": "fade",
+			"language": "PT",
+			"value": "Pares desaparecem"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "PT",
+			"value": "Os pares desaparecerão automaticamente. Sem esta opção, pode combinar pares até que verifique a solução manualmente. Os pares não irão desaparecer."
+		},
+		{
+			"id": "Paare",
+			"language": "HU",
+			"value": "Párok"
+		},
+		{
+			"id": "Paar",
+			"language": "HU",
+			"value": "Pár"
+		},
+		{
+			"id": "Element",
+			"language": "HU",
+			"value": "Elem"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "Fenster",
+			"language": "HU",
+			"value": "Ablak"
+		},
+		{
+			"id": "Vollbild",
+			"language": "HU",
+			"value": "Teljes képernyő"
+		},
+		{
+			"id": "Prüfen",
+			"language": "HU",
+			"value": "Megoldás ellenőrzése"
+		},
+		{
+			"id": "fade",
+			"language": "HU",
+			"value": "Az összeillő párok eltűnnek"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű, megtaláltad a jó megoldást!"
+		},
+		{
+			"id": "Paare",
+			"language": "BY",
+			"value": "Пары"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "HU",
+			"value": " Minden esetben adjon meg két egymáshoz tartozó elemet! Ezek lehetnek szöveg-, kép- hang- vagy videó anyagok, akár vegyesen is."
+		},
+		{
+			"id": "Paar",
+			"language": "BY",
+			"value": "Пара"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Напішыце тэкст, які будзе паказвацца пры правільным выкананні практыкавання."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy szöveget, ami akkor jelenik meg, ha megtalálják a helyes megoldást."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Малайчына! Практыкаванне выканана"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BY",
+			"value": "Праверыць рашэнне"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Ebben az alkalmazásban szövegeket, képeket, hang- vagy videóanyagokat kell párba rendezni."
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "HU",
+			"value": "További, de a megoldáshoz nem tartozó elemek."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "HU",
+			"value": "Ha egy pár összerendelése megtörténik, akkor az azonnal kiértékelésre kerül, és ha helyes a hozzárendelés, akkor a pár automatikusan eltűnik. Ha ezt a lehetőséget nem választjuk, akkor a hozzárendeléseket addig lehet folytatni, amíg a kézi ellenőrzést nem választja a játékos. A helyesen összerendelt párok nem tűnnek el."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "HU",
+			"value": "Itt legfeljebb három olyan elem adható meg, melyek a feladványban megjelennek, de a megoldáshoz nem tartoznak hozzá."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Знайсці пары"
+		},
+		{
+			"id": "Fenster",
+			"language": "BY",
+			"value": "Акно"
+		},
+		{
+			"id": "Element",
+			"language": "BY",
+			"value": "Элемент"
+		},
+		{
+			"id": "fade",
+			"language": "BY",
+			"value": "Правільна складзеныя пары знікаюць"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "BY",
+			"value": "Дадатковыя элементы, якія не ўплываюць на рашэнне."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "BY",
+			"value": "Можна дадаць не больш за тры элементы, якія прысутнічаюць у заданні але не ўплываюць на рашэнне."
+		},
+		{
+			"id": "Vollbild",
+			"language": "BY",
+			"value": "Поўная выява"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "BY",
+			"value": "Калі пара складзена правільна, яна правяраецца аўтаматычна і знікае. У іншым выпадку трэба скаладаць пары, пакуль гулец не сам не праверыць рашэнне. Правільна складзеныя пары не знікаюць."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "Гэты шаблон дазваляе скаладаць пары з тэкстаў, выяў, аўдыё ці відэа."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BY",
+			"value": "Пазначце два аб'екты, якія адпавядаюць адно аднаму і скадаюць пару. Можна змешваць тэксты, малюнкі, аўдыё і відэа адно з адным."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BG",
+			"value": "Задайте двойки и съответствия. Това може да бъдат: текст и видео или аудио и текст - по ваше желание."
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "Element",
+			"language": "ES",
+			"value": "Elemento"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "IT",
+			"value": "Le coppie corrette vengono controllate e nascoste automaticamente. Senza questa opzione, le coppie possono essere assegnate manualmente per controllare l'assegnazione. Le assegnazioni corrette non sono nascoste."
+		},
+		{
+			"id": "fade",
+			"language": "IT",
+			"value": "Nascondi le coppie corrette"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Enhorabuena! Lograste dar con la(s) respuesta(s) correcta(s)."
+		},
+		{
+			"id": "fade",
+			"language": "RM",
+			"value": "Stizzar pèrs corrects"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "RM",
+			"value": "Sche pers ein vegni colligiai endretg, vegnan els controllai automaticamein e stizzai. Senza questa opziun san ils pers vegnir colligiai aschi ditg, entochen ch'ins ha decidiu a maun da controllar la colligiaziun. Colligiaziuns correctas vegnan allura buca stizzadas."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Hledání párů"
+		},
+		{
+			"id": "Paar",
+			"language": "CZ",
+			"value": "Pár"
+		},
+		{
+			"id": "Paare",
+			"language": "CZ",
+			"value": "Páry"
+		},
+		{
+			"id": "Element",
+			"language": "CZ",
+			"value": "Položka"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, toto je správné řešení!"
+		},
+		{
+			"id": "Fenster",
+			"language": "CZ",
+			"value": "Okno"
+		},
+		{
+			"id": "Vollbild",
+			"language": "CZ",
+			"value": "Režim celé obrazovky"
+		},
+		{
+			"id": "Prüfen",
+			"language": "CZ",
+			"value": "Zkontrolovat řešení"
+		},
+		{
+			"id": "fade",
+			"language": "CZ",
+			"value": "Skrýt správné odpovědi"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "V této šabloně musí být texty, obrázky, zvukové soubory a videa seřazeny do správných dvojic."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "CZ",
+			"value": "Určete dvě média, která spolu souvisejí. Můžete smíchat jakýkoli text, obrázky, zvuky a videa."
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "CZ",
+			"value": "Další položky, které ale nejsou nutné pro vyřešení"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "CZ",
+			"value": "Můžete zadat až tři prvky, které se objeví v úloze, ale nejsou součástí jejího řešení."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte text, který se zobrazí až po správném vyřešení úlohy."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "CZ",
+			"value": "Pokud budou páry správně přiřazeny, jsou automaticky zkontrolovány a následně skryty. Bez této volby mohou být řazeny páry,ale jejich kontrola se musí provést ručně tlačítkem Zkontrolovat řešení. Správné dvojice nebudou po vyřešení skryty."
+		},
+		{
+			"id": "Fenster",
+			"language": "ES",
+			"value": "Ventana"
+		},
+		{
+			"id": "Vollbild",
+			"language": "ES",
+			"value": "Imagen completa"
+		},
+		{
+			"id": "Paare",
+			"language": "ES",
+			"value": "Parejas"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "ES",
+			"value": "Indique dos tipos de medios a emparejar. Puede combinar textos, imágenes, audios o vídeos como desee."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Introduzca un texto a mostrar cuando se solucione correctamente."
+		},
+		{
+			"id": "Paar",
+			"language": "ES",
+			"value": "Pareja"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "En esta plantilla hay que emparejar entre sí textos, imágenes, audios o videos."
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "ES",
+			"value": "Aquí puede indicar hasta tres elementos adicionales que se mostrarán con la tarea, aunque no forman parte de la solución"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "ES",
+			"value": "Cuando se emparejen los elementos correctamente, se verifican y ocultan de forma automática. Sin esta opción los elementos pueden ser combinados hasta que se decida manualmente verificar las parejas. No se ocultan las combinaciones correctas."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Emparejar elementos"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "ES",
+			"value": "Elementos adicionales, no necesarios para la solución"
+		},
+		{
+			"id": "fade",
+			"language": "ES",
+			"value": "Ocultar parejas correctas"
+		},
+		{
+			"id": "Direction",
+			"language": "RM",
+			"value": "Orientaziun"
+		},
+		{
+			"id": "horizontal",
+			"language": "RM",
+			"value": "Cartas ina sper l'autra"
+		},
+		{
+			"id": "vertical",
+			"language": "RM",
+			"value": "Cartas ina sur l'autra"
+		},
+		{
+			"id": "Direction",
+			"language": "PL",
+			"value": "Połączone pary"
+		},
+		{
+			"id": "vertical",
+			"language": "PL",
+			"value": "karty jedna nad drugą"
+		},
+		{
+			"id": "horizontal",
+			"language": "PL",
+			"value": "karty obok siebie"
+		},
+		{
+			"id": "Direction",
+			"language": "TR",
+			"value": "Yönü belirle"
+		},
+		{
+			"id": "vertical",
+			"language": "TR",
+			"value": "Kartlar üst üste düzenlensin"
+		},
+		{
+			"id": "horizontal",
+			"language": "TR",
+			"value": "Kartlar yan yana düzenlensin"
+		},
+		{
+			"id": "vertical",
+			"language": "ES",
+			"value": "Unir las parejas verticalmente"
+		},
+		{
+			"id": "horizontal",
+			"language": "ES",
+			"value": "Unir las parejas horizontalmente"
+		},
+		{
+			"id": "Direction",
+			"language": "RO",
+			"value": "Aliniere"
+		},
+		{
+			"id": "vertical",
+			"language": "RO",
+			"value": "Cartonașe unul peste altul"
+		},
+		{
+			"id": "horizontal",
+			"language": "RO",
+			"value": "Cartonașe unul lângă altul"
+		},
+		{
+			"id": "fade",
+			"language": "RO",
+			"value": "Ascunde perechile corecte"
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "RO",
+			"value": "Dacă perechile sunt alocate corect, acestea sunt verificate automat și ascunse. Fără această opțiune, perechile pot fi alocate până când se decide manual să  se verifice atribuirea. Alocările corecte nu sunt ascunse."
+		},
+		{
+			"id": "Direction",
+			"language": "ES",
+			"value": "Orientación"
+		},
+		{
+			"id": "Direction",
+			"language": "RU",
+			"value": "Выравнивание"
+		},
+		{
+			"id": "vertical",
+			"language": "RU",
+			"value": "Карты друг на друга"
+		},
+		{
+			"id": "horizontal",
+			"language": "RU",
+			"value": "Карты бок о бок"
+		},
+		{
+			"id": "Direction",
+			"language": "IT",
+			"value": "Allineamento"
+		},
+		{
+			"id": "vertical",
+			"language": "IT",
+			"value": "Carte una sopra l'altra"
+		},
+		{
+			"id": "horizontal",
+			"language": "IT",
+			"value": "Carte una di fianco all'altra"
+		},
+		{
+			"id": "Direction",
+			"language": "FR",
+			"value": "disposition "
+		},
+		{
+			"id": "vertical",
+			"language": "FR",
+			"value": "Carte l’une par dessus l’autre "
+		},
+		{
+			"id": "horizontal",
+			"language": "FR",
+			"value": "Carte l’un à côté de l’autre "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Atitinkančios poros"
+		},
+		{
+			"id": "horizontal",
+			"language": "LT",
+			"value": "Kortelės turi būti lygiagrečiai viena kitos"
+		},
+		{
+			"id": "Direction",
+			"language": "LT",
+			"value": "Prisegti korteles"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Pagal šį šabloną, tekstai, vaizdai, garso ir vaizdo įrašai turi būti teisingai suporuoti."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "LT",
+			"value": "Įveskite du medijų elementus, kurie turi būti kartu. Tai gali būti tekstai, vaizdai, garso ir vaizdo įrašai."
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "LT",
+			"value": "Papildomi, tačiau klaidingi elementai"
+		},
+		{
+			"id": "Paare",
+			"language": "LT",
+			"value": "Poros"
+		},
+		{
+			"id": "Paar",
+			"language": "LT",
+			"value": "Pora"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "LT",
+			"value": "Galite pridėti iki 3 papildomų elementų, kurie bus rodomi, tačiau nepriklauso sprendimui."
+		},
+		{
+			"id": "Element",
+			"language": "LT",
+			"value": "Elementas"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "vertical",
+			"language": "LT",
+			"value": "Kortelės turi būti virš viena kitos"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, radai teisingą sprendimą!"
+		},
+		{
+			"id": "Fenster",
+			"language": "LT",
+			"value": "Langas"
+		},
+		{
+			"id": "Prüfen",
+			"language": "LT",
+			"value": "Patikrinti sprendimą"
+		},
+		{
+			"id": "fade",
+			"language": "LT",
+			"value": "Padaryti, kad teisingai suporavus elementus jie išnyksta"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Pateikite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai išsprendus užduotį."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "LT",
+			"value": "Atitinkančios poros bus automatiškai patikrintos ir išnyks. Be šios parinkties bus tikrinama tik paspaudus patikrinimo mygtuką, o atitinkančios poros neišnyks."
+		},
+		{
+			"id": "Vollbild",
+			"language": "LT",
+			"value": "Visame ekrane"
+		},
+		{
+			"id": "Direction",
+			"language": "HU",
+			"value": "Igazítás"
+		},
+		{
+			"id": "vertical",
+			"language": "HU",
+			"value": "Kártyák egymásra"
+		},
+		{
+			"id": "horizontal",
+			"language": "HU",
+			"value": "Kártyák egymás mellett"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GR",
+			"value": "Με αυτό το πρότυπο, τα κείμενα, οι εικόνες, οι ήχοι ή τα βίντεο πρέπει να αντιστοιχιστούν σε ζευγάρια."
+		},
+		{
+			"id": "Direction",
+			"language": "GR",
+			"value": "Διάταξη"
+		},
+		{
+			"id": "horizontal",
+			"language": "GR",
+			"value": "Κάρτες δίπλα δίπλα"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "GR",
+			"value": "Υποδείξτε δύο μέσα που ανήκουν μαζί. Μπορείτε να αναμίξετε κείμενα, εικόνες, ήχους και βίντεο όπως θέλετε."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Δώστε ένα κείμενο που θα εμφανίζεται όταν βρεθεί η σωστή λύση."
+		},
+		{
+			"id": "vertical",
+			"language": "GR",
+			"value": "Κάρτες η μία πάνω στην άλλη"
+		},
+		{
+			"id": "fade",
+			"language": "GR",
+			"value": "Απόκρυψη σωστών ζευγαριών"
+		},
+		{
+			"id": "ZusatzElemente",
+			"language": "GR",
+			"value": "Πρόσθετα στοιχεία που δεν απαιτούνται για τη λύση"
+		},
+		{
+			"id": "ZusatzElementeBeschreibung",
+			"language": "GR",
+			"value": "Μπορείτε επίσης να καθορίσετε έως και τρία στοιχεία εδώ που θα εμφανίζονται για την άσκηση, αλλά όχι μέρος της λύσης."
+		},
+		{
+			"id": "fadeBeschreibung",
+			"language": "GR",
+			"value": "Εάν τα ζεύγη έχουν αντιστοιχηθεί σωστά, ελέγχονται αυτόματα και κρύβονται. Χωρίς αυτήν την επιλογή, μπορούν να αντιστοιχιθούν ζεύγη έως ότου ο παίκτης πατήσει το κουμπί για έλεγχο των ζευγαριών. Οι σωστές αντιστοιχίσεις δεν κρύβονται."
+		},
+		{
+			"id": "Direction",
+			"language": "NL",
+			"value": "Uitlijning"
+		},
+		{
+			"id": "vertical",
+			"language": "NL",
+			"value": "Kaarten boven elkaar"
+		},
+		{
+			"id": "horizontal",
+			"language": "NL",
+			"value": "Kaarten naast elkaar"
+		},
+		{
+			"id": "Direction",
+			"language": "CZ",
+			"value": "Zarovnání"
+		},
+		{
+			"id": "vertical",
+			"language": "CZ",
+			"value": "Karty přes sebe"
+		},
+		{
+			"id": "horizontal",
+			"language": "CZ",
+			"value": "Karty vedle sebe"
+		},
+		{
+			"id": "ColorBeschreibung",
+			"language": "TR",
+			"value": "Kartları guruplara göre renklendir (mavi ve turuncu)"
+		},
+		{
+			"id": "Color",
+			"language": "TR",
+			"value": "Kartları renklendir"
+		},
+		{
+			"id": "ColorBeschreibung",
+			"language": "FR",
+			"value": "Cartes de couleurs par groupe (bleu et orange)."
+		},
+		{
+			"id": "Color",
+			"language": "FR",
+			"value": "Cartes colorées"
+		},
+		{
+			"id": "ColorBeschreibung",
+			"language": "RU",
+			"value": "Раскраска карточек по группам (синий и оранжевый)."
+		},
+		{
+			"id": "Color",
+			"language": "RU",
+			"value": "Раскраска карт"
+		}
+	],
+	"path": "https://learningapps.org/tools/71/37/",
+	"fromCache": 1,
+	"version": "37"
+};
